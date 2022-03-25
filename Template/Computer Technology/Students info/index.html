@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Students Informetion</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="../js/jquery3.4.1.js"></script>
+</head>
+<body>
+			<div class="preloader">
+		<div class="preloader-spinner"></div>
+	</div>
+	<!------------end of Preloader------------>
+	<div class="full_WrepperArea">
+	<div id="headerArea">
+		<img src="../img/logo.jpg" alt="Computer Technology" width="150" height="150">
+		<h1>Computer Technology</h1>
+		<h2>Welcome to</h2>
+		<h3 id="marquee"><marquee>Dhaka Polytechnic Instituite</marquee></h3>
+	</div>
+	<!-------------End of headerArea--------------->
+	<div class="nevBar">
+		<ul>
+			<li ><a href="../index.html">Home</a></li>
+			<li><a href="../AboutUs/index.html">About Us</a></li>
+			<li><a href="#"></a> Academics
+				<ul>
+					<li><a href="../file/Sylebus.pdf">Syllabus</a></li>
+					<li><a href="#">Class Routine</a></li>
+					<li><a href="#">Result</a></li>
+					<li><a href="../file/2672.1.pdf">Academic Celender</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Notice</a> </li>
+			<li id="hm"><a href="index.html">Students Informetion</a> </li>
+			<li><a href="../Album/index.html">Album</a> </li>
+			<li><a href="../contuct us/index.html"> Contuct Us</a></li>
+		<input type="text" placeholder="Search" name="Search">
+	</ul>
+	</div>
+		<!-----------End of nebVar------------->
+		<div class="content">
+			<p>Computer Technology<br> Students Informetion</p>
+			<form id="form">
+				Students Id:
+				<input type="" name="students id" placeholder="enter student id"><br>
+				Students Name:
+				<input type="text" name="name" placeholder="Enter your name"><br>
+				Board Roll:
+				<input type="number" name="board roll" placeholder="enter your roll"><br>
+				Registration No:
+				<input type="number" name="reg no" placeholder="enter your reg.no"><br>
+				Sesstion:
+				<input type="number" name="sesstion" placeholder="enter your sestion"><br>
+				Semester:
+					<select>
+					<option></option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					</select><br>
+					Shift:
+					<select>
+						<option></option>
+						<option>1st</option>
+						<option>2nd</option>
+					</select><br>
+					Group:
+					<select>
+						<option></option>
+						<option>A</option>
+						<option>B</option>
+					</select><br>
+					Gender:
+		  	<input type="radio" name="gender" value="Male">Male
+	  		<input type="radio" name="gender" value="Female">Female<br>
+	  		<input type="submit" name="submit">
+	  		<input type="reset" name="reset">
+
+			</form>
+			<!----------end of form------------->
+			
+		</div>
+		<!-----------end of content---------->
+		<hr>
+	<div id="footerArea">
+		<center><p>The Website Copyright@<a href="https://web.facebook.com/tonmoy.bapari.33"> Ahosan Tonmoy</a> at 2019</p></center>
+		</div>
+	</div>
+	<script type="text/javascript">
+			      $('body').addClass('preloader-active');
+            $(window).on('load', function() { 
+          $('.preloader').fadeOut(600);
+          $('.preloader-spinner').delay(700).fadeOut('slow');
+         /** $('body').removeClass('preloader-active');*/
+      });
+	</script>
+
+</body>
+</html>

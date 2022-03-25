@@ -1,0 +1,126 @@
+*{margin:0; padding:0;}
+/******FullWrepperArea**/
+.FullWrepperArea{
+	height: 100%;
+	width: 1000px 100%;
+}
+/*******preloader****/
+.preloader {
+	position: absolute;
+    width: 100%;
+    height: 1100px;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 9999;
+}
+.preloader-spinner {
+   background: url('preloader.gif') no-repeat center;
+   background-size: 300px 100px;
+   border-radius: 10px;
+   width: 300px;
+   height: 100px;
+   left: 35%;
+   top: 20%;
+	position: absolute;
+}
+/*****HeaderArea*****/
+.HeaderArea{
+	background-image: linear-gradient(to right, rgb(217, 217, 217, 0.1) , #bfbfbf);
+}
+.HeaderArea img{
+	width: 300px;
+	height: 80px;
+	padding: 10px;
+}
+/******Navbar********/
+.Navbar{
+  padding-left: 70px;
+	background-image: linear-gradient(to right, rgb(217, 217, 217, 0.1) , #bfbfbf);
+  display: block;
+}
+.navbar-togggler{
+  border-color: rgba(255,255,255,.655);
+
+}
+.navbar ul{
+  font-size: 24px;
+  margin-left: 0px;
+}
+.navbar ul li{
+  position: relative;
+  padding-right: 55px;
+  padding-left: 10px;
+  font-family: Arial, Helvetica,sans-serif;
+  font-style: italic;
+  list-style: none;
+  color: #fff;
+  font-variant-caps: all-small-caps;
+  text-shadow: 2px 3px 1px #000;
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.navbar ul li.active a{
+  color: #fff;
+  padding-bottom: 8px;
+  border-bottom: 4px solid #cd2223;
+}
+.navbar ul li span{
+  margin-left: 10px;
+}
+/***********/
+.item ul{
+    position: absolute;
+    list-style: none;
+    background: #cd2223;
+    opacity: ;
+    font-size: 18px;
+
+}
+.item ul li{
+  color: #fff;
+  background-color: #cd2223;
+}
+.item ul li a{
+      width: 250px;
+}
+.navbar ul li a:hover{
+  padding: 12px;
+  background-color: #cd2223;
+}
+.navbar ul li:hover ul{
+  opacity: 4;
+}
+.item ul li:hover{
+  background-color: #ddd;
+}
+.item ul li a:hover{
+  background-color: #ddd;
+}
+
+/********ContentArea******/
+.ContentArea{
+  padding-top: 40px;
+  padding-left: 60px;
+}
+/*******Informetion********/
+.Informetion h1{
+  padding-top: ;
+  color: #554646;
+}
+/******ImagesSlide****/
+.ImagesSlide{
+  margin: 40px;
+  width: 700px;
+}
+.img-thumbnail{
+  background-color: #000;
+}
+
+ .carousel-item img{ 
+  width: 700px;
+  height: 400px;
+ }

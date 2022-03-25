@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Createtive Zonne.com</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery3.4.1.js"></script>
+
+</head>
+<body>
+	<div class="preloader">
+		<div class="preloader-spinner"></div>
+	</div>
+	 <script type="text/javascript">
+      /***
+          Preloader
+      ***/
+      $('body').addClass('preloader-active');
+      
+      $(window).on('load', function() { 
+          $('.preloader').fadeOut(6000);
+          $('.preloader-spinner').delay(7000).fadeOut('');
+         /** $('body').removeClass('preloader-active');*/
+      });
+  </script>
+
+
+</body>
+</html6

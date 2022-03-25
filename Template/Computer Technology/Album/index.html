@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Albums</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="../js/jquery3.4.1.js"></script>
+</head>
+<body>
+			<div class="preloader">
+		<div class="preloader-spinner"></div>
+	</div>
+	<!------------end of Preloader------------>
+	<div class="full_WrepperArea">
+	<div id="headerArea">
+		<img src="img/logo.jpg" alt="Computer Technology">
+		<h1>Computer Technology</h1>
+		<h2>Welcome to</h2>
+		<h3 id="marquee"><marquee>Dhaka Polytechnic Instituite</marquee></h3>
+	</div>
+	<!-------------End of headerArea--------------->
+	<div class="nevBar">
+		<ul>
+			<li ><a href="../index.html">Home</a></li>
+			<li><a href="../AboutUs/index.html">About Us</a></li>
+			<li><a href="#"></a> Academics
+				<ul>
+					<li><a href="../file/Sylebus.pdf">Syllabus</a></li>
+					<li><a href="#">Class Routine</a></li>
+					<li><a href="#">Result</a></li>
+					<li><a href="../file/2672.1.pdf">Academic Celender</a></li>
+
+				</ul>
+			</li>
+			<li><a href="#">Notice</a> </li>
+			<li><a href="../Students info/index.html">Students Informetion</a> </li>
+			<li id="abm"><a href="Album/index.html">Album</a> </li>
+			<li><a href="../contuct us/index.html"> Contuct Us</a></li>
+		<input type="text" placeholder="Search" name="Search">
+	</ul>
+	</div>
+	<!-----------End of nevBer------------>
+			<div id="head"><p>Our Photo Albums</p></div>
+
+	<div class="Album">
+		<img src="img/img7.jpg">
+		<img src="img/img8.jpg">
+		<img src="img/img9.jpg">
+		<img src="img/img1.jpg">
+		<img src="img/img2.jpg">
+		<img src="img/im3.jpg">
+		<img src="img/img11.jpg">
+		<img src="img/img10.jpg">
+		<img src="img/img5.jpg">
+		<img src="img/img6.jpg">
+		<img src="img/img4.jpg">
+	</div>\
+	<!-------------end of Album------------->
+	<hr>
+	<div id="footerArea">
+		<center><p>The Website Copyright@<a href="https://web.facebook.com/tonmoy.bapari.33"> Ahosan Tonmoy</a> at 2019</p></center>
+	</div>
+	<!-------------end of footerArea------------>
+	</div>
+	<script type="text/javascript">
+			      $('body').addClass('preloader-active');
+            $(window).on('load', function() { 
+          $('.preloader').fadeOut(600);
+          $('.preloader-spinner').delay(700).fadeOut('slow');
+         /** $('body').removeClass('preloader-active');*/
+      });
+	</script>
+
+</body>
+</html>

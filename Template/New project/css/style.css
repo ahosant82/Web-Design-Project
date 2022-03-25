@@ -1,0 +1,283 @@
+*{margin: 0 ;padding: 0 ;}
+.FullWerpperArea{
+	width: 1080px 100%;
+	height:  100%;
+	background-color: ;
+}
+/******preloader**********/
+.preloader{
+	position: absolute;
+    width: 100%;
+    height: 1100px;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 9999;
+}
+.preloader-spinner {
+   background: url('preloader.gif') no-repeat center;
+   background-size: 300px 100px;
+   border-radius: 10px;
+   width: 300px;
+   height: 100px;
+   left: 35%;
+   top: 20%;
+	position: absolute;
+}
+/********Messege***********/
+.messenger{
+	float: right;
+	margin: 15px;
+}
+/*********Navbar**********/
+.navbar-brand img{
+	width: 300px;
+	height: 30px;
+}
+/
+.navbar{
+	background-color: #564566;
+	background-image: linear-gradient(to right top, #a6a3a5, #858385, #666467, #484749, #2c2c2e, #2e2e31, #2f3033, #303236, #4f5258, #71757c, #959aa3, #bac0cb);
+	display: block;
+}
+.navbar-toggler{
+	border-color: rgba(255,255,255,.655);
+
+}
+.navbar ul{
+	padding-left: 0px;
+	font-size: 17px;
+
+}
+.navbar ul li{
+	padding: 10px 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style: italic;
+	list-style: none;
+	position: relative;
+	color: #fff;
+	font-variant-caps: all-small-caps;
+	text-shadow: 2px 1px 1px #000;
+
+}
+.navbar ul li.nav-item a{
+	padding: 10px;
+	text-decoration: none;
+	color: #ffff;
+
+}
+.navbar ul li.active a{
+	color: #fff;
+	padding: 8px;
+	border-bottom: 2px solid #fff;
+}
+.navbar ul li.nav-item  ul{
+	position: absolute;
+	width: 200px;
+	font-size: 15px;
+	background-image: linear-gradient(to right top, #a6a3a5, #858385, #666467, #484749, #2c2c2e, #2e2e31, #2f3033, #303236, #4f5258, #71757c, #959aa3, #bac0cb);
+}
+.navbar ul li.nav-item ul li{
+	border-bottom: 3px solid #fff;
+}
+/*********Navbar Hover******
+.navbar ul li a:hover{
+	padding: 10px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 4px;
+	text-shadow: none;
+}
+.navbar ul li.nav-item ul:hover{
+	overflow: hidden;
+	opacity: 4;
+}
+.navbar ul li.nav-item ul a:hover{
+	border-radius: 0px;
+	padding: 10px;
+}
+/*********/
+.ContnetArea{
+	width: 100%;
+	height: 100%;
+}
+/**************/
+.benar{
+	width: 100%;
+	height: 450px;
+
+}
+.benar img{
+	height: 450px;
+	width: 100%;
+}
+/*************/
+.WellcomeSestion{
+	margin-top: 50px;
+}
+.WellcomeSestion h1{
+	font-size: 25px;
+	color: #000;
+}
+.WellcomeSestion p{
+	padding-top: 30px;
+}
+/****************/
+.Sarvices{
+	margin-top: 100px;
+	width: 1040px;
+	background-color: #ddd;
+}
+.Sarvices h1{
+	font-variant-caps: all-small-caps;
+	text-align: center;
+
+}
+.Sarvices p{
+	font-size: 20px;
+	text-align: center;
+}
+/************/
+.ICON{
+	float: left;
+	width: 180px;
+	margin: 40px;
+	margin-left: 100px;
+}
+.ICON a{
+	text-decoration: none;
+	margin-left: 45px;
+
+}
+.ICON a img{
+	border-radius: 5px;
+	width: 100px;
+	height: 100px;
+}
+
+.ICON a h1{
+	font-size: 25px;
+
+}
+.ICON a:hover{
+	text-decoration: none;
+}
+.ICON a:hover h1{
+	padding-bottom: 8px;
+	border-bottom: 5px solid #000;
+}
+/***********/
+.recentWork{
+	margin-top: 50px;
+	background-image: url("../img/Background.jpg");
+	background-size: 1040px 750px;
+	height: 750px;
+	width: 1040px;
+}
+.recentWork h1{
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+	font-family: Eras Demi ITC;
+}
+.recentWork h2{
+	text-align: center;
+	color: #ddd;
+	font-size: 25px;
+	font-family: Bell MT;
+	margin-bottom: 50px;
+}
+.recentWork a{
+	text-align: center;
+	margin-left: 100px;
+	padding: 10px;
+	color: #fff;
+
+}
+.recentWork a:hover{
+	text-decoration: none;
+	padding: 15px;
+	color: #000;
+	background-color: #fff;
+	border-radius: 5px;
+	transform: 2s;
+}
+/****product****/
+.product{
+	margin: 100px;
+}
+#left{
+	background-image: url('../img/left.png');
+	background-size: 220px 250px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 220px;
+	height: 250px;
+}
+#left h2{
+	width: 220px;
+	padding: 5px;
+	background-color: #657;
+	margin-top: 250px;
+	color: #fff;
+
+}
+#right{
+	background-image: url('../img/pro1.png');
+	float: right;
+	background-size: 220px 250px;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	width: 220px;
+	height: 250px;
+}
+#right h2{
+	width: 220px;
+	padding: 5px;
+	background-color: #657;
+	margin-top: 250px;
+	color: #fff;
+}
+#left h2:hover{
+	background-color: #234;
+	cursor: pointer;
+}
+#right h2:hover{
+	background-color: #234;
+	cursor: pointer;
+}
+#btn{
+	background-color: #A6E22B;
+	padding: 10px;
+	width: 150px;
+	height: 50px;
+	border-radius: 3px;
+	margin: 470px;
+}
+#btn a{
+	font-size: 20px;
+	margin-left: 15px;
+	color: #fff;
+}
+#btn a:hover{
+	background-color: none;
+	color: #000;
+	padding: 5px;
+}
+#btn:hover{
+	background-color: #fff;
+}
+/**************/
+.ClientReviwe{
+	margin-top: 1px;
+	height: 250px;
+	background-color: #575658;
+}
+/***********/
+.FooterArea{
+	background-color: #282923;
+	height: 300px;
+}

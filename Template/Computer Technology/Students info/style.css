@@ -1,0 +1,179 @@
+*{margin: 0 auto;padding: 0 ;}
+.preloader {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 9999;
+}
+.preloader-spinner {
+   background: url('preloder.jpg') no-repeat center;
+   background-size: 300px 100px;
+   border-radius: 10px;
+   width: 300px;
+   height: 100px;
+   left: 40%;
+   top: 50%;
+   margin-top: ;
+	margin-left: ;
+	position: absolute;
+}
+/************end of Preloader*************/
+.full_WrepperArea{
+	background-color: #8509;
+	padding-top: 15px;
+	padding-right: 30px;
+	height: 100%;
+	width: 100%;
+}/********end of full_WrepperArea********/
+#headerArea{
+	text-align: center;
+	height: 150px;
+	width: 1020px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+#headerArea img{
+	margin: 5px;
+	float: left;
+	padding: 10px;
+	height: 100px;
+	width: 100px;
+    border-radius: 100px;
+
+}
+#headerArea h1{
+	font-size: 40px;
+	text-align: center;
+	font-style: italic;
+	padding-top: 20px;
+	color: #4f4f4f;
+}
+#marquee{
+	font-style: italic;
+	font-size: 25px;
+	color: black;
+	width: 300px;
+	margin-right: 200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	margin-left: 400px;
+	border: 1px solid red;
+	border-radius: 40px;
+
+}
+/********End of Header_area*********/
+.nevBar{
+	margin-top: 10px;
+	width: 1000px;
+	padding: 5px;
+	background-color: #ccc;
+	border-radius: 10px;
+	box-shadow: 3px 4px black;
+	clear: right;
+}
+.nevBar a{
+	text-decoration: none;
+	color: black;
+}
+#hm{
+	background-color: #536533;
+	border-radius: 8px;
+}
+#hm a{
+	color: #fff;
+}
+.nevBar ul li{
+	display: inline-block;
+	position: relative;
+	padding: 10px 15px;
+
+}
+.nevBar ul li ul {
+	color: green;
+	position: absolute;
+	background-color: #fff;
+	left: 20px;
+	border-radius: 5px;
+	opacity: 0;
+}
+.nevBar input{
+	margin-left: 40px;
+	padding-left: 20px;
+	height: 30px;
+	width: 150px;
+	border-radius: 50px;
+}
+.nevBar button{
+	margin: 5px;
+	width: 90px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #fff;
+	border-radius: 50px;
+}
+.nevBar ul li:hover{
+	color: #fff;
+	background: #474674;
+	border-radius: 5px;
+}
+.nevBar ul li:hover a{
+	color: #fff;
+}
+.nevBar ul li:hover ul{
+	opacity: 4;
+}
+.nevBar ul li:hover ul{
+	margin-top: 15PX;
+	color: green;
+	background-color: #adadad;
+	border-radius: 5px;
+}
+/***********End of nevBer***********/
+.content{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background-color: #fff;
+	width: 500px;
+	height: 500px;
+	border-radius: 10px;
+}
+.content p{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 1px 1px red;
+}
+#form{
+	padding: 20px;
+}
+#form input{
+	margin: 10px;
+}
+#form select{
+	margin: 8px;
+}
+/***********End of content***********/
+#footerArea a{
+	color: #ffff;
+}
+#footerArea{
+	margin: 5px;
+	background-color: #ffff;
+	height: 40px;
+	border-radius: 8px;
+	box-shadow: 3px 2px 10px 0px red;
+}
+#footerArea p{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+#footerArea a{
+	text-decoration: none;
+	color: red;
+}
+/*********end of footerArea************/

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Desh Organic Gardening Products</title>
+	<!----------icon------------>
+	<link rel="icon" type="images/png" href="img/hlgo.png">
+	<!-------------css Files----------->
+	<!---------css----------->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!------------bootstrap css------>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!----------icon css--------------->
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<!-----------js files----------->
+	<!----------js------------>
+	<script type="text/javascript" src="plugins/js/jquery3.4.1.js"></script>
+		<!----bootstrap js------>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+</head>
+<body>
+	<!---------preloader--------->
+	<div class="preloader">
+		<div class="preloader-spinner"></div>
+	</div>
+	<!---------FullWrepperArea---------->
+	<div class="FullWrepperArea">
+		<a class="fixed-bottom" href="#">
+			<b class="fa fa-leaf fa-3x" id="leaf"></b>
+		</a>
+		<!-----------HeaderArea---------->
+		<div class="HeaderArea fixed-top">
+			<nav class="navbar">
+				<a class="navbar-brand" href="#">
+					<img src="img/logo.png">
+				</a>
+				<div class="admins">
+					<a href="#">
+						<div id="src">
+							<input type="text" name="search" placeholder="Search Your Products" id="srcbtn">
+							<i class="fa fa-search search"></i>
+						</div>
+					</a>
+					<a href="#">
+						<i class="fa fa-user-circle sineup"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-bell bell"></i>
+					</a>
+					<a href="#">
+						<i class="fa fa-shopping-bag bags"></i>
+					</a>
+					<!--------menu bar button-------->
+				<button id="mbtn">
+					<span class="fa fa-bars bars"></span>
+				</button>
+				</div>
+			</nav>
+			<!--------HiddenMenu-------->
+			<div class="menu" id="mdwn">
+				<ul>
+					<li id="active"><a href="#">home</a></li>
+					<li><a id="btn" href="#">
+						<i class="fa fa-list bar"></i>product categpries
+						<i class="fa fa-angle-down" ></i>
+						<!--------sub menu---->
+						<div class="subMenu">
+							<ul id="dropdown">
+								<li><a href="#">plants</a></li>
+								<li><a href="#">seeds</a></li>
+								<li><a href="#">garden assecaries</a></li>
+								<li><a href="#">garden medisen</a></li>
+								<i class="fa fa-angle-up" id="btn1"></i>
+							</ul>
+						</div>
+					</a>
+					</li>
+					<li><a href="#">our shop</a></li>
+					<li><a id="btn" href="#">about company
+						<i class="fa fa-angle-down"></i>
+						<!-------------sub menu---------->
+						<div class="subMenu">
+							<ul id="dropdown">
+								<li><a href="#">our company</a></li>
+								<li><a href="#">our service</a></li>
+								<li><a href="#">our viitions</a></li>
+								<i class="fa fa-angle-up" id="btn1"></i>
+							</ul>
+						</div>
+					</a></li>
+					<li><a href="#">contuct us</a></li>
+				</ul>
+				<!-------end menu button------->
+				<button id="mbtn1"><i class="fa fa-times-circle" ></i></button>
+			</div>
+		</div>
+		<!-----------ContentArea--------->
+		<div class="container-fluid ContentArea">
+			<!----------menubar-------->
+			<div class="menu" >
+				<ul>
+					<li id="active"><a href="#">home</a></li>
+					<li><a id="btn" href="#">
+						<i class="fa fa-list bar"></i>product categpries
+						<i class="fa fa-angle-down" ></i>
+						<div class="subMenu">
+							<!-------sub menubar---------->
+							<ul id="dropdown">
+								<li><a href="#">plants</a></li>
+								<li><a href="#">seeds</a></li>
+								<li><a href="#">garden assecaries</a></li>
+								<li><a href="#">garden medisen</a></li>
+								<i class="fa fa-angle-up" id="btn1"></i>
+							</ul>
+						</div>
+					</a>
+					</li>
+					<li><a href="#">our shop</a></li>
+					<li><a id="btn" href="#">about company
+						<i class="fa fa-angle-down"></i>
+						<!--------sub menubar----->
+						<div class="subMenu">
+							<ul id="dropdown">
+								<li><a href="#">our company</a></li>
+								<li><a href="#">our service</a></li>
+								<li><a href="#">our viitions</a></li>
+								<i class="fa fa-angle-up" id="btn1"></i>
+							</ul>
+						</div>
+					</a></li>
+					<li><a href="#">contuct us</a></li>
+				</ul>
+			</div>
+			<!---------bennar-------->
+			<div class="bennar">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+					<!-------Indicators-------->
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="actives"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+						<li data-target="#demo" data-slide-to="2"></li>
+						<li data-target="#demo" data-slide-to="3"></li>
+					</ul>
+					<div class="carousel-inner">
+							<!-------0---------->
+							<div class="carousel-item active">
+						     	<img class="img-fluid img-thumbnail" src="img/plants.jpg" alt="Web Design">
+						    </div>
+						    <!-------01---------->
+						    <div class="carousel-item">
+						     	<img class="img-fluid img-thumbnail " src="img/seeds.jpg" alt="Web Development">
+						    </div>
+						    <!-------2---------->
+						    <div class="carousel-item">
+						     	<img class="img-fluid img-thumbnail " src="img/tools.jpg" alt="Web Application">
+						    </div>
+						    <!-------3---------->
+						    <div class="carousel-item">
+						     	<img class="img-fluid img-thumbnail " src="img/gm.jpg" alt="Grephix Design">
+						    </div>
+						</div>
+						<a class="carousel-control-prev" href="#demo"
+						data-slide="prev">
+							<span class="carousel-control-prev-icon bg-dark"></span>
+						</a>
+						<a class="carousel-control-next" href="#demo"
+						data-slide="next">
+							<span class="carousel-control-next-icon 2x bg-dark"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-------products--------->
+			<div class="container content">
+				<a href="#"><h1>Plants</h1></a>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/trees.jpeg">
+							<div class="card-body">
+								<h4 class="card-title">Grass Tree</h4>
+								<p class="card-text">Price = 230 Taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/appleTrees.jpeg">
+							<div class="card-body">
+								<h4 class="card-title">Apple Trees With Fruits</h4>
+								<p class="card-text">Price = 1200 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/lemonTrees.jpeg">
+							<div class="card-body">
+								<h4 class="card-title">Lemon Trees With Fruits</h4>
+								<p class="card-text">Price = 1000 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<button class="crd">See More <i class="fa fa-arrow-right"></i></button>
+				</div><hr>
+				<!--------------->
+				<a href="#"><h1>seeds</h1></a>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<button class="crd">See More <i class="fa fa-arrow-right"></i></button>
+				</div><hr>
+				<!------------->
+				<a href="#"><h1>Garden accesaries</h1></a>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<button class="crd">See More <i class="fa fa-arrow-right"></i></button>
+				</div><hr>
+				<!------------>
+				<a href="#"><h1>garden medicen</h1></a>
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="card bg-light">
+							<img class="card-img-top" src="img/sneck.jpg">
+							<div class="card-body">
+								<h4 class="card-title">Snake Plants</h4>
+								<p class="card-text">Price = 600 taka</p>
+								<a class="btn btn-primary" href="#">Shop New</a>
+							</div>
+						</div>
+					</div>
+					<button class="crd">See More <i class="fa fa-arrow-right"></i></button>
+				</div><hr>
+				<!------------->
+			</div>
+		</div>
+		<!----------FooterArea----------->
+		<div class="FooterArea bg-dark">
+			<div class="container-fluid">
+				<div class="row" id="ourCompny">
+					<h1>Desh Organic Gardening Products</h1>
+					<p>We are committed to providing you the best gardening Plants, Seeds, Gio Bag, Tools, Organic Fertilizers and supplies at the best possible way.</p>
+				</div>
+				<div class="row bg-dark" id="pymtptnr">
+					<div class="col-md-4" id="left">
+						<h3>Contuct With Us</h3>
+						<a href="#"><i class="fab fa-facebook fa-2x facebook"></i></a>
+						<a href="#"><i class="fab fa-youtube fa-2x youtube"></i></a>
+						<a href="#"><i class="fas fa-envelope fa-2x email"></i></a>
+						<a href="#"><i class="fab fa-twitter fa-2x twitter"></i></a>
+					</div>
+					<div class="col-md-4" id="center">
+						<h3>Our Payment Patnars</h3>
+						<img src="img/bkash.png">
+						<img src="img/rocket.png">
+						<img src="img/nogod.png">
+						<img src="img/paypal.png">
+						<img src="img/visa.jpg">
+					</div>
+					<div class="col-md-4" id="right">
+						<h3>Our Office Address</h3>
+						<p><i class="fas fa-map-marker-alt"></i>200/39, Muzahid Nogor, South Rayerbag, Kadomtoli, Dhaka, 1362</p>
+						<p><i class="fas fa-phone-alt"></i>+8801787-533449, +8801994-361085</p>
+						<p><i class="fas fa-envelope"></i>dogp.dh2020@gmail.com</p>
+					</div>
+				</div>
+			<div class="container-fluid bg-dark copyright">
+				<p>this website copyright@<a href="#">a.r.tonmoy</a> at 2021</p>
+			</div>
+		</div>
+	</div>
+	<!-------------js body------->
+	<script type="text/javascript">
+				$('body').addClass('preloader-active');
+            $(window).on('load', function() { 
+        $('.preloader').fadeOut(4000);
+        $('.preloader-spinner').delay(900).fadeOut('400');
+         /** $('body').removeClass('preloader-active');*/
+      });
+            /****************/
+            $(document).ready(function(){
+            $('#mbtn').click(function(){
+           		$('#mdwn').fadeIn(400);
+           	});
+            $('#mbtn1').click(function(){
+            	$('#mdwn').fadeOut(100);
+            	});
+
+            });
+            /**********/
+        $(document).ready(function(){
+            $('#btn').click(function(){
+           		$('#dropdown').fadeIn(400);
+           	});
+            $('#btn1').click(function(){
+            	$('#dropdown').fadeOut(400);
+            	});
+
+            });
+	</script>
+
+</body>
+</html>

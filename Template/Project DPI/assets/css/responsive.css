@@ -1,0 +1,116 @@
+@media (max-width: 1199px){
+
+.navbar-toggleable-md .navbar-nav .nav-link 
+{
+    padding-left: 9px;
+    padding-right: 9px;
+	padding-bottom: 0;
+}
+ul.navbar-nav li a
+{
+	line-height:32px;
+}
+.box, .blog-box, .footer-box, .box1, .comment_form_section, .member, .contact-box {
+    margin-bottom: 30px;
+}
+.mb30
+{
+	margin-bottom:0;
+}
+.portfolio .mb30
+{
+	margin-bottom:30px;
+}
+
+.blog-box.mb30
+{
+	margin-bottom:30px;
+}
+.widget1
+{
+	margin-bottom:30px !important;
+}
+}
+@media (max-width: 991px){
+.overlay h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+}
+.about-img
+{
+	margin-top:30px;
+}
+}
+@media (max-width: 767px){
+
+.progress1
+{
+	margin-top: 30px;
+}
+.copyright p
+{
+	text-align:center;
+}
+.copyright ul.socail {
+    margin: 0 auto;
+    padding: 0px;
+	text-align:center;
+}
+.skill-left {
+    background: url(../images/6.jpg) no-repeat;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}.push-3 {
+    left: 0;
+}.skill-right {
+    width: 100%;
+    max-width: 100%;
+    padding: 100px 0;
+}
+
+   ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: -15px;
+            right: auto;
+        }
+
+        ul.timeline > li > .timeline-panel:after {
+            border-left-width: 0;
+            border-right-width: 14px;
+            left: -14px;
+            right: auto;
+        }
+}
+
+@media (max-width: 600px){
+.navbar-toggler-right {
+      position: relative;
+    right: 0;
+    float: right;
+}
+}

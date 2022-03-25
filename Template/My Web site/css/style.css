@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;}
+    .preloader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: black;
+        z-index: 9999;
+    }
+    .preloader-spinner {
+        background: url('preloader.gif') no-repeat center;
+        background-size: 200px 100px;
+        border-radius: 10px;
+        width: 200px;
+        height: 100px;
+        left: 42%;
+        top: 44%;
+        margin-top: ;
+        margin-left: ;
+        position: absolute;
+    }

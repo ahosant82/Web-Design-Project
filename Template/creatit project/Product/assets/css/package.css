@@ -1,0 +1,203 @@
+
+/*** 
+
+====================================================================
+                        Package page start
+====================================================================
+
+***/
+
+.packega-page .main-header{
+    position: relative;
+}
+.main-header .menu .menu-item .menu-link{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  .packega-page .banner{
+    background: url('../images/background/deals-1.jpg');
+    background-size: cover;
+    height: 20rem;
+  }
+  .package-section{
+    height: 100%;
+    display: flex;
+    margin-top: 3rem;
+  }
+  .package-list{
+    float: right;
+  }
+  .package-section .sec-title h2{
+    text-align: left;
+    font-size: 1.4rem;
+  }
+  .package-list .sec-title,.search-form .sec-title{
+    margin: 0;
+  }
+  .package-list .right-column,.menu-box{
+    display: flex;
+  }
+  .right-column .menu-box button{
+    margin-left: 1rem;
+  }
+  .menu-box button:hover,
+  .menu-box button.active,
+  .pagenetion button:hover,
+  .pagenetion button.active{
+    background-color: #ff7c5b;
+    color: #fff;
+  }
+  .package-section .package-list{
+    width: 60%;
+  }
+  .package-list .list-view{
+    
+  }
+  .list-view .content-box{
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 8%);
+    border-radius: .4rem;
+    display: flex;
+  }
+  .package-list .image-block{
+    width: 40%;
+  }
+  .package-list .image-block img{
+    padding: .7rem;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+  }
+  .package-list .content-block .rating i{
+    padding-right: 1rem;
+  }
+  .package-list .content-block span{
+    color: #000;
+    font-size: .8rem;
+  
+  }
+  .package-list .content-block span p{
+    color: #000;
+    font-size: .7rem;
+  }
+  .package-list .content-block h1,h2{
+    font-size: 1rem;
+  }
+  .package-list .content-block .text p{
+    margin: 2rem 0;
+  }
+  .package-list .content-block .btn-box a{
+    padding:.5rem 2rem;
+    background-color: #ffff;
+    color: #000;
+    border: 1.4px solid #eee;
+  }
+  .package-list .content-block .btn-box a:hover{
+    background: #ff7c5b;
+    color: #fff;
+  }
+  .package-list .grid-view{
+    display: none;
+    margin-top: 3rem;
+  }
+  .grid-view .content-box{
+    width: 45%;
+    margin: 1rem;
+    padding: .5rem;
+    box-shadow: 1px 1px 15px 2px rgba(0,0,0,.1);
+    border-radius: .4rem;
+    
+  }
+  .grid-view .image-block{
+    width: 100%;
+  }
+  .grid-view .content-block{
+    margin: 0 1.5rem;
+  }
+  .package-section .search-section{
+    width: 40%;
+    display: block;
+    padding-left: 4rem;
+  }
+  .search-section .search-form{
+    padding: 2rem;
+    box-shadow: 0px 15px 40px 0px rgb(0 0 0 / 8%);
+    border-radius: 1rem;
+  }
+  .search-section .search-form .form-inner{
+    left: 0;
+  }
+  .search-form .form-inner input{
+    border: 1px solid #ccc;
+  }
+  .search-section .search-form .form-inner .theme-btn{
+    box-shadow: none;
+    width: 60%;
+    border-radius: 0;
+    padding: 0;
+  }
+  /**************/
+  .search-section .search-list{
+    box-shadow: 0px 15px 40px 0px rgb(0 0 0 / 8%);
+    margin-top: 5rem;
+    padding: 2rem;
+  
+  }
+  .search-section .search-list .sec-title{
+    margin-bottom: 1rem;
+  }
+  .search-section .search-list .list-item a{
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    font-size: 15px;
+    color: #808080;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  
+  /***********************/
+  
+  .pagenetion{
+    margin: 3rem 0;
+  }
+  
+  .pagenetion-box{
+    display: flex;
+  }
+  .pagenetion-box button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50px;
+    margin: 0 .5rem;
+    background-color: #ffff;
+    box-shadow: 0px 15px 40px 0px rgb(0 0 0 / 8%);
+  
+  }
+  .pagenetion-box button:hover,
+  .pagenetion-box button.active{
+    background-color: #ff7c5b;
+    color: #fff;
+  }
+
+
+  
+/*** 
+
+====================================================================
+                        Responcesive Package page start
+====================================================================
+
+***/
+@media screen and (max-width: 860px){
+    .packega-page .main-header.style-one{
+        background: #fff;
+    }
+    .packega-page .main-header .main-menu-icon i{
+        background-color: #0000;
+    
+    }
+}

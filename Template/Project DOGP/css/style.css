@@ -1,0 +1,1971 @@
+body{
+  height: 100%;
+}
+/******HeaderArea*****/
+
+.headerArea .header_1{
+  background: #fff;
+  padding: 0.8rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/****Logo****/
+.logo img{
+  height: 33px;
+  width: 250px;
+}
+/******Search form*****/
+.headerArea .header_1 .search_from{
+  width: 20rem;
+  height: 2rem;
+  border: 1px solid #4CC417;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: .25rem;
+
+}
+.headerArea .header_1 .search_from input{
+  border: none;
+  font-size: 1rem;
+  padding: 0 1rem;
+  padding-bottom: .25rem;
+  width: 100%;
+  height: 100%;
+  text-transform: none;
+}
+.headerArea .header_1 .search_from label{
+  font-size: 1rem;
+  padding: 0 .7rem;
+  padding-top: .55rem;
+  color: #000;
+}
+.headerArea .header_1 .search_from label:hover{
+  color: #4CC417;
+  cursor: pointer;
+}
+#src-btn{
+  opacity: 0;
+/*******for 280px****/
+}
+/*******admins****/
+.headerArea .header_1 .icons a,
+.headerArea .header_1 .icons div{
+  font-size: 1.1rem;
+  margin-left: 2rem;
+  color: #4CC417;
+  text-decoration: none;
+}
+.headerArea .header_1 .icons a:hover,
+.headerArea .header_1 .icons div:hover {
+  color: rgb(27, 22, 22);
+}
+.headerArea .header_1 .icons .card{
+  position: relative;
+  border: none;
+}
+.headerArea .header_1 .icons .card span{
+  position: absolute;
+  margin-top: -.9rem;
+  margin-left: -.2rem;}
+
+
+/******header-2****/
+.headerArea .header-2{
+  background-color: #4CC417;
+}
+.headerArea .header-2 .navber{
+  text-align: center;
+}
+.headerArea .header-2 .navber a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 4.1rem;
+  font-size: 1.1rem;
+  font-variant: small-caps;
+  border-right: 1px dotted #fff;
+}
+
+.headerArea .header-2 .navber a:hover{
+  background-color: #fff;
+  color: #4CC417;
+}
+
+.headerArea .header-2.active{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/*******button navber****/
+.buttom-navber{
+  text-align: center;
+  background: #02020263;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: none;
+}
+.buttom-navber a{
+  font-size: 2.5rem;
+  padding: .3rem 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+.buttom-navber #center:hover{
+  color: #4CC417;
+  background-color: #fff;
+  text-decoration: none;
+}
+#center{
+  text-align: center;
+  font-size: 1.8rem;
+  position: fixed;
+  background-color: #4CC417;
+  color: #fff;
+  bottom: 2.9%;
+  box-shadow: 0rem .2rem .5rem rgba(2, 2, 2, 0.3);
+  left:39%;
+  padding: 1rem 1.3rem; 
+  border-radius: 50%;
+ 
+}
+#left{
+  float: left;
+
+}
+#right{
+  float: right;
+  margin-left: 21.5%;
+}
+
+/*******Log in from********/
+.login-form-containar{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255,255,255,.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 37%;
+  padding-top: 7%;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+}
+/*********login bg**********/
+.login-form-containar form{
+  border: 2px solid rgb(146,249,75);
+  width: 18rem;
+  padding: .5rem;
+  bottom: 0;
+  left: 50%;
+  border-radius: .5rem;
+  box-shadow: .7rem 1rem 1rem #ddd;
+  
+}
+.login-form-containar #login-close{
+  float: right;
+  padding: 2%;
+  font-size: 1.1rem;
+}
+.login-form-containar #login-close:hover{
+  background-color: rgb(255,255,255,.9);
+  color: #000;
+  padding: 2%;
+  border-radius: 100%;
+}
+.login-form-containar h3{
+  text-align: center;
+  margin: 1rem;
+  font-variant-caps: all-petite-caps;
+}
+
+.login-form-containar button{
+  padding: 0 0 0 6px;
+  margin: .5rem;
+  width: 90%;
+  border: none;
+  color: #fff;
+  background: #4CC417;
+}
+.login-form-containar button input{
+  font-size: .8rem;
+  padding: .3rem;
+  width: 91%;
+}
+.login-form-containar .checkbox{
+  margin: .6rem;
+}
+.login-form-containar .btn{
+  background: #4CC417;
+  width: 100%;
+  font-variant-caps: all-petite-caps;
+  color: #fff;
+  padding: 0 .3rem;
+  padding-bottom: .4rem;
+  border: none;
+}
+.login-form-containar .btn:hover{
+  background: #fff;
+  color: #4CC417;
+  border: 1px dotted #4CC417;
+}
+.login-form-containar p{
+  margin-top: 1rem;
+}
+/******************/
+.payment-card{
+  align-items: center;
+  justify-content: center;
+  background: rgb(255,255,255,.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 37%;
+  padding-top: 17%;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  display: none;
+  
+}
+.payment-card .card{
+  width: 24rem;
+  border: .2px solid #02020263;
+  background: #4CC417;
+  text-align: center;
+}
+#payment-close{
+  text-align: right;
+  color: #fff;
+  padding: .4rem;
+}
+.payment-card .card h2{
+  font-variant: small-caps;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: .8rem 2rem;
+}
+.payment-option img{
+  width: 5rem;
+  height: 3rem;
+  padding: .5rem;
+  border-radius: .6rem;
+  cursor: pointer;
+}
+/*****************/
+.pay-bkash{
+  align-items: center;
+  justify-content: center;
+  background: rgb(255,255,255,.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 37%;
+  padding-top: 7%;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.pay-bkash .content{
+  height: 23rem;
+  width: 16rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: .4rem; 
+  padding: .4rem;
+
+}
+.bg{
+  background: linear-gradient(45deg, #4CC417 40%, #fff 30.1%);
+  height: 22.2rem;
+  width: 15.3rem;
+  box-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.pay-bkash .content img{
+  width: 15.3rem;
+  height: 15rem;
+}
+.pay-bkash .content form{
+  text-align: center;
+  margin-top: 1rem;
+}
+.pay-bkash .content form input{
+  border: none;
+  font-variant: small-caps;
+  box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+.pay-bkash .content form a input{
+  width: 8rem;
+  font-size: 1.3rem;
+  margin: 1rem;
+  box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 0.1);
+
+}
+/*******rocket**********/
+.pay-rocket{
+  align-items: center;
+  justify-content: center;
+  background: rgb(255,255,255,.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 37%;
+  padding-top: 7%;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.pay-rocket .content{
+  height: 23rem;
+  width: 16rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: .4rem; 
+  padding: .4rem;
+
+}
+.bg{
+  background: linear-gradient(45deg, #4CC417 40%, #fff 30.1%);
+  height: 22.2rem;
+  width: 15.3rem;
+  box-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.pay-rocket .content img{
+  width: 15.3rem;
+  height: 15rem;
+}
+.pay-rocket .content form{
+  text-align: center;
+  margin-top: 1rem;
+}
+.pay-rocket .content form input{
+  border: none;
+  font-variant: small-caps;
+  box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+}
+.pay-rocket .content form a input{
+  width: 8rem;
+  font-size: 1.3rem;
+  margin: 1rem;
+  box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 0.1);
+
+}
+/*******rocket**********/
+.pay-card{
+  align-items: center;
+  justify-content: center;
+  background: rgb(255,255,255,.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 28%;
+  padding-top: 7%;
+  z-index: 10000;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+.pay-card {
+  height: 23rem;
+  width: 30rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: .4rem; 
+  padding: .4rem;
+
+}
+.bg{
+  background: linear-gradient(45deg, #4CC417 40%, #fff 30.1%);
+  height: 22.2rem;
+  width: 29.3rem;
+  box-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.pay-card .payment-from{
+
+}
+
+
+/***************/
+#menu{
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 80%;
+  background-color: #f9f7f9;
+  box-shadow: 0rem .2rem .5rem rgba(2, 2, 2, 0.3);
+  z-index: 10000;
+  border-radius: .2rem;
+  display: none;
+}
+#menu-close{
+  font-size: 1.2rem;
+  color: #4CC417;
+  float: right;
+  padding: 1rem;
+}
+#menu img{
+  width: 14.2rem;
+  height: 4rem;
+  margin: 0 15%;
+  padding: .3rem;
+  border: 2px dotted #4CC417;
+  background-color: #fff;
+  padding: .4rem;
+  border-radius: .3rem;
+}
+#menu .btn{
+  background: #4CC417;
+  width: 50%;
+  margin: 1.6rem 5rem;
+  font-size: 1.2rem;
+  font-variant-caps: all-petite-caps;
+  color: #fff;
+  padding: 0 .3rem;
+  padding-bottom: .4rem;
+  border: none;
+}
+#menu nav ul{
+  margin-top: 0rem;
+}
+#menu nav ul li{
+  list-style: none;
+  padding: 1rem 1rem;
+  margin-left: -2.4rem;
+
+}
+#menu nav ul li i{
+  color: #4CC417;
+  font-size: 1.8rem;
+  margin: .4rem 1.5rem .1rem .4rem;
+}
+#menu nav ul li a{
+  text-decoration: none;
+  font-family: 'Comic Sans MS';
+  font-variant-caps: petite-caps;
+  font-size: 1.5rem;
+  color: #4CC417;
+}
+#menu nav ul li .dropdown,
+#menu nav ul li .dropdown li .submenu{
+  margin-top: 0;
+  display: none;
+
+}
+#menu nav ul li .dropdown li,
+#menu nav ul li .dropdown li .submenu li{
+    border-bottom: .1rem solid #4CC417;font-size: .3rem;
+}
+#menu nav ul li .dropdown li a,
+#menu nav ul li .dropdown li .submenu li a{
+  font-size: 1rem;
+}
+#menu .icn{
+  margin: 0 .4rem;
+  bottom: 0;
+}
+#menu .icn a{
+  color: #4CC417;
+  text-decoration: none;
+  font-size: 2.1rem;
+  background-color: #fff;
+  margin: 1rem .8rem;
+  margin-bottom: 0rem;
+}
+.contuct{
+  margin-top: 3rem;
+}
+.contuct i{
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+#menu p{
+  margin: 0;
+  padding: 0rem 1rem;
+  font-size: 1.1rem;
+}
+#menu p a{
+  color: #4CC417;
+}
+/************/
+#menu nav ul li:hover{
+  background-color: #fff;
+  padding: .5rem 1rem;
+  color: #4CC417;
+}
+#menu nav ul li:hover a{
+  color: #4CC417;
+  cursor: pointer;
+}
+#menu nav ul li:hover ul{
+  display: block;
+}
+
+#menu nav ul li .dropdown li:hover .submenu{
+  display: block;
+}
+
+/*******start contentArea*******/
+.img-slider{
+  margin: .4rem;
+  background-color: #f7efef00;
+  height: 26rem;
+  position: relative;
+}
+.img-slider .slide{
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active{
+  clip-path: circle(150% at 0 50%);
+  transition: 2s;
+  transition-property: clip-path;
+}
+
+.img-slider .slide img{
+  z-index: 1;
+  width: 100%;
+  height: 25.5rem;
+  border-radius: 5px;
+}
+
+.img-slider .slide .info{
+  position: absolute;
+  top: 10%;
+  margin-top: 2rem;
+  padding: 15px 30px;
+}
+
+.img-slider .slide .info h2{
+  color: #fff;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.img-slider .slide .info p{
+  color: #fff;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  width:37%;
+  padding: 10px;
+  margin-top: 3rem;
+  border-radius: 4px;
+}
+
+.img-slider .slide a input{
+  background-color: #4CC417;
+  color: #f9f7f9;
+  width: 10rem;
+  border: none;
+  padding: .2rem;
+  margin: .3rem 6rem;
+  border-radius: .2rem;
+  box-shadow: 0rem 0.2rem 0.5rem rgb(2 2 2 / 70%)
+}
+
+.img-slider .slide a input:hover{
+  background-color: #fff;
+  color: #4CC417;
+}
+
+
+.img-slider .navigation{
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  margin-top: 35.5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img-slider .navigation .slide-btn{
+  background: rgba(255, 255, 255, 0.5);
+  width: 12px;
+  height: 12px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.img-slider .navigation .slide-btn.active{
+  background: #2696E9;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+/************/
+.product{
+   background-color: #f9f7f9;
+}
+/*********display product************/
+.heading{
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.heading span{
+  font-size: 2rem;
+  font-family: 'Lucida Calligraphy','Courier New', Courier, monospace;
+  font-variant: small-caps;
+  padding: .4rem 2rem;
+  color: #4CC417;
+  background-color: #ffffffd5;
+  border-radius: .2rem;
+  box-shadow: 0rem 0.2rem 0.5rem rgb(2 2 2 / 30%);
+
+  
+}
+.display-product{
+ 
+  padding: 1rem 0;
+}
+.display-product .display-product-slide{
+  margin: 0rem 2rem;
+  background-color: #fff;
+}
+.display-product .display-product-slide .swiper-slide-box{
+  width: 15rem;
+  float: left;
+  margin: 2rem 1rem;
+  padding: 0 .4rem;
+  background: linear-gradient(15deg, #eee 40%, #fff 30.1%);
+  padding-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.display-product .display-product-slide .swiper-slide-box .icon{
+  border-bottom: 2px solid rgb(119, 117, 117);  background: #fff;
+  top: 0; left: 0; right: 0;
+  z-index: 1;
+  position: absolute;
+  display: none;
+}
+.display-product .display-product-slide .swiper-slide-box .icon a{
+  color: #000;
+
+  font-size: 1.5rem;
+  padding: .5rem .5rem;
+  text-decoration: none;
+}
+.display-product .display-product-slide .swiper-slide-box:hover .icon{
+  display: block;
+}
+.display-product .display-product-slide .swiper-slide-box .icon a:hover{
+  background-color: #4CC417;
+  color: #f9f7f9;
+   transition: .3s;
+}
+.display-product .display-product-slide .swiper-slide-box .image{
+  padding: 1rem 0;
+  
+
+}
+.display-product .display-product-slide .swiper-slide-box .image img{
+  width: 100%;
+  height: 12.9rem;
+  box-shadow: 0rem 0.2rem 0.5rem rgb(2 2 2 / 30%);
+
+}
+.display-product .display-product-slide .swiper-slide-box .content h3{
+  font-variant: small-caps;
+  font-size: 1.2rem;
+}
+.display-product .display-product-slide .swiper-slide-box .content h3 span{
+  font-variant: small-caps;
+  font-size: .8rem;
+  margin: .4rem;
+}
+.display-product .display-product-slide .swiper-slide-box .price{
+  margin: .3rem 0;
+}
+.display-product .display-product-slide .swiper-slide-box .content input{
+  background-color: #4CC417;
+  color: #fff;
+  border: none;
+  padding: .3rem .8rem;
+  border-radius: .2rem;
+}
+/***********end of product secction**********/
+/****about secction************/
+.About-Us{
+  height: 16rem;
+}
+.About-Us .heading{
+  font-variant-caps: small-caps;
+  font-family: 'Lucida Calligraphy','Courier New', Courier;
+}
+.About-Us .text{
+  font-variant-caps: all-small-caps;
+  text-align: center;
+  font-family: 'Comic Sans MS', Courier;
+  font-size: 1.3rem;
+  margin: 0 2rem;
+}
+
+/***********end of product secction**********/
+/****client-review secction************/
+.client-review{
+  height: 26rem;
+  background-color: #4CC417 ;padding: 1rem;
+}
+.client-review .content{
+  background:  linear-gradient(52deg, #fff 30%, rgb(45,44,44) 10.1%);
+  height: 24rem;
+  position: relative;
+  
+}
+.client-review .content h1{
+  text-align: center;
+  font-variant: all-small-caps;
+  margin: 0 5rem 0 5rem;
+  color: #fff;
+  padding: .6rem 1rem;
+}
+.client-review .content hr{
+  margin: 0 6rem;
+  border: 0;
+  border-top: 1px solid #4CC417;
+}
+
+
+.client-review .content .image{
+  height: 14rem;
+  width: 15rem;
+  margin: 5rem 5rem;
+  background-color: #4CC417;
+  position: absolute;
+  top: 0;
+  border-radius: 80%;
+  box-shadow: 0rem 0.1rem .7rem rgb(2 2 2 / 70%);
+}
+.client-review .content .image img{
+  height: 14rem;
+  width: 15rem;
+  padding: .15rem;
+  border-radius: 80%;
+
+}
+.client-review .content .messege{
+  float: right;
+  color: #fff;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: .3rem;
+  box-shadow: 0rem 0.1rem .1rem #02020263;
+  border-radius: .2rem;
+  margin-right: 20%;
+  margin-top: 10%;
+
+}
+/***********end of client-review secction**********/
+/****contact-us secction************/
+.contact-us{
+  height: 16rem;
+  background-color: #ddd;
+  display: none;
+}
+
+/***********end of product secction**********/
+/********footerArea************/
+.footerArea{
+  margin-top: 1rem;
+  height: 100%;
+  text-align: center;
+  background-color: #4CC417;
+}
+.footerArea .footerArea-menu .navber{
+  padding: .3rem;
+  text-align: center;}
+.footerArea .footerArea-menu .navber a{
+  color: #fff;
+  text-decoration: none;
+  padding: .8rem 1rem;
+  font-variant-caps: all-petite-caps;
+  font-size: 1.3rem;
+}
+.footerArea  hr{
+  border-top: 1px solid #fff;
+  margin: .3rem 4rem;
+}
+.footerArea .footerArea-menu .navber a:hover{
+  background-color: #fff;
+  color: #4CC417;
+  text-decoration: none;
+  padding: .3rem 1rem;
+  border-radius: .2rem;
+
+}
+
+.footerArea .payment-patner{
+  text-align: center;
+}
+.footerArea .payment-patner img{
+  width: 8rem;
+  height: 3rem;
+  border-radius: .2rem;
+  margin: .5rem .6rem;
+}
+.footerArea .office{
+  margin-top: 1rem;
+  width: 100%;text-align: center;
+}
+.footerArea .office h3{
+  width: 90%;text-align: center;
+  display: none;
+}
+.footerArea .office .address p{
+  font-size: .8rem;
+  margin: 0;
+  color: #fff;
+}
+.footerArea .office .icn a{
+  color: #fff;
+  font-size: 1.4rem;
+  padding: .6rem .8rem;
+}
+.footerArea .copyright{
+  border-top: .2px solid #fff;
+  font-variant: small-caps;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.footerArea .copyright p{
+  margin-bottom: 0;
+}
+.footerArea .copyright  a{
+  text-decoration: black;
+  color: #f9f7f9;
+}
+/*********end css*******/
+/*******midea qurea********/
+/*********leptop-L*********/
+/******
+@media (max-width:1450px){
+  .headerArea .header-2 .navber a{
+   
+  }
+
+  /********contentArea****************
+ 
+  .img-slider .slide img{
+    height: 27rem;
+  }
+  .img-slider .slide .info{
+    position: absolute;
+    top: 10%;
+    margin-top: 1rem;
+    padding: 15px 30px;
+  }
+  
+  
+  .img-slider .slide .info p{
+    margin-top: 3rem;
+  }
+  
+
+
+  .img-slider .navigation{
+
+
+  }
+}
+/*********leptop-M*****/
+@media (max-width:1024px){
+  .headerArea .header-2 .navber a{
+    padding: 0 3.5rem;
+   
+  }
+
+  /********contentArea****************/
+ 
+  .img-slider .slide .info{
+    position: absolute;
+    top: 10%;
+    margin-top: 1rem;
+    padding: 15px 30px;
+  }
+  
+  
+  .img-slider .slide .info p{
+    margin-top: 3rem;
+  }
+  
+
+
+  .img-slider .navigation{
+
+    margin-top: 37.2%;
+
+  }
+}
+/*******for 900px****/
+@media (max-width:900px){
+  .header_1 .logo img{
+    width: 200px;
+  }
+  .headerArea .header_1 .search_from{
+    width: 15rem;
+  }
+
+  .headerArea .header-2 .navber a{
+    padding: 0 4.1rem;
+   
+  }
+}
+
+/*******for Tablet****/
+@media (max-width:770px){
+  .header_1 .logo img{
+    width: 200px;
+  }
+  .headerArea .header_1 .search_from{
+    width: 15rem;
+  }
+
+  .headerArea .header_1 .icons a,
+  .headerArea .header_1 .icons div{
+  margin-left: 1rem;
+  }
+
+  .headerArea .header-2 .navber a{
+    padding: 0 2.2rem;
+   
+  }
+
+  /*********contentArea--bennar************/
+  .img-slider{
+    height: 20rem;
+  }
+  .img-slider .slide img{
+    height: 20rem;
+  }
+  .img-slider .slide .info{
+    top:0;
+    margin: 0;
+    padding: .7rem 1rem;
+
+  }
+  .img-slider .slide .info h2{
+    font-size: 2.4rem;
+  }
+  .img-slider .slide .info p{
+    margin-top: .4rem;
+    width: 35%;
+    font-size: .8rem;
+
+  }
+  .img-slider .navigation {
+    margin-top: 38.6%;
+  }
+
+  .img-slider .slide a input {
+    background-color: #4CC417;
+    color: #f9f7f9;
+    width: 10rem;
+    border: none;
+    margin: .3rem 4rem;
+    border-radius: .2rem;
+    box-shadow: 0rem 0.2rem 0.5rem rgb(2 2 2 / 70%);
+  }
+
+  /****about secction************/
+.About-Us{
+  height: 16rem;
+}
+/***********end of product secction**********/
+/****client-review secction************/
+.client-review{
+  height: 24rem;
+  background-color: #4CC417 ;padding: 1rem;
+}
+.client-review .content{
+  background:  linear-gradient(52deg, #fff 30%, rgb(45,44,44) 10.1%);
+  height: 22rem;
+  position: relative;
+  
+}
+.client-review .content h1{
+  text-align: center;
+  font-variant: all-small-caps;
+  margin: 0 5rem 0 5rem;
+  color: #fff;
+  padding: .6rem 1rem;
+}
+.client-review .content hr{
+  margin: 0 6rem;
+  border: 0;
+  border-top: 1px solid #4CC417;
+}
+
+
+.client-review .content .image{
+  height: 14rem;
+  width: 15rem;
+  margin: 5rem 5rem;
+  background-color: #4CC417;
+  position: absolute;
+  top: 0;
+  border-radius: 80%;
+  box-shadow: 0rem 0.1rem .7rem rgb(2 2 2 / 70%);
+}
+.client-review .content .image img{
+  height: 14rem;
+  width: 15rem;
+  padding: .15rem;
+  border-radius: 80%;
+
+}
+.client-review .content .messege{
+  float: right;
+  color: #fff;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: .3rem;
+  box-shadow: 0rem 0.1rem .1rem #02020263;
+  border-radius: .2rem;
+  margin-right: 10%;
+  margin-top: 10%;
+
+}
+.client-review .content .messege p{}
+/***********end of client-review secction**********/
+/****contact-us secction************/
+.contact-us{
+  height: 16rem;
+  background-color: #ddd;
+}
+/***********end of product secction**********/
+
+  
+}
+
+
+@media (max-width:690px){
+  .header_1 .logo img{
+    width: 170px;
+  }
+  .headerArea .header_1 .search_from{
+    width: 12rem;
+  }
+  .headerArea .header_1 .search_from input{
+    font-size: .8rem;
+  }
+  .headerArea .header_1 .icons a,
+ .headerArea .header_1 .icons div{
+  margin-left: 1rem;
+}
+
+  .headerArea .header-2 .navber a{
+    padding: 0 3rem;
+   
+  }
+/*******for 280px****/
+/*******for 280px****/
+}
+
+/*******for 640px****/
+@media (max-width:640px){
+  .header_1 .logo img{
+    width: 170px;
+  }
+  .headerArea .header_1 .search_from{
+    width: 12rem;
+  }
+  .headerArea .header_1 .search_from input{
+    font-size: .8rem;
+  }
+  .headerArea .header_1 .icons a,
+ .headerArea .header_1 .icons div{
+  margin-left: 1rem;
+}
+
+  .headerArea .header-2 .navber a{
+    padding: 0 2.4rem;
+   
+  }
+}
+
+/*******for 540px****/
+@media (max-width:540px){
+  .header_1 .logo img{
+    width: 150px;
+  }
+  .headerArea .header_1 .search_from{
+    width: 10rem;
+  }
+  .headerArea .header_1 .search_from input{
+    font-size: .8rem;
+  }
+  .headerArea .header_1 .icons a,
+ .headerArea .header_1 .icons div{
+  margin-left: .7rem;
+}
+
+  .headerArea .header-2 .navber a{
+    padding: 0 2rem;
+   
+  }
+  /***********/
+  .login-form-containar{
+    padding-left: 28%;
+    padding-top: 33%;
+
+  }
+
+    /*********contentArea--bennar************/
+    .img-slider {
+      height: 17rem;
+    }
+    .img-slider .slide img{
+      height: 17rem;
+    }
+    .img-slider .slide .info{
+      top:0;
+      margin: 0;
+      padding: .7rem 1rem;
+  
+    }
+    .img-slider .slide .info h2{
+      font-size: 1.4rem;
+    }
+    .img-slider .slide .info p{
+      margin-top: .4rem;
+      width: 35%;
+      font-size: .6rem;
+  
+    }
+    .img-slider .navigation {
+      margin-top: 46.6%;
+    }
+  
+    .img-slider .slide a input {
+      width: 8rem;
+      padding: .1rem;
+      margin: .3rem 2rem;
+    }
+}
+
+/********for mobile*******/
+@media (max-width:455px){
+  .header_1 .logo img{
+    width: 200px;
+    background: #fff;
+    border-radius: .3rem;
+    padding: .5rem;
+  }
+  .headerArea .header_1{
+    position: relative;
+    background: #4CC417;
+    padding: .4rem 3%;
+  }
+  .headerArea .header_1 .search_from{
+    width: 20rem;
+    height: 2.3rem;
+    position: absolute;
+    top: 110%;
+    right: 3.4rem;
+    padding: -.1rem;
+    display: none;
+  }
+  .headerArea .header_1 .search_from input{
+    font-size: .8rem;
+    width: 85%;
+    height: 110%;
+  }
+
+  #src-btn{
+    opacity: 4;
+    display: inline-block;
+  }
+  .headerArea .header_1 .icons{
+    margin-right: 1rem;
+  }
+  .headerArea .header_1 .icons a,
+ .headerArea .header_1 .icons div{
+  margin-left: .8rem;
+  color: #fff;
+}
+
+  .headerArea .header-2 .navber {
+   display: none;
+  }
+  .buttom-navber{
+    display: flex;
+  }
+  .buttom-navber a{
+    font-size: 1.8rem;
+    padding: 1rem 1.5rem;
+
+  }
+
+    /***********/
+    .login-form-containar{
+      padding-left: 17%;
+      padding-top: 33%;
+  
+    }
+    #menu .contuct{
+      margin-top: 1.5rem;
+    }
+    #menu .icn{
+      margin-top: 1rem;
+    }
+    #menu hr{
+      margin: .7rem;
+    }
+    #buttom{
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      margin-bottom: 2rem;
+    }
+      /*********contentArea--bennar************/
+      .img-slider{
+        height: 13rem;
+      }
+  .img-slider .slide img{
+    height: 13rem;
+  }
+  .img-slider .slide .info{
+    top:0;
+    margin: 0;
+    padding: .7rem 1rem;
+
+  }
+  .img-slider .slide .info h2{
+    font-size: .8rem;
+  }
+  .img-slider .slide .info p{
+    margin-top: .8rem;
+    width: 35%;
+    font-size: .4rem;
+
+  }
+  .img-slider .navigation {
+    margin-top: 45%;
+  }
+
+  .img-slider .slide a input {
+    width: 8rem;
+    border: none;
+    margin: .3rem 1rem;
+  }
+  .img-slider .navigation .slide-btn{
+    background: rgba(255, 255, 255, 0.5);
+    width: .5rem;
+    height: .5rem;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /******************/
+  .heading span{
+    font-size: 1rem;
+    
+  }
+
+  /***********end of product secction**********/
+/****about secction************/
+.About-Us{
+  height: 16rem;
+}
+.About-Us .text{
+  font-size: 1rem;
+  margin: 0 2rem;
+}
+/***********end of product secction**********/
+/****client-review secction************/
+.client-review{
+  height: 16rem;
+}
+.client-review .content{
+  background:  linear-gradient(52deg, #fff 40%, rgb(45,44,44) 40.1%);
+  height: 14rem;
+
+  
+}
+.client-review .content h1{
+  font-size: 1rem;
+
+}
+.client-review .content hr{
+  margin: 0 4rem;
+
+}
+
+
+.client-review .content .image{
+  height: 7rem;
+  width: 8rem;
+  margin: 4rem 3rem;
+  background-color: #4CC417;
+  position: absolute;
+  top: 0;
+  border-radius: 80%;
+  box-shadow: 0rem 0.1rem .7rem rgb(2 2 2 / 70%);
+}
+.client-review .content .image img{
+  height: 7rem;
+  width: 8rem;
+  padding: .15rem;
+  border-radius: 80%;
+
+}
+.client-review .content .messege{
+  float: right;
+  color: #fff;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: .3rem;
+  box-shadow: 0rem 0.1rem .1rem #02020263;
+  border-radius: .2rem;
+  margin-top: 10%;
+  margin-right: 10%;
+
+}
+.client-review .content .messege h3{
+  font-size: 1.2rem;
+}
+.client-review .content .messege p{
+  font-size: .5rem;
+}
+/***********end of client-review secction**********/
+/****contact-us secction************/
+.contact-us{
+  height: 16rem;
+  background-color: #ddd;
+}
+/***********end of product secction**********/
+/********footerArea******/
+.footerArea .copyright{
+  padding-bottom: 4rem;
+}
+
+}
+/*******for 380px****/
+@media (max-width:380px){
+  .header_1 .logo img{
+    width: 170px;
+  }
+  .headerArea .header_1{
+    position: relative;
+  }
+  .headerArea .header_1 .search_from{
+    width: 19rem;
+    position: absolute;
+    top: 115%;
+    right: 1.4rem;
+  }
+  .headerArea .header_1 .search_from input{
+    font-size: .8rem;
+    width: 85%;
+    height: 90%;
+  }
+  .headerArea .header_1 .icons{
+    margin-right: .2rem;
+  }
+  .headerArea .header_1 .icons a,
+ .headerArea .header_1 .icons div{
+   font-size: 1.1rem;
+  margin-left: .7rem;
+}
+
+  .headerArea .header-2 .navber {
+   display: none;
+  }
+  .buttom-navber{
+    display: block;
+   
+
+  }
+  .buttom-navber a{
+    font-size: 1.5rem;
+    padding: 1rem 1.3rem;
+  }
+
+    /***********/
+    .login-form-containar{
+      padding-left: 12%;
+      padding-top: 33%;
+  
+    }
+
+    /***********/
+    #menu img{
+      width: 14.2rem;
+      height: 4rem;
+      margin: 0 12%;
+      padding: .3rem;
+      border: 2px dotted #4CC417;
+      background-color: #fff;
+      padding: .4rem;
+      border-radius: .3rem;
+    }
+    #menu .btn{
+      margin: 1.6rem 4rem;
+    }
+
+    /*************/
+    #menu nav ul li{
+      padding: .7rem 1rem;
+ 
+  }
+    #menu nav ul li a {
+      font-size: 1.2rem;
+
+  }
+
+  /*********/
+  #menu .contuct{
+    margin-top: 1.5rem;
+  }
+
+  #menu .icn{
+    margin: 0;
+  }
+
+  #menu .icn a{
+    font-size: 1.9rem;
+    margin: .5rem .6rem;
+  } 
+  #menu hr{
+    margin: .5rem;
+  }
+  #menu p{
+    font-size: 1.02rem;
+  }
+  #buttom{
+    margin-bottom: .4rem;
+  }
+
+  /************/
+  .img-slider {
+    height: 11rem;
+  }
+  .img-slider .slide img{
+    height: 11rem;
+  }
+  .img-slider .slide .info{
+    top:0;
+    margin: 0;
+    padding: .4rem .4rem;
+
+  }
+  .img-slider .slide .info h2{
+    font-size: .8rem;
+  }
+  .img-slider .slide .info p{
+    margin-top: .6rem;
+    margin-bottom: 0;
+    padding: .3rem .6rem;
+    width: 35%;
+    font-size: .4rem;
+
+  }
+  .img-slider .navigation {
+    margin-top: 43%;
+  }
+
+  .img-slider .slide a input {
+    width: 6rem;
+    font-size: .6rem;
+    border: none;
+    margin: .5rem 1rem;
+  }
+  .img-slider .navigation .slide-btn{
+    background: rgba(255, 255, 255, 0.5);
+    width: .4rem;
+    height: .4rem;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  /****client-review secction************/
+.client-review{
+  height: 16rem;
+}
+.client-review .content{
+  background:  linear-gradient(52deg, #fff 40%, rgb(45,44,44) 40.1%);
+  height: 14rem;
+
+  
+}
+.client-review .content h1{
+  font-size: 1rem;
+
+}
+.client-review .content hr{
+  margin: 0 4rem;
+
+}
+
+
+.client-review .content .image{
+  height: 7rem;
+  width: 8rem;
+  margin: 4rem 2rem;
+  background-color: #4CC417;
+  position: absolute;
+  top: 0;
+  border-radius: 80%;
+  box-shadow: 0rem 0.1rem .7rem rgb(2 2 2 / 70%);
+}
+
+.client-review .content .messege{
+  float: right;
+  color: #fff;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: .3rem;
+  box-shadow: 0rem 0.1rem .1rem #02020263;
+  border-radius: .2rem;
+  margin-top: 10%;
+  margin-right: 10%;
+
+}
+.client-review .content .messege h3{
+  font-size: 1rem;
+}
+.client-review .content .messege p{
+  font-size: .5rem;
+}
+/***********end of client-review secction**********/
+/****contact-us secction************/
+.contact-us{
+  height: 16rem;
+  background-color: #ddd;
+}
+/***********end of product secction**********/
+
+}
+
+/*******for 322px****/
+@media (max-width:322px){
+  
+  .header_1 .logo img{
+    width: 140px;
+    background: #fff;
+    padding: .5rem;
+    border-radius: .3rem;
+  }
+  .headerArea .header_1{
+    position: relative;
+    background: #4CC417;
+    padding: 0.3rem 2%;
+
+  }
+  .headerArea .header_1 .search_from{
+    width: 16rem;
+    position: absolute;
+    top: 115%;
+    right: 2.2rem;
+  }
+  .headerArea .header_1 .search_from input{
+    font-size: .8rem;
+    width: 81%;
+  }
+  .headerArea .header_1 .icons{
+    margin-right: .9rem;
+  }
+  .headerArea .header_1 .icons a,
+ .headerArea .header_1 .icons div{
+   font-size: 1rem;
+  margin-left: .5rem;
+  color: #fff;
+}
+
+  .headerArea .header-2 .navber {
+   display: none;
+  }
+  .buttom-navber{
+    display: block;
+   
+
+  }
+  .buttom-navber a{
+    font-size: 1.2rem;
+    padding: 1rem 1.2rem;
+  }
+
+  #center{
+    font-size: 1.4rem;
+    padding: 1rem 1.3rem;
+
+  }
+
+    /***********/
+    .login-form-containar{
+      padding-left: 6%;
+      padding-top: 33%;
+  
+    }
+
+    /***************/
+    #menu img{
+      width: 12rem;
+      height: 3rem;
+    }
+    #menu .btn{
+      margin: 1rem 4rem;
+    }
+
+    /**************/
+    #menu nav ul li{
+      padding: .4rem 1rem;
+    }
+    #menu nav ul li a{
+      font-size: 1rem;
+    }
+
+    /*************/
+    #menu .contuct i{
+      font-size: .9rem;
+    }
+
+    #menu .icn a {
+      font-size: 1.6rem;
+      margin: .5rem .6rem;
+  }
+
+  #menu p {
+    font-size: .89rem;
+  }
+
+  /************/
+  .img-slider{
+    height: 12rem;
+  }
+  .img-slider .slide img{
+    height: 12rem;
+  }
+  .img-slider .slide .info{
+    top:0;
+    margin: 0;
+    padding: .7rem .1rem;
+  }
+  .img-slider .slide .info h2{
+    font-size: .8rem;
+    margin-left: .6rem;
+  }
+  .img-slider .slide .info p{
+    margin-top: .3rem;
+    width: 35%;
+    font-size: .42rem;
+
+  }
+  .img-slider .navigation {
+    margin-top: 55.7%;
+  }
+
+  .img-slider .slide a input {
+    width: 6rem;
+    border: none;
+    margin: .3rem 1rem;
+  }
+  .img-slider .navigation .slide-btn{
+    background: rgba(255, 255, 255, 0.5);
+    width: .5rem;
+    height: .5rem;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /****client-review secction************/
+.client-review{
+  height: 14rem;
+}
+.client-review .content{
+  background:  linear-gradient(52deg, #fff 40%, rgb(45,44,44) 40.1%);
+  height: 12rem;
+
+  
+}
+.client-review .content h1{
+  font-size: 1rem;
+
+}
+.client-review .content hr{
+  margin: 0 4rem;
+
+}
+
+
+.client-review .content .image{
+  height: 5rem;
+  width: 6rem;
+  margin: 4rem 2rem;
+  background-color: #4CC417;
+  position: absolute;
+  top: 0;
+  border-radius: 80%;
+  box-shadow: 0rem 0.1rem .7rem rgb(2 2 2 / 70%);
+}
+.client-review .content .image img{
+  height: 5rem;
+  width: 6rem;
+  padding: .15rem;
+  border-radius: 80%;
+
+}
+.client-review .content .messege{
+  float: right;
+  color: #fff;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: .3rem;
+  box-shadow: 0rem 0.1rem .1rem #02020263;
+  border-radius: .2rem;
+  margin-top: 10%;
+  margin-right: 10%;
+
+}
+.client-review .content .messege h3{
+  font-size: .7rem;
+}
+.client-review .content .messege p{
+  font-size: .5rem;
+}
+/***********end of client-review secction**********/
+/****contact-us secction************/
+.contact-us{
+  height: 16rem;
+  background-color: #ddd;
+}
+/***********end of product secction**********/
+}
+
+/*******for 280px****/
+@media (max-width:282px){
+  
+  .header_1 .logo img{
+    width: 120px;
+    background: #fff;
+    padding: .5rem;
+    border-radius: .3rem;
+  }
+  .headerArea .header_1{
+    position: relative;
+    background: #4CC417;
+    padding: 0.3rem 2%;
+
+  }
+  .headerArea .header_1 .search_from{
+    width: 14rem;
+    height: 90%;
+    position: absolute;
+    top: 115%;
+    right: 1.3rem;
+  }
+  .headerArea .header_1 .search_from input{
+    font-size: .8rem;
+    width: 80%;
+    height: 110%;
+  }
+  .headerArea .header_1 .icons{
+    margin-right: .3rem;
+  }
+  .headerArea .header_1 .icons a,
+ .headerArea .header_1 .icons div{
+  font-size: .9rem;
+  margin-left: .5rem;
+  color: #fff;
+}
+
+  .headerArea .header-2 .navber {
+   display: none;
+  }
+  .buttom-navber{
+    display: block;
+   
+
+  }
+  .buttom-navber a{
+    font-size: 1.3rem;
+    padding: 1rem .8rem;
+  }
+
+  #center{
+    font-size: 1.4rem;
+    left:36%;
+    padding: .8rem 1.18rem;
+  }
+  /***************/
+  .login-form-containar{
+    padding-left: 3%;
+    padding-top: 33%;
+
+  }
+  .login-form-containar form{
+    width: 16rem;
+  }
+  .login-form-containar button input{
+    width: 88%;
+  }
+  /**********/
+  #menu img{
+    width: 12.2rem;
+    height: 3rem;
+    margin: 0 7%;
+  
+  }
+
+  #menu .btn{
+    width: 60%;
+    margin: 1rem 3rem;
+    font-size: 1.3rem;
+
+  }
+
+  /************/
+
+  #menu nav ul li{
+    padding: .5rem 1rem;
+
+  
+  }
+  #menu nav ul li a{
+    font-size: 1.2rem;
+  }
+
+  /*************/
+  .contuct{
+    margin-top: 5rem;
+  }
+  .contuct i{
+    font-size: 1rem;
+    padding: .5rem;
+  }
+
+  #menu .icn{
+    margin: 1rem .4rem;
+    bottom: 0;
+  }
+  #menu .icn a{
+    font-size: 1.6rem;
+    margin: 2rem .35rem;
+    margin-bottom: 0rem;
+  }
+
+  #menu p{
+    margin: 0;
+    padding: 0rem .5rem;
+    font-size: .8rem;
+  }
+
+  /*************contentArea************/
+  .img-slider{
+    height: 9rem;
+  }
+  .img-slider .slide img{
+    height: 9rem;
+  }
+  .img-slider .slide .info{
+    top:0;
+    margin: 0;
+    padding: .7rem .1rem;
+  }
+  .img-slider .slide .info h2{
+    font-size: .5rem;
+    margin-left: .3rem;
+  }
+  .img-slider .slide .info p{
+    margin-top: .1rem;
+    width: 35%;
+    font-size: .3rem;
+
+  }
+  .img-slider .navigation {
+    margin-top: 46.7%;
+  }
+
+  .img-slider .slide a input{
+    width: 5rem;
+    border: none;
+    margin: .3rem 1rem;
+  }
+  .img-slider .navigation .slide-btn{
+    width: .4rem;
+    height: .4rem;
+
+  }
+
+  /****client-review secction************/
+.client-review{
+  height: 12rem;
+}
+.client-review .content{
+  height: 10rem;
+}
+.client-review .content h1{
+  font-size: .6rem;
+
+}
+.client-review .content hr{
+  margin: 0 4rem;
+
+}
+.client-review .content .image{
+  height: 5rem;
+  width: 5rem;
+  margin: 3rem 1rem;
+  background-color: #4CC417;
+  position: absolute;
+  top: 0;
+  border-radius: 80%;
+  box-shadow: 0rem 0.1rem .7rem rgb(2 2 2 / 70%);
+}
+.client-review .content .image img{
+  height:5rem;
+  width: 5rem;
+  padding: .15rem;
+  border-radius: 80%;
+
+}
+.client-review .content .messege{
+  float: right;
+  color: #fff;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.1);
+  padding: .3rem;
+  box-shadow: 0rem 0.1rem .1rem #02020263;
+  border-radius: .2rem;
+  margin-top: 10%;
+  margin-right: 10%;
+
+}
+.client-review .content .messege h3{
+  font-size: .6rem;
+}
+.client-review .content .messege p{
+  font-size: .4rem;
+}
+/***********end of client-review secction**********/
+/****contact-us secction************/
+.contact-us{
+  height: 16rem;
+  background-color: #ddd;
+}
+/***********end of product secction**********/
+  
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0 auto;
+    outline: 0 auto;
+}
+body{
+    background-color: aquamarine;
+}
+.content{
+    height: 400px;
+    width: 600px;
+    margin-top: 50px;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px #000;
+}
+.mechine{
+    height: 300px;
+    border-bottom: 1.75px dotted #fff;
+}
+    /***********/
+.left{
+    float: left;
+    width: 300px;
+}
+.left h1{
+    margin: 68px;
+    margin-top: 130px;
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Eras Light ITC';
+    font-style: italic;
+    font-variant-caps: small-caps;
+    border-left: 2px solid aliceblue;
+}
+.right{
+    float: right;
+    width: 300px;
+}
+.right form{
+    margin-top: 50px;
+}
+.right form input{
+    margin: 10px 40px;
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+    color: aliceblue;
+    background-color: #333333;
+    font-variant-caps: small-caps;
+    border: none;
+    border-bottom: 1px solid rgb(90, 88, 88);
+}
+.right form select{
+    margin: 20px;
+    margin-left: 40px;
+    padding: 3px;
+    font-variant-caps: small-caps;
+    font-style: italic;
+    font-weight: bold;
+}
+.right button{
+    width: 90px;
+    padding: 5px;
+    margin: 20px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.right form input:hover{
+    border-bottom: 2px dotted #fff;
+}
+.right button:hover{
+    background-color: rgba(28, 255, 7, 0.747);
+    color: aliceblue;
+}
+.output{
+    background-color: aliceblue;
+    height: 100px;
+}
+.output h1{
+    margin: 0px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Eras Light ITC';
+    font-variant-caps: small-caps;
+
+}
+#dev{
+    margin-left: 10px;
+}

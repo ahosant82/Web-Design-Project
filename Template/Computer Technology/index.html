@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Computer Technology</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<script type="text/javascript" src="js/jquery3.4.1.js"></script>
+
+</head>
+<body>
+
+	<div class="full_WrepperArea">
+		<div class="preloader">
+		<div class="preloader-spinner"></div>
+		<!------------end of Preloader------------>
+	</div>
+	<div id="headerArea">
+		<img src="img/logo.jpg" alt="Computer Technology" width="150" height="150">
+		<h1>Computer Technology</h1>
+		<h2>Welcome to</h2>
+		<h3 id="marquee"><marquee>Dhaka Polytechnic Instituite</marquee></h3>
+	</div>
+	<!-------------End of headerArea--------------->
+	<div class="nevBar">
+		<ul>
+			<li id="hm"><a href="index.html">Home</a></li>
+			<li><a href="AboutUs/index.html">About Us</a></li>
+			<li><a href="#"></a> Academics
+				<ul>
+					<li><a href="file/Sylebus.pdf">Syllabus</a></li>
+					<li><a href="#">Class Routine</a></li>
+					<li><a href="#">Result</a></li>
+					<li><a href="file/2672.1.pdf">Academic Celender</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Notice</a> </li>
+			<li><a href="Students info/index.html">Students Informetion</a> </li>
+			<li><a href="Album/index.html">Album</a> </li>
+			<li><a href="contuct us/index.html"> Contuct Us</a></li>
+		<input type="text" placeholder="Search" name="Search">
+	</ul>
+	</div>
+	<!-----------End of nebVar------------->
+	<div class="content">
+		<div class="slider"></div>
+		<div class="sideBer">
+			<h2>Related Links<span class="fa fa-angle-down"></span> </h2>
+			<a href="https://dpi.gov.bd"><p>Dhaka Polytechnic Instituite.</p></a><br>
+			<a href="http://www.bteb.gov.bd"><p>Bangladesh Technical Education Board (BTEB).</p></a><br>
+			<a href="http://www.moedu.gov.bd"><p>Ministry of Education.</p></a><br>
+			<a href="http://www.bcc.gov.bd"><p>Bangladesh Computer Council (BCC).</p></a><br>
+			<a href="https://www.w3schools.com"><p>W3School.</p></a>
+		</div>
+		<!------------End of sideBer------------>
+		<div class="cleft">
+				<!------------End of slider------------>
+				<p>The department of Computer Technology was established at Dhaka Polytechnic Institute in 1995. This department offered 4 years Diploma-in-Engineering program under the Bangladesh Technical Education Board after 10 years schooling. The Department currently has roughly 15 faculty members (both full time and part time), 04 technical &amp; support staff and 480 numbers of students (120 students per year, 60 for 1st and 60 for 2nd shift). In our admission criteria, there are 20% seats reserved for female student, 15% for Vocational and 5% for disable students.
+			<span id="btn" class="fa fa-angle-down fa-1x"></span></p>
+<p id="pera">After completion the Diploma-in-Engineering Program, students can go to Job market or higher education. For higher education they can admitted in Dhaka University of Engineering and Technology (DUET), Gazipur or any other private or public university in home or abroad for Bachelor degree program like Bachelor of Computer Science &amp; Engineering or Bachelor of Computer Science or Bachelor of Information Technology etc. A Diploma Computer graduate works as a Sub-assistant Engineer in public &amp; private organization.<br>
+The major job fields of a Computer Diploma Graduate are Computer Software &amp; Hardware companies, Telecommunication companies, Teachers of TVET institutions, BPO industries, IT sector of all kind of Government and private organization as an IT Officer or Network support Engineer.<span id="btn1" class="fa fa-angle-up"></span></p>
+	</div>
+			<!--------End Of cleft---------->
+<div class="loginFrom">
+	<p>Login From</p>
+	<form>
+		Email:
+		<input type="text" name="email" placeholder="Enter your Email"><br>
+		password:
+		<input type="password" name="password" placeholder="Enter your Password"><br>
+		<button type="submit" class="btn">Log In</button>
+
+	<div id="mge">
+		Sent Messaeges
+			<input type="text" name="Messaege" placeholder="sent messaege">
+			<button class="btn">Sent</button>
+		</div>	</form>
+	<!---------End Of Logine from---------->
+		</div><div class="ContuctUs">
+			<p>Contuct With Us</p>
+			<a href="https://web.facebook.com/groups/computertechnologydpi66/?ref=bookmarks"><b class="fab fa-facebook-square fa-2x facebook"></b></a>
+					<a href="#"><b class="fab fa-facebook-messenger fa-2x youtube"></b></a>
+					<a href="#"><b class="fab fa-linkedin fa-2x linkedin"></b></a>
+					<a href="#"><b class="fab fa-twitter fa-2x twitter"></b></a>
+					<a href="#"><b class="fas fa-envelope-square fa-2x gmail"></b></a>
+					
+		</div>
+				<!-------End of Contuctus---------->
+	</div>
+	<!--------------End of Content------------->
+	<hr>
+	<div id="footerArea">
+		<center><p>The Website Copyright@<a href="https://web.facebook.com/tonmoy.bapari.33"> Ahosan Tonmoy</a> at 2019</p></center>
+	</div>
+	</div>
+	<script>
+	      $('body').addClass('preloader-active');
+            $(window).on('load', function() { 
+          $('.preloader').fadeOut(600);
+          $('.preloader-spinner').delay(700).fadeOut('slow');
+         /** $('body').removeClass('preloader-active');*/
+      });
+
+		/*************/
+		$(document).ready(function(){
+			$('#btn').click(function(){
+				$('#pera').fadeIn(100);
+			});
+			$('#btn1').click(function(){
+				$('#pera').fadeOut(100);
+			});
+				});
+		/********end of btn js***********/
+	</script>
+
+</body>
+</html>
