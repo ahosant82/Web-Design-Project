@@ -6,6 +6,8 @@
         <!-------all extranal link------->
         <!---css link---->
         <link rel="stylesheet" type="text/css" href="plagins/css/style.css">
+        <!------------bostrap link--
+        <link rel="stylesheet" type="text/css" href="plagins/bootstrap/css/bootstrap.min.css">---->
 
         <!-----all script links----->
         <script src="https://kit.fontawesome.com/8bd0fc4f43.js" crossorigin="anonymous"></script>
@@ -16,27 +18,739 @@
         <!-----heading area----->
         <header class="nevigetion-area">
             <div class="container">
+                <!-----uper-section----->
                 <section class="uper-section">
                     <!----main-logo----->
                     <figure class="main-logo">
                         <a href="index.html"><img src="img/main-lugo/Logo.png"></a>
                     </figure>
                    <!----search area--------> 
-                   <form class="search-area">
-                        <input type="search" name="search_box" placeholder="Search Your Products......" id="search_box">
-                        <label for="search_box" class="fas fa-search src_btn"></label>
-                    </form>
+                   <section class="search-area">
+                        <form class="search-box">
+                            <input type="search" name="search_box" placeholder="Search Your Products......" id="search_box">
+                            <label for="search_box" class="src_btn"><i class="fas fa-search src_icon"></i></label>
+                        </form>
+                   </section>
 
                    <!----notificetion area------>
                    <section class="notification-area">
-                    <i class="fas fa-user"></i>
-                    <i class="far fa-heart"></i>
-                    <i class="fab fa-opencart"></i>
+                    <a href="#" class="link-item"><i class="fas fa-user"></i></a>
+                    <a href="#" class="link-item"><i class="far fa-heart"></i></a>
+                    <a href="#" class="link-item cart-item"><i class="fab fa-opencart"><span class="count">0</span></i></a>
                    </section>
+                </section>
+
+                <!-----lower-section----->
+                <section class="lower-section">
+                    <!----cetagory------->
+                    <div class="cetagory">
+                        <li class="list-item"><a class="link-item">All Catagorys</a></li>
+                        <div class="cetagory-list">
+                            <li class="menu-item"><a class="link-item">baby care</a></li>
+                            <li class="menu-item"><a class="link-item">daily care</a></li>
+                            <li class="menu-item"><a class="link-item">helth care</a></li>
+                            <li class="menu-item"><a class="link-item">women care</a></li>
+                            <li class="menu-item"><a class="link-item">covid-19 protection</a></li>
+                            <li class="menu-item"><a class="link-item">personal care</a></li>
+                            <li class="menu-item"><a class="link-item">medical soppert</a></li>
+                            
+                        </div>
+                    </div>
+
+                    <!------main manu------>
+                    <div class="main-menu">
+                        <ul class="menu">
+                            <li class="menu-item active"><a class="link-item">home</a><i class="fas fa-sort-up indecetor"></i></li>
+                            <li class="menu-item"><a class="link-item">about us</a></li>
+                            <li class="menu-item"><a class="link-item">product</a></li>
+                            <li class="menu-item"><a class="link-item">Offer</a></li>
+                            <li class="menu-item"><a class="link-item" style="color: #fff;">contuct us</a></li>
+                        </ul>
+                    </div>
                 </section>
             </div>
         </header>
         <!-----main-content area----->
+        <section class="main-content">
+            <!---------website bannar-------->
+            <section class="bannar-section">
+                <div class="bannar-post">
+                    <div class="txt-content">
+                        <div class="heading">
+                            <h3>Life Care Nebulizer Machine</h3>
+                        </div>
+                        <div class="decription">
+                            <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                            </p>
+                        </div>
+                        <div class="button">
+                            <button type="submit">buy now</button>
+                        </div>
+                    </div>
+                    <div class="img-content">
+                        <figure class="img-block">
+                            <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <!--------product section--------->
+            <section class="container product-section">
+                <!---product catagory------>
+                <div class="product-catagory">
+                    <li class="list-item active"><a href="#">health care</a></li> 
+                    <li class="list-item"><a href="#">women care</a></li> 
+                    <li class="list-item"><a href="#">medical soppert</a></li> 
+                </div>
+
+                <section class="product-catagory-cart">
+                    <div class="see-more-btn">
+                        <a href="#">see mores</a>
+                    </div>
+                    <div class="cart-section">
+                        <!------for 1-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 1-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 1-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                
+            </section>
+            <!----add product----->
+            <div class="product-bannar"></div>
+            <!--------display product---------->
+            <section class="container display-product">
+                <div class="sec-title">
+                    <div class="name">
+                        <h2>Blood Pressure Machine</h2>
+                    </div>
+                    <div class="see-more-btn">
+                        <a href="#">see mores</a>
+                    </div>
+                </div>
+
+                <div class="cart-section">
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--------display product---------->
+            <section class="container display-product">
+                <div class="sec-title">
+                    <div class="name"><h2>glubs</h2></div>
+                    <div class="see-more-btn">
+                        <a href="#">see mores</a>
+                    </div>
+                </div>
+
+                <div class="cart-section">
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--------display product---------->
+            <section class="container display-product">
+                <div class="sec-title">
+                    <div class="name"><h2>medical soppert</h2></div>
+                    <div class="see-more-btn">
+                        <a href="#">see mores</a>
+                    </div>
+                </div>
+
+                <div class="cart-section">
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--------display product---------->
+            <section class="container display-product">
+                <div class="sec-title">
+                    <div class="name"><h2>daily care</h2></div>
+                    <div class="see-more-btn">
+                        <a href="#">see mores</a>
+                    </div>
+                </div>
+
+                <div class="cart-section">
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--------display product---------->
+            <section class="container display-product">
+                <div class="sec-title">
+                    <div class="name"><h2>mask</h2></div>
+                    <div class="see-more-btn">
+                        <a href="#">see mores</a>
+                    </div>
+                </div>
+
+                <div class="cart-section">
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------for 1-------->
+                    <div class="cart-item">
+                        <div class="cart-admins">
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="cart-image-block">
+                            <figure class="img-content">
+                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                            </figure>
+                        </div>
+                        <div class="cart-content">
+                            <div class="product-name">
+                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                            </div>
+                            <div class="product-price">
+                                <span class="price">BDT 2000 TAKA</span>
+                            </div>
+                            <div class="cart-button">
+                                <button type="submit">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
         <!-----footer area----->
+        <footer class="footer-area">
+            <div class="container">
+                <!---company informetion---->
+                <div class="company-info">
+                    <div class="sec-title"><h2>MEDICARE.COM</h2></div>
+
+                    <div class="drescription">
+                        <p>Welcome to MediCare Care Ltd. We are one of the most renowned online shops in Bangladesh which supplies emergency health care equipment especially related to the COVID pandemic situation.
+                            Cardinal care was created with a vision to serve people with a smile,
+                            to provide quality service over a virgin sector, and become the industry leader in E-commerce healthcare.
+                            We have been dedicatedly working for more than one year through our Facebook page: https://www.facebook.com/cardinalcarebd/
+                        </p>
+                    </div>
+
+                    <div class="socale-midea">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <!------our service------->
+                <div class="our-services">
+                    <div class="sec-title"><h2>SERVICES</h2></div>
+                    <div class="service-list">
+                        <ul>
+                            <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Products</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">About Us</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Contuct US</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Offers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--========payment partner=======-->
+                <div class="payment-partner">
+                    <div class="sec-title"><h2>SERVICES</h2></div>
+                        
+                    <div class="partner-info">
+                        <img class="image-section" src="img/payment-partner/bkash.png" alt="bkash-logo">
+                        <img class="image-section" src="img/payment-partner/nogod.png" alt="nogod-logo">
+                        <img class="image-section" src="img/payment-partner/rocket.png" alt="rocket-logo">
+                        <img class="image-section" src="img/payment-partner/visa.jpg" alt="visa-logo">
+                        <img class="image-section" src="img/payment-partner/paypal.png" alt="paypal-logo">
+                    </div>
+                <!--========payment partner=======-->
+                </div>
+                <!--========contuct informetion=======-->
+                <div class="contuct-info">
+                    <div class="sec-title"><h2>SERVICES</h2></div>
+                        
+                    <div class="contuct-from">
+                        <p><i class="fas fa-home"></i>MediCare></p>
+                        <p><i class="fas fa-map-pin"></i>Koritola, Jalkuri, Naraongong , Bangladesh</p>
+                        <p><i class="fas fa-phone-alt"></i>+880 19943610XX, +880 1865556XX</p>
+                        <p><i class="fas fa-envelope"></i>medicare001@gamil.com</p>
+                    </div>
+                </div>
+                <!--========copyright-section=======-->
+                <div class="copyright-section">
+                    <div class="container">
+                        <div class="left-section">
+                            <a class="copyright-link" href="#">A.R.TONMOY</a> © 2022 All Right Reserved
+                        </div>
+                        <div class="right-section">Terms of Service | Privacy Policy</div>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+        <!--=======Product Details=========-->
+        <div class="product-details">
+            <div class="details-cart">
+                <div class="image-block">
+                    <img src="img/product/WRP_Hand_Gloves.jpg" alt="">
+                </div>
+                <div class="text-block">
+
+                    <div class="rateing-sec">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>Based on 0 review</span>
+                    </div>
+
+                    <div class="product-title-sec">
+                        <h2>WRP_Hand_Gloves</h2>
+                    </div>
+
+                    <div class="price-sec">
+                        <span class="present-price">800 TAKA / <span class="price">1000 TAKA</span></span>
+                    </div>
+
+                    <div class="stock-sec">
+                        <h5>Availability : <span class="in-stock">In Stock</span></h5>
+                    </div>
+
+                    <div class="product-description">
+                        <p>The same is true for gel inner gloves - these can break down too, although it's less likely than with quick wraps. Hand wraps, when taken care of properly, will last much longer. Hand wraps are safer. If you wrap your hands properly, you're less likely to get an injury compared to using gel gloves or quick wraps</p>
+                    </div>
+
+                    <div class="product-size">
+                        <h5>SIZE : <span>free size</span></h5>
+                    </div>
+
+                    <div class="product-quantity">
+                        <label>
+                            <button class="fas fa-minus"></button>
+                            <input type="number" value="1" name="price-velue">
+                            <button class="fas fa-plus"></button>
+                        </label>
+                    </div>
+
+                    <div class="btn">
+                        <button type="submit">add to cart</button>
+                        <button type="submit">cencal</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
