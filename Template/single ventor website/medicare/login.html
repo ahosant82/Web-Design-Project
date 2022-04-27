@@ -11,6 +11,10 @@
 
         <!-----all script links----->
         <script src="https://kit.fontawesome.com/8bd0fc4f43.js" crossorigin="anonymous"></script>
+        <script src="plagins/js/jquery3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
     </head>
 
     <body>
@@ -81,17 +85,92 @@
                 <!--=====buttons====-->
                 <div class="account-btn">
                     <button type="submit" class="button" id="user_login"><i class="fas fa-user"></i>Login</button>
-                    <button type="submit" class="button"><i class="fas fa-users"></i>Registar</button>
+                    <button type="" class="button" id="user_registar"><i class="fas fa-users" ></i>Registar</button>
                 </div>
 
-                <div class="user_login">
+                <div class="user_login" id="">
                     <div class="inner-sec">
                         <form class="login-form" action="#">
-                            <label for="email_box"><i class="fas fa-envelope"></i></label>
-                            <input type="email" name="email_box" placeholder="enter your email address" id="search_box">
-                            
+                            <div class="email-box">
+                                <label for="email_box"><i class="fas fa-envelope"></i></label>
+                                <input type="email" name="email_box" placeholder="enter your email address" id="search_box">
+                            </div>
+
+                            <div class="pwd-box">
+                                <label for="pwd"><i class="fas fa-key"></i></label>
+                                <input type="password" name="pwd" placeholder="Password" id="pwd">
+                            </div>
+
+                            <div class="login-btn">
+                                <button type="submit" class="button">login</button>
+                            </div>
+
+                            <div class="login-link">
+                                <a href="#" class="link">Forgeten Password?</a>
+                                <a href="#" class="link">terms | condition</a>
+                            </div>
                         </form>
                     </div>
+                </div>
+
+                <div class="user-registar">
+                    <div class="sec-title">Create A  Account</div>
+                    <form action="#" class="registar-form">
+                        <div class="first-name-box">
+                            <label for="first-name"><i class="fas fa-user"></i></label>
+                             <input type="name" name="first-name" placeholder="enter your first name" id="">
+                        </div>
+
+                        <div class="lest-name-box">
+                            <label for="first-name"><i class="fas fa-user"></i></label>
+                             <input type="name" name="lest-name" placeholder="enter your lest name" id="">
+                        </div>
+
+                        <div class="email-box">
+                            <label for="email-box"><i class="fas fa-envelope"></i></label>
+                             <input type="email" name="email-box" placeholder="enter your email address" id="">
+                        </div>
+
+                        <div class="contuct-number-box">
+                            <label for="phone"><i class="fas fa-phone"></i></label>
+                             <input type="tel" name="phone" placeholder="enter your phone number" id="" pattern="['0-9']{11}">
+                        </div>
+
+                        <div class="pwd-box">
+                            <span class="eye" onclick="psd_hide_show()">
+                                <label class="fas fa-eye show" id="show"></label>
+                                <label class="fas fa-eye-slash hide" id="hide"></label>
+                            </span>
+
+                            <label for="pwd"><i class="fas fa-key"></i></label>
+                            <input type="password" name="pwd" placeholder="Password" id="psd">
+                        </div>
+
+                        <div class="pwd-box">
+                            <span class="eye" onclick="">
+                                <label class="fas fa-eye show" id="show"></label>
+                                <label class="fas fa-eye-slash hide" id="hide"></label>
+                            </span>
+                            <label for="pwd"><i class="fas fa-key"></i></label>
+                            <input type="password" name="pwd" placeholder="Confrim Password" id="pd">
+                        </div>
+
+                        <div class="select-gender">
+                            <p>select gender: </p>
+                            <input type="radio" name="gender" id="male">
+                            <label for="gender">Male</label>
+
+                            <input type="radio" name="gender" id="male">
+                            <label for="gender">Female</label>
+
+                            <input type="radio" name="gender" id="male">
+                            <label for="gender">coustom</label>
+                        </div>
+
+                        <div class="login-btn">
+                            <button type="submit" class="button">Create a Account</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
@@ -166,6 +245,39 @@
                 </div>
             </div>
         </footer>
+
+
+        <script>
+
+            $(document).ready(function(){
+                $("#user_registar").click(function(){
+                    $(".user_login").hide();
+                    $(".user-registar").show();
+                });
+
+                $("#user_login").click(function(){
+                    $(".user_login").show();
+                    $(".user-registar").hide();
+                });
+            });
+            
+            function psd_hide_show(){
+                var psd= document.getElementById("psd")
+                var show= document.getElementById("show")
+                var hide= document.getElementById("hide")
+
+                if(psd.type === 'password'){
+                    psd.type = "text";
+                    show.style.display = "block";
+                    hide.style.display = "none";
+                }
+                else{
+                    psd.type = "password";
+                    show.style.display = "none";
+                    hide.style.display = "block";
+                }
+            }
+        </script>
     </body>
 </html>
 

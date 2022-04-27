@@ -1,5 +1,5 @@
 *{
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0 auto;
     outline: 0 auto;
 }
@@ -180,9 +180,7 @@
 
 /**=======main-content=========**/
 .main-content{
-  height: 100vh;
   margin: 2rem 35%;
-  background-color: bisque;
 }
 
 .main-content .sec-title{
@@ -219,50 +217,133 @@
 .inner-sec .login-form{
     position: relative;
     margin: 4rem 2rem;
+    text-align: center;
+  height: 100vh;
 }
 .login-form input{
-    position: absolute;
-    left: 0;
-    height: 2rem;
-    border: 1px solid red;
-    padding: 0 13%;
+  width: 80%;
+  height: 2rem;
+  border: 1px solid red;
+  padding: 0 13%;
 }
-  .login-form label{
-    position: absolute;
-    left: 0;
-    background-color: red;
-    width: 10%;
-    height: 2.1rem;
-    z-index: 1;
-    cursor: pointer;
-    text-align: center;
-    
-    transition: 1s; 
-    font-size: 1.5rem;
-  }
+.login-form label{
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 10%;
+  height: 2.1rem;
+  z-index: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: 1s; 
+  font-size: 1.5rem;
+}
 
-  .login-form .fas{
-    padding: .3rem 0;
-    color: #fff; 
-  }
+.login-form .fas{
+  padding: .3rem 0;
+  color: #fff; 
+}
   
-  .search-box .src_btn:hover{
-    background-color: black;
-  }
-  .search-box .src_btn:hover .src_icon{
-    color: red;
-    transition: 1s;
-  }
-  .src_btn .src_icon{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 1rem;
-  }
+.search-box .src_btn:hover{
+  background-color: black;
+}
+.search-box .src_btn:hover .src_icon{
+  color: red;
+  transition: 1s;
+}
+.src_btn .src_icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1rem;
+}
   
+.pwd-box{
+  display: block;
+  margin-top: 2.5rem;
+}
 
+.login-form .login-btn{
+  text-align: center;
+  margin: 2rem;
+}
+
+.login-btn .button{
+  line-height: 2rem;
+  width: 100%;
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-form .login-link{
+}
+.login-form .login-link .link{
+  padding: 0 1rem;
+}
+
+.user-registar{
+  display: none;
+}
+.user-registar .registar-form{
+  position: relative;
+  margin: 0 2rem;
+}
+.registar-form div{
+  margin: 2rem 0;
+}
+.registar-form input{
+  width: 80%;
+  height: 2rem;
+  border: none;
+  border-bottom: 1px solid red;
+  padding: 0 13%;
+  padding-bottom: .5rem;
+}
+.registar-form label{
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: 2.1rem;
+  z-index: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: 1s; 
+  font-size: 1.2rem;
+}
+
+.registar-form .fas{
+  padding: .3rem 0;
+  color: red; 
+}
+
+.registar-form .select-gender{
+  display: flex;
+  position: relative;
+}
+.select-gender input{
+  height: 1rem;
+  padding: 0;
+  width: 2rem;
+  text-align: left;
+}
+.select-gender label{
+  position: relative;
+  transition: 1s;
+  font-size: 1rem;
+  margin-right: .8rem;
+}
+
+.registar-form .eye{
+  right: 0;
+  position: absolute;
+}
+ .eye .show{
+  display: none;
+}
 
 /*********footer-area***********/
 .footer-collum{
