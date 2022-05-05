@@ -4,81 +4,17 @@
     outline: 0;
 }
 
-.loader {
-  background: #ffffff;
-  width: 100%;
-  height: 100%;
-  line-height: 50px;
-  text-align: center;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: helvetica, arial, sans-serif;
-  font-weight: 900;
-  letter-spacing: 0.2em;
-  z-index: 9999999;
-}
-.loader span {
-  position: absolute;
-  width: 250px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #000;
-  text-transform: uppercase;
-}
-.loader span::before,
-.loader span::after {
-  content: "";
-  display: block;
-  width: 15px;
-  height: 15px;
-  background: #ff0000;
-  position: absolute;
-  animation: load 0.7s infinite alternate ease-in-out;
-}
-.loader span::before {
-  top: 0;
-}
-.loader span::after {
-  bottom: 0;
-}
-@keyframes load {
-  0% {
-    left: 0;
-    height: 30px;
-    width: 15px;
-  }
-  50% {
-    height: 8px;
-    width: 40px;
-  }
-  100% {
-    left: 235px;
-    height: 30px;
-    width: 15px;
-  }
-}
-/*=============*/
-
+/************/
 .container{
     margin: 0 5rem;
 }
 /******/
 .nevigetion-area{
-  background: transparent;
-  position: sticky;
+  background: #ffff;
+  position: relative;
   z-index: 99;
   width: 100%;
   top: 0;
-  background-color: #fff;
-  padding-bottom: 1rem;
-  transition: 1s ease;
-}
-
-.sticky{
-  background-color: bisque;
 }
 .uper-section{
     display: flex;
@@ -88,6 +24,8 @@
     width: 20%;
 }
 .main-logo img{
+    width: 80%;
+    margin-top: .5rem;
     height: 3rem;
     line-height: 4rem;
 }
@@ -246,21 +184,31 @@
 .main-content{
   margin-top: 2rem;
 }
-.about-section{
+.contuct-section{
   display: flex;
 }
-.about-section .info{
+.contuct-section .address-section{
   width: 70%;
 }
-.about-section .sec-title{
+.contuct-section .sec-title{
   margin: 2rem 0;
   font-size: 2rem;
 }
-.about-section .txt-content{
+.contuct-section .txt{
+  margin: 1rem;
+}
+.txt i{
+  margin: 0 .7rem;
+}
+.contuct-section .socale-midea{
+  margin: 1rem 0;
 }
 
+.contuct-section .google-map{
+  margin: 2rem;
+}
 
-.about-section .messages{
+.contuct-section .messages{
   position: relative;
   margin: 0 2rem;
 
@@ -304,6 +252,7 @@
   color: #fff;
   cursor: pointer;
 }
+
 
 /*********footer-area***********/
 .footer-collum{

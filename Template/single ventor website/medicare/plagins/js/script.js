@@ -1,105 +1,111 @@
-// active menu
-// Home
-//producr
 
-// 
+/*=====add preloeder for all page===========*/
+$('body').addClass('preloader-active');
+$(window).on('load', function() { 
+  $('.preloader').fadeOut("slow");
+  $('.loader').delay(2299).fadeOut(100);
+});
 
-/*****search btn******/
-$(document).ready(function(){
-    $('#src-btn').click(function(){
-           $('#src').slideToggle(20);
-       });
-    });
-/********login btn ************/
-$(document).ready(function(){
-    $('#login-btn').click(function(){
-        $('#login-form').fadeIn(100);
-    })
-    $('#login-close').click(function(){
-        $('#login-form').fadeOut(100);
-    })
-    /*******************/
-    $('.btn').click(function(){
-        $('#login-form').fadeIn(100);
-    })
-    $('#login-close').click(function(){
-        $('#login-form').fadeOut(100);
-    })
+// add on sticky hrader
+$(window).on('scroll', function(){
+  if($(window).scrollTop()) {
+    $('header').addClass('sticky');
+  }
+  else{
+    $('header').removeClass('sticky');
+  }
 })
-/*******mobile menu****** */
-$(document).ready(function(){
-    $('#menu-btn').click(function(){
-        $('#menu').fadeIn(100);
-    })
-    $('#menu-close').click(function(){
-        $('#menu').fadeOut(100);
-    })
+
+
+//slide onn bannner
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  effect: "",
+  autoplay: {
+    delay: 10000,
+    disableOnInteraction: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+// add on product banner
+var swiper = new Swiper(".mSwiper", {
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+
+//cetagory active
+$(document).on('click', '.product-catagory .list-item', function(){
+  $(this).addClass('active').siblings().removeClass('active')
 })
-/*******8 */
-var slides = document.querySelectorAll('.slide');
-var btns = document.querySelectorAll('.slide-btn');
-let currentSlide = 1;
 
-// Javascript for image slider manual navigation
-var manualNav = function(manual){
-  slides.forEach((slide) => {
-    slide.classList.remove('active');
+//cart active
+$(document).ready(function(){
+  $('.women-care').fadeOut();
+  $('.medical-support').fadeOut();
 
-    btns.forEach((btn) => {
-      btn.classList.remove('active');
-    });
+  $('.helth-care-btn').click(function(){
+    $('.helth-care').show();
+    $('.women-care').hide();
+    $('.medical-support').hide();
+    
   });
 
-  slides[manual].classList.add('active');
-  btns[manual].classList.add('active');
-}
+  $('.women-care-btn').click(function(){
+    $('.helth-care').hide();
+    $('.women-care').show();
+    $('.medical-support').hide();
+  });
 
-btns.forEach((btn, i) => {
-  btn.addEventListener("click", () => {
-    manualNav(i);
-    currentSlide = i;
+  $('.medical-support-btn').click(function(){
+    $('.helth-care').hide();
+    $('.women-care').hide();
+    $('.medical-support').show();
   });
 });
 
-// Javascript for image slider autoplay navigation
-var repeat = function(activeClass){
-  let active = document.getElementsByClassName('active');
-  let i = 1;
-
-  var repeater = () => {
-    setTimeout(function(){
-      [...active].forEach((activeSlide) => {
-        activeSlide.classList.remove('active');
-      });
-
-    slides[i].classList.add('active');
-    btns[i].classList.add('active');
-    i++;
-
-    if(slides.length == i){
-      i = 0;
-    }
-    if(i >= slides.length){
-      return;
-    }
-    repeater();
-  }, 10000);
-  }
-  repeater();
-}
-repeat();
 /***********product slide********* */
-$('.swiper-wrapper').slick({
-  dots: false,
+$('.slider').slick({
+  dots: true,
   infinite: false,
   slidesToShow: 4,
   slidesToScroll: 4,
+  arrows: true,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 824,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
         infinite: true,
         dots: true
       }
@@ -125,45 +131,7 @@ $('.swiper-wrapper').slick({
     // settings: "unslick"
     // instead of a settings object
   ],
-  arrows: true,
+  
 
 });
 /******************** */
-/*****client review ********/
-$('.client-review').slick({
-  dots: false,
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  speed: 500,
-  autoplay: true,
-  autoplaySpeed: 8000,
-  
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  arrows: false,
-
-});
-/********payment-card************/
-$(document).ready(function(){
-  $('.payment-btn').click(function(){
-      $('.payment-card').fadeIn(100);
-  })
-  $('#payment-close').click(function(){
-      $('.payment-card').fadeOut(100);
-  })
-  //bash pay
-  $('#bkash').click(function(){
-    $('.pay-bkash').fadeIn(100);
-  })
-    //bash pay
-    $('#rocket').click(function(){
-      $('.pay-rocket').fadeIn(100);
-    })
-        //bash pay
-        $('#card').click(function(){
-          $('.pay-card').fadeIn(100);
-        })
-    
-})

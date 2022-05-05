@@ -11,10 +11,29 @@
 
         <!-----all script links----->
         <script src="https://kit.fontawesome.com/8bd0fc4f43.js" crossorigin="anonymous"></script>
+        <script src="plagins/js/jquery3.4.1.js"></script>
+        <script src="plagins/js/script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!--=======slick master=========-->
+        <link rel="stylesheet" type="text/css" href="plagins/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="plagins/slick/slick-theme.css"/>
+        
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="plagins/slick/slick.min.js"></script>
+
+        <!--------swipper slide--------->
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </head>
 
     <body>
         <!------full website------->
+
+        <div class="preloeder">
+            <div class="loader" ><span>Loading...</span></div>
+        </div>
         <!-----heading area----->
         <header class="nevigetion-area">
             <div class="container">
@@ -64,7 +83,7 @@
                             <li class="menu-item"><a href="aboutus.html" class="link-item">about us</a></li>
                             <li class="menu-item "><a href="product.html" class="link-item">product</a></li>
                             <li class="menu-item"><a href="#"class="link-item">Offer</a></li>
-                            <li class="menu-item"><a href="#" class="link-item">contuct us</a></li>
+                            <li class="menu-item"><a href="contuctUs.html" class="link-item">contuct us</a></li>
                         </ul>
                     </div>
                 </section>
@@ -74,34 +93,245 @@
         <section class="main-content">
             <!---------website bannar-------->
             <section class="bannar-section">
-                <div class="bannar-post">
-                    <div class="txt-content">
-                        <div class="heading">
-                            <h3>Life Care Nebulizer Machine</h3>
+                <div class="swiper mySwiper" >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>Life Care Nebulizer Machine</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
-                        <div class="decription">
-                            <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
-                                The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
-                            </p>
+
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>Kidz Pant Diapers Large 58 pcs</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Kidz-Pant-Diapers-Large-58-pcs.jpg">
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
-                        <div class="button">
-                            <button type="submit">buy now</button>
+
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>Elastic Shoulder Immobilizer</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>White Gloves</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/white-gloves.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>Rossmax_Analog_BP_Monitor_full_set</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Rossmax_Analog_BP_Monitor_full_set.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>/Multani_Face_pack_man</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Multani_Face_pack_man.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>Life Care Nebulizer Machine</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>Life Care Nebulizer Machine</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>Life Care Nebulizer Machine</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="bannar-post">
+                                <div class="txt-content">
+                                    <div class="heading">
+                                        <h3>Life Care Nebulizer Machine</h3>
+                                    </div>
+                                    <div class="decription">
+                                        <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                            The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                        </p>
+                                    </div>
+                                    <div class="button">
+                                        <button type="submit">buy now</button>
+                                    </div>
+                                </div>
+                                <div class="img-content">
+                                    <figure class="img-block">
+                                        <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                    </figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="img-content">
-                        <figure class="img-block">
-                            <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
-                        </figure>
-                    </div>
-                </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
             </section>
             <!--------product section--------->
             <section class="container product-section">
                 <!---product catagory------>
                 <div class="product-catagory">
-                    <li class="list-item active"><a href="#">health care</a></li> 
-                    <li class="list-item"><a href="#">women care</a></li> 
-                    <li class="list-item"><a href="#">medical soppert</a></li> 
+                    <li class="list-item active helth-care-btn">health care</li> 
+                    <li class="list-item women-care-btn">women care</li> 
+                    <li class="list-item medical-support-btn">medical soppert</li> 
                 </div>
 
                 <section class="product-catagory-cart">
@@ -109,87 +339,809 @@
                         <a href="#">see mores</a>
                     </div>
                     <div class="cart-section">
-                        <!------for 1-------->
-                        <div class="cart-item">
-                            <div class="cart-admins">
-                                <i class="fas fa-eye"></i>
-                                <i class="fas fa-heart"></i>
-                                <i class="fas fa-search"></i>
-                            </div>
-                            <div class="cart-image-block">
-                                <figure class="img-content">
-                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                                </figure>
-                            </div>
-                            <div class="cart-content">
-                                <div class="product-name">
-                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!--======helth care======-->
+                        <div class="helth-care slider" >
+                            <!------for 1-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
                                 </div>
-                                <div class="product-price">
-                                    <span class="price">BDT 2000 TAKA</span>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                    </figure>
                                 </div>
-                                <div class="cart-button">
-                                    <button type="submit">ADD TO CART</button>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 2000 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 2-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Elastic Shoulder Immobilizer</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1200 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 3-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/diabetic-mechine-2.jfif">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Diabetic Check Mechine</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1800 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!------for 4-------->
+                             <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/foot-scriub.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Foot Scriub</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 500 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 5-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/coller-belt.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt"> Soft Coller Belt</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 470 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 6-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/blue-gloves.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Blue Gloves</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 320 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!------for 7-------->
+                             <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Life Care Nebulizer Machine</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 2000 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 8-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/poly-gloves.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Poly Gloves</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 120 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 9-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/rsz_cc-2021-1155tksneo.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Tynor Knee Support (Neoprene) Hinged</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1450 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!------for 10-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/samson-cash-shoes.jpeg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Samson Cash Shoes.</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1050 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!------for 1-------->
-                        <div class="cart-item">
-                            <div class="cart-admins">
-                                <i class="fas fa-eye"></i>
-                                <i class="fas fa-heart"></i>
-                                <i class="fas fa-search"></i>
-                            </div>
-                            <div class="cart-image-block">
-                                <figure class="img-content">
-                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                                </figure>
-                            </div>
-                            <div class="cart-content">
-                                <div class="product-name">
-                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!--======women care=======-->
+                        <div class="women-care slider">
+                            <!------for 1-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
                                 </div>
-                                <div class="product-price">
-                                    <span class="price">BDT 2000 TAKA</span>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/Aloe_Vera_Gel.jpg">
+                                    </figure>
                                 </div>
-                                <div class="cart-button">
-                                    <button type="submit">ADD TO CART</button>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Aloe_Vera_Gel</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 670 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 2-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Elastic Shoulder Immobilizer</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1200 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 3-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/diabetic-mechine-2.jfif">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Diabetic Check Mechine</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1800 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!------for 4-------->
+                             <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/foot-scriub.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Foot Scriub</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 500 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 5-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/coller-belt.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt"> Soft Coller Belt</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 470 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 6-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/blue-gloves.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Blue Gloves</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 320 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!------for 7-------->
+                             <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Life Care Nebulizer Machine</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 2000 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 8-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/poly-gloves.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Poly Gloves</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 120 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 9-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/rsz_cc-2021-1155tksneo.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Tynor Knee Support (Neoprene) Hinged</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1450 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!------for 9-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/samson-cash-shoes.jpeg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Samson Cash Shoes.</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1050 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!------for 1-------->
-                        <div class="cart-item">
-                            <div class="cart-admins">
-                                <i class="fas fa-eye"></i>
-                                <i class="fas fa-heart"></i>
-                                <i class="fas fa-search"></i>
-                            </div>
-                            <div class="cart-image-block">
-                                <figure class="img-content">
-                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                                </figure>
-                            </div>
-                            <div class="cart-content">
-                                <div class="product-name">
-                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!--======medical support=======-->
+                        <div class="medical-support slider">
+                            <!------for 1-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
                                 </div>
-                                <div class="product-price">
-                                    <span class="price">BDT 2000 TAKA</span>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/firts-aid-box.PNG">
+                                    </figure>
                                 </div>
-                                <div class="cart-button">
-                                    <button type="submit">ADD TO CART</button>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 2000 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 2-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Elastic Shoulder Immobilizer</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1200 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 3-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/diabetic-mechine-2.jfif">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Diabetic Check Mechine</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1800 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!------for 4-------->
+                             <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/foot-scriub.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Foot Scriub</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 500 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 5-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/coller-belt.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt"> Soft Coller Belt</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 470 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 6-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/blue-gloves.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Blue Gloves</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 320 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <!------for 7-------->
+                             <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Life Care Nebulizer Machine</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 2000 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 8-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/poly-gloves.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Poly Gloves</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 120 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!------for 9-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/rsz_cc-2021-1155tksneo.jpg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Tynor Knee Support (Neoprene) Hinged</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1450 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!------for 9-------->
+                            <div class="cart-item">
+                                <div class="cart-admins">
+                                    <i class="fas fa-eye"></i>
+                                    <i class="fas fa-heart"></i>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="cart-image-block">
+                                    <figure class="img-content">
+                                        <img src="img/product/samson-cash-shoes.jpeg">
+                                    </figure>
+                                </div>
+                                <div class="cart-content">
+                                    <div class="product-name">
+                                        <h3 class="txt">Samson Cash Shoes.</h3>
+                                    </div>
+                                    <div class="product-price">
+                                        <span class="price">BDT 1050 TAKA</span>
+                                    </div>
+                                    <div class="cart-button">
+                                        <button type="submit">ADD TO CART</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </section>
 
                 
             </section>
             <!----add product----->
-            <div class="product-bannar"></div>
+            <div class="product-bannar">
+                <div class="upper-sec">
+                    <div class="sec-title">
+                        Welcome to MediCare.com
+                    </div>
+
+                    <div class="txt-content">
+                        We are provide all medical accesorice and equipment for <br> Daily Care, Health Care, Women Care, Medical Support ect
+                    </div>
+                </div>
+
+                <div class="lower-sec">
+                    <div class="swiper mSwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="img/product/firts-aid-box.PNG"/>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg"/>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/product/CC-2021-1872_with_logo.jpg"/>
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="img/product/Multani_Face_pack_man.jpg"/>
+                          </div>
+                  
+                          <div class="swiper-slide">
+                            <img src="img/product/Aloe_Vera_Gel.jpg"/>
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
             <!--------display product---------->
             <section class="container display-product">
                 <div class="sec-title">
@@ -203,77 +1155,255 @@
 
                 <!--=====product cart=====-->
                 <div class="cart-section">
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                    <div class="cart slider" >
+                        <!------for 1-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 2-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Elastic Shoulder Immobilizer</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1200 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 3-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/diabetic-mechine-2.jfif">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Diabetic Check Mechine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1800 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 4-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/foot-scriub.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Foot Scriub</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 500 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 5-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/coller-belt.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt"> Soft Coller Belt</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 470 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 6-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/blue-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Blue Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 320 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 7-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Life Care Nebulizer Machine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 8-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/poly-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Poly Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 120 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 9-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/rsz_cc-2021-1155tksneo.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Tynor Knee Support (Neoprene) Hinged</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1450 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!------for 10-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/samson-cash-shoes.jpeg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Samson Cash Shoes.</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1050 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -289,78 +1419,257 @@
                     </div>
                 </div>
 
+                <!--=====product cart=====-->
                 <div class="cart-section">
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                    <div class="cart slider" >
+                        <!------for 1-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 2-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Elastic Shoulder Immobilizer</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1200 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 3-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/diabetic-mechine-2.jfif">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Diabetic Check Mechine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1800 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 4-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/foot-scriub.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Foot Scriub</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 500 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 5-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/coller-belt.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt"> Soft Coller Belt</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 470 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 6-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/blue-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Blue Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 320 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 7-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Life Care Nebulizer Machine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 8-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/poly-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Poly Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 120 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 9-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/rsz_cc-2021-1155tksneo.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Tynor Knee Support (Neoprene) Hinged</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1450 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!------for 10-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/samson-cash-shoes.jpeg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Samson Cash Shoes.</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1050 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -376,78 +1685,257 @@
                     </div>
                 </div>
 
+                <!--=====product cart=====-->
                 <div class="cart-section">
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                    <div class="cart slider" >
+                        <!------for 1-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 2-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Elastic Shoulder Immobilizer</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1200 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 3-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/diabetic-mechine-2.jfif">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Diabetic Check Mechine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1800 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 4-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/foot-scriub.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Foot Scriub</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 500 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 5-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/coller-belt.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt"> Soft Coller Belt</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 470 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 6-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/blue-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Blue Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 320 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 7-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Life Care Nebulizer Machine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 8-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/poly-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Poly Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 120 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 9-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/rsz_cc-2021-1155tksneo.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Tynor Knee Support (Neoprene) Hinged</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1450 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!------for 10-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/samson-cash-shoes.jpeg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Samson Cash Shoes.</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1050 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -463,78 +1951,257 @@
                     </div>
                 </div>
 
+                <!--=====product cart=====-->
                 <div class="cart-section">
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                    <div class="cart slider" >
+                        <!------for 1-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 2-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Elastic Shoulder Immobilizer</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1200 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 3-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/diabetic-mechine-2.jfif">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Diabetic Check Mechine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1800 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 4-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/foot-scriub.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Foot Scriub</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 500 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 5-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/coller-belt.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt"> Soft Coller Belt</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 470 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 6-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/blue-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Blue Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 320 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 7-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Life Care Nebulizer Machine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 8-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/poly-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Poly Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 120 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 9-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/rsz_cc-2021-1155tksneo.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Tynor Knee Support (Neoprene) Hinged</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1450 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!------for 10-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/samson-cash-shoes.jpeg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Samson Cash Shoes.</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1050 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -550,78 +2217,257 @@
                     </div>
                 </div>
 
+                <!--=====product cart=====-->
                 <div class="cart-section">
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                    <div class="cart slider" >
+                        <!------for 1-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 2-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Elastic Shoulder Immobilizer</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1200 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!------for 1-------->
-                    <div class="cart-item">
-                        <div class="cart-admins">
-                            <i class="fas fa-eye"></i>
-                            <i class="fas fa-heart"></i>
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <div class="cart-image-block">
-                            <figure class="img-content">
-                                <img src="img/product/JUMPER_Electronic_Blood_Pressure_Monitor_._Model_(JPD-HA300).jpg">
-                            </figure>
-                        </div>
-                        <div class="cart-content">
-                            <div class="product-name">
-                                <h3 class="txt">JUMPER Electronic Blood Pressure Monitor</h3>
+                        <!------for 3-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
                             </div>
-                            <div class="product-price">
-                                <span class="price">BDT 2000 TAKA</span>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/diabetic-mechine-2.jfif">
+                                </figure>
                             </div>
-                            <div class="cart-button">
-                                <button type="submit">ADD TO CART</button>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Diabetic Check Mechine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1800 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 4-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/foot-scriub.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Foot Scriub</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 500 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 5-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/coller-belt.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt"> Soft Coller Belt</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 470 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 6-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/blue-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Blue Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 320 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!------for 7-------->
+                         <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/Life_Care_Nebulizer_Machine.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Life Care Nebulizer Machine</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 2000 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 8-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/poly-gloves.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Poly Gloves</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 120 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------for 9-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/rsz_cc-2021-1155tksneo.jpg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Tynor Knee Support (Neoprene) Hinged</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1450 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!------for 10-------->
+                        <div class="cart-item">
+                            <div class="cart-admins">
+                                <i class="fas fa-eye"></i>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="cart-image-block">
+                                <figure class="img-content">
+                                    <img src="img/product/samson-cash-shoes.jpeg">
+                                </figure>
+                            </div>
+                            <div class="cart-content">
+                                <div class="product-name">
+                                    <h3 class="txt">Samson Cash Shoes.</h3>
+                                </div>
+                                <div class="product-price">
+                                    <span class="price">BDT 1050 TAKA</span>
+                                </div>
+                                <div class="cart-button">
+                                    <button type="submit">ADD TO CART</button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -666,7 +2512,7 @@
                 </div>
                 <!--========payment partner=======-->
                 <div class="payment-partner">
-                    <div class="sec-title"><h2>SERVICES</h2></div>
+                    <div class="sec-title"><h2>Payment Partner</h2></div>
                         
                     <div class="partner-info">
                         <img class="image-section" src="img/payment-partner/bkash.png" alt="bkash-logo">
@@ -679,7 +2525,7 @@
                 </div>
                 <!--========contuct informetion=======-->
                 <div class="contuct-info">
-                    <div class="sec-title"><h2>SERVICES</h2></div>
+                    <div class="sec-title"><h2>Contuct Us</h2></div>
                         
                     <div class="contuct-from">
                         <p><i class="fas fa-home"></i>MediCare></p>
@@ -753,5 +2599,9 @@
                 </div>
             </div>
         </div>
+
+        <script src="plagins/js/script.js">
+
+          </script>
     </body>
 </html>

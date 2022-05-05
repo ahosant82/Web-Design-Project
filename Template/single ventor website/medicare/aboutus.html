@@ -11,15 +11,20 @@
 
         <!-----all script links----->
         <script src="https://kit.fontawesome.com/8bd0fc4f43.js" crossorigin="anonymous"></script>
+        <script src="plagins/js/jquery3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
 
     <body>
         <!------full website------->
+        <div class="preloeder">
+            <div class="loader" ><span>Loading...</span></div>
+        </div>
         <!-----heading area----->
         <header class="nevigetion-area">
             <div class="container">
                 <!-----uper-section----->
-                <section class="uper-section">
+                <section class="uper-section" id="uper-section">
                     <!----main-logo----->
                     <figure class="main-logo">
                         <a href="index.html"><img src="img/main-lugo/Logo.png"></a>
@@ -41,7 +46,7 @@
                 </section>
 
                 <!-----lower-section----->
-                <section class="lower-section">
+                <section class="lower-section" id="lower-section"">
                     <!----cetagory------->
                     <div class="cetagory">
                         <li class="list-item"><a href="#" class="link-item">All Catagorys</a></li>
@@ -64,7 +69,7 @@
                             <li class="menu-item active"><a href="aboutus.html" class="link-item">about us</a></li>
                             <li class="menu-item"><a href="product.html" class="link-item">product</a></li>
                             <li class="menu-item"><a href="#"class="link-item">Offer</a></li>
-                            <li class="menu-item"><a href="#" class="link-item">contuct us</a></li>
+                            <li class="menu-item"><a href="contuctUs.html" class="link-item">contuct us</a></li>
                         </ul>
                     </div>
                 </section>
@@ -94,26 +99,45 @@
                                 we believe in the most sophisticated and fastest delivery program along with the reasonable price with
                                 the best quality products.
                                 
-                                We have been dedicatedly operating in Bangladesh for more than a year through our Facebook page: https://www.facebook.com/cardinalcarebd
+                                We have been dedicatedly operating in Bangladesh for more than a year through our Facebook page: <a href="#">https://www.facebook.com/cardinalcarebd</a>
+
+                            </p>
+                        </div>
+
+                        <div class="delevary-policy">
+                            <div class="sec-title">Delivery Timeline:</div>
+                            <p class="txt">
+                                The delivery might take longer than the usual timeframe/line to be followed by Monarch Mart.
+                                As per the government law and policy, Monarch Mart will deliver any item that is in physical stock within 10 working days.
+                                But, Monarch Mart will do it’s best to hand over your items at its earliest.
+                                Delivery might be delayed due to force majeure event which includes, but not limited to, political unrest, political event, national/public holidays, Covid lockdowns or movement limitations, etc
                             </p>
                         </div>
                     </div>
 
-                    <div class="messages-section">
+                    <div class="messages">
                         <div class="sec-title">
                         </div>
 
                         <form class="msg-form">
                             <div class="name-box">
-                                <label>name :</label>
+                                <label class="fas fa-user"></label>
                                 <input type="name" name="full_name" placeholder="enter yor full name">
                             </div>
 
                             <div class="email-box">
-                                <label>email:</label>
+                                <label class="fas fa-envelope"></label>
                                 <input type="email" name="email" placeholder="email address">
                             </div>
-                            <textarea type="text" placeholder="sent massage"></textarea>
+
+                            <div class="pwd-box">
+                                <label for="pwd"><i class="fas fa-key"></i></label>
+                                <input type="password" name="pwd" placeholder="Password" id="pwd">
+                            </div>
+                            
+                            <textarea class="msg-box" placeholder="sent massage"></textarea>
+
+                            <button type="submit" class="msg-btn">sent messages</button>
                         </form>
                         
                     </div>
@@ -191,6 +215,10 @@
                 </div>
             </div>
         </footer>
+
+
+        <script src="plagins/js/script.js">
+        </script>
     </body>
 </html>
 

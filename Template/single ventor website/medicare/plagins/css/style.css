@@ -3,16 +3,80 @@
     padding: 0;
     outline: 0;
 }
+.loader {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  z-index: 9999999;
+}
+.loader span {
+  position: absolute;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  text-transform: uppercase;
+}
+.loader span::before,
+.loader span::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #ff0000;
+  position: absolute;
+  animation: load 0.7s infinite alternate ease-in-out;
+}
+.loader span::before {
+  top: 0;
+}
+.loader span::after {
+  bottom: 0;
+}
+@keyframes load {
+  0% {
+    left: 0;
+    height: 30px;
+    width: 15px;
+  }
+  50% {
+    height: 8px;
+    width: 40px;
+  }
+  100% {
+    left: 235px;
+    height: 30px;
+    width: 15px;
+  }
+}
+/*=============*/
+
 .container{
     margin: 0 5rem;
 }
 /******/
 .nevigetion-area{
   background: transparent;
-  position: absolute;
+  position: sticky;
   z-index: 99;
   width: 100%;
   top: 0;
+  padding-bottom: 1rem;
+  transition: 1s ease;
+}
+
+.sticky{
+  background-color: #fff;
 }
 .uper-section{
     display: flex;
@@ -87,6 +151,9 @@
   color: #fff;
   font-size: 20px;
   padding-left: 2.2rem;
+}
+.sticky .notification-area .link-item{
+  color: red;
 }
 .notification-area .cart-item{
   position: relative;
@@ -242,6 +309,25 @@
   transition: 2s;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: transparent !important;
+
+  /* Center slide text vertically */
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .product-section{
   height: 100vh;
   position: relative;  
@@ -261,17 +347,16 @@
   padding: .7rem 0;
   text-align: center;
   border-radius: 4rem;
-}
-.product-catagory .list-item:hover, .list-item.active{
-  background-color: black;
-  transition: 1s;
-}
-.list-item a{
-  text-decoration: none;
   color: #fff;
   font-size: 1.3;
   font-variant: small-caps;
+  cursor: pointer;
 }
+ .list-item.active{
+  background-color: black;
+  transition: 1s;
+}
+
 
 /**********prpduct-catagory-cart************/
 .product-catagory-cart{
@@ -302,14 +387,24 @@
 
 /******"cart-section**********/
 .product-catagory-cart .cart-section{
-  padding-top: 7rem;
-  display: flex;
-
+  padding-top: 3rem;
+  position: relative;
 }
+.product-catagory-cart .helth-care{
+  display: flex;
+  padding: 1rem;
+}
+.slick-list{
+  padding: 1rem 0;
+}
+.cart-section .women-care,
+.cart-section .medical-support{
+  display: flex;
+}
+
 .cart-section .cart-item{
   width: 30%;
-  margin: 0 1.4rem;
-  box-shadow: 1px 1px 5px 1px rgb(0 0 0 / 10%);
+  margin: 0 .4rem;
   position: relative;
   border-radius: 1rem;
 }
@@ -321,7 +416,7 @@
   text-align: center;
   width: 100%;
   height: 20rem;
-  z-index: 99;  
+  z-index: 1;  
   cursor: pointer;
 }
 .cart-admins i{
@@ -352,6 +447,7 @@
 .cart-content .product-name{
   margin-bottom: 1rem;
   text-align: center;
+  height: 2rem;
 }
 .product-name .txt{
   font-size: 1rem;
@@ -389,7 +485,24 @@
   background-size: 100% 32rem;
   width: 100%;
   height: 32rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+.product-bannar .upper-sec{
+}
+.product-bannar .sec-title{
+  margin: 1rem 0;
+  font-size: 1.4rem;
+}
+.product-bannar .txt-content{
+  margin-bottom: 3rem;
+}
+.product-bannar .swiper{
+  height: 20rem;
+  width: 30rem;
+}
+
 
 /***************/
 .display-product{
@@ -433,6 +546,8 @@
 /*****/
 .display-product .cart-section{
   padding-top: 0;
+}
+.cart{
   display: flex;
 }
 
