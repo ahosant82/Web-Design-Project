@@ -1,0 +1,228 @@
+/*-----------smail leptop------------*/
+@media screen and (max-width:1180px){
+    .container{
+        margin: 0 3rem;
+    }
+
+
+    .main-logo{
+        width: 20%;
+    }
+
+    .search-area{
+        width: 50%;
+      
+    }
+    .cetagory-list .menu-item{
+        list-style: none;
+        color: #fff;
+        padding: .3rem .8rem;
+    }
+    .cetagory-list .menu-item .link-item,.list-item .link-item{
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+      
+      
+    /***************/
+    .main-menu{
+        margin-left: 5rem;
+      
+    }
+      .main-menu .menu{
+        display: flex;
+      }
+      .menu .menu-item{
+        list-style: none;
+        padding: .3rem 1rem;
+      
+      }
+      .menu-item.active .link-item{
+        background-color: red;
+        color: #fff;
+        border-radius: 4rem;
+        padding: .3rem 2rem;
+        
+      }
+      
+      .menu-item .link-item{
+        font-size: 1.4rem;
+        font-variant: small-caps;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+      }
+    
+      /***********main-content**********/
+
+    .bannar-section .bannar-post{
+        margin-top: 12rem;
+    }
+    .bannar-post .txt-content{
+        margin: 0 6rem;
+    }
+    .bannar-post .img-content{
+        margin-top: 0;
+        
+    }
+    .img-content .img-block img{
+        width: 14rem;
+        height: 13rem;
+
+    }
+
+
+    .product-section .product-catagory{
+        margin: 0 10rem;
+    }
+}
+
+@media screen and (max-width:930px){
+    
+}
+
+@media screen and (max-width:930px){
+
+    .search-area{
+        width: 60%;
+      
+    }
+
+    .notification-area{
+        width: 35%;
+        margin-left: 3.3rem;
+      }
+      .notification-area .link-item{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        padding-left: 2rem;
+      }
+    
+      .cetagory{
+          width: 100%;
+      }
+      .cetagory-list .menu-item{
+        list-style: none;
+        color: #fff;
+        padding: .3rem .8rem;
+    }
+    .cetagory-list .menu-item .link-item,.list-item .link-item{
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+      
+      
+    /***************/
+    .main-menu{
+        margin-left: 0;
+      
+    }
+      .main-menu .menu{
+        display: flex;
+      }
+      .menu .menu-item{
+        list-style: none;
+        padding: .3rem 1rem;
+      
+      }
+      .menu-item.active .link-item{
+        background-color: red;
+        color: #fff;
+        border-radius: 4rem;
+        padding: .3rem 1rem;
+        
+      }
+      
+      .menu-item .link-item{
+        font-size: 1rem;
+        font-variant: small-caps;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+      }
+    
+      /***********main-content**********/
+
+    .main-content .bannar-section{
+        background-size: 100% 560px;
+        width: 100%;
+        height: 560px;
+    }
+    .swiper {
+      width: 100%;
+      height: 560px;
+    }
+    
+    .swiper-slide {
+      background: transparent !important;
+    
+      /* Center slide text vertically */
+    
+    }
+    .bannar-section .bannar-post{
+        margin-top: 12rem;
+    }
+    .bannar-post .txt-content{
+        margin: 0 3.2rem;
+    }
+    .bannar-post .img-content{
+        margin-top: 0;
+        
+    }
+    .img-content .img-block img{
+        width: 14rem;
+        height: 13rem;
+
+    }
+
+    .product-section .product-catagory{
+        margin: 0 7rem;
+    }
+
+
+    .footer-area{
+        display: block;
+        text-align: center;
+    }
+    .footer-area .container{
+        display: block;
+    }
+    .footer-area .company-info,.footer-area .payment-partner{
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .footer-area .copyright-section{
+
+        line-height: 2rem;
+      
+      }
+    .copyright-section .right-section{
+        position: relative;
+        right: 0;
+        margin-right: 0rem;
+      }
+      .copyright-section .copyright-link{
+        text-decoration: none;
+        color: #fff;
+        font-family: bold;
+      }
+}
+
+@media screen and (max-width:1030px){
+    
+}
+@media screen and (max-width:1030px){
+    
+}
+
+@media screen and (max-width:1030px){
+    
+}
+
+@media screen and (max-width:1030px){
+    
+}

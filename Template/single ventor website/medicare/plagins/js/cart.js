@@ -194,7 +194,6 @@ function displayCart() {
   let cartitems = localStorage.getItem("productsInCart");
   cartitems = JSON.parse(cartitems);
 
-  let productSection = document.querySelector(".product-section");
 
   console.log(cartitems);
 
@@ -202,16 +201,7 @@ function displayCart() {
     console.log("runing");
 
     productSection.innerHTML = '';
-    Object.values(cartitems).map(item => {
-      productSection.innerHTML += `
-      <div class="product">
-        <ion-icon name="close-circle"></ion-icon>
-        <img src="${item.tag}S">
-        <span>${item.name}</span>
-      </div>
-      `
-      
-    });
+
   }
 }
 

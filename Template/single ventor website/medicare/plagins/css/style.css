@@ -249,23 +249,22 @@
 
 /***********main-content**********/
 .main-content{
-  margin-top: 100vh;
 
 }
 .main-content .bannar-section{
   background-image: url('../../img/bannar/website-bannar.png');
+  background-size: 100% 100%;
   width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  z-index: 5;
+  height: 100%;
+  position: relative;
+  margin-top: -12.4rem;
 }
+
+
 .bannar-section .bannar-post{
   margin-top: 17.5rem;
   display: flex;
+  padding-bottom: 8rem;
 }
 .bannar-post .txt-content{
   margin: 0 8rem;
@@ -329,7 +328,7 @@
 }
 
 .product-section{
-  height: 100vh;
+  height: 100%;
   position: relative;  
   padding-top: 2rem;
 
