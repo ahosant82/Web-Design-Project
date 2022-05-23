@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <!----website title----->
         <title>medicare</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
         <!-------all extranal link------->
         <!---css link---->
         <link rel="stylesheet" type="text/css" href="plagins/css/style.css">
         <link rel="stylesheet" type="text/css" href="plagins/css/responcsive.css">
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 
         <!------------bostrap link--
         <link rel="stylesheet" type="text/css" href="plagins/bootstrap/css/bootstrap.min.css">---->
@@ -42,15 +45,21 @@
             <div class="container">
                 <!-----uper-section----->
                 <section class="uper-section">
+                    <!---if this page less then 700px so the menu bar-->
+                    <div class="menu-bar">
+                        <i class="fas fa-bars" id="menu-open"></i> 
+                    </div>
                     <!----main-logo----->
                     <figure class="main-logo">
                         <a href="index.html"><img src="img/main-lugo/Logo.png"></a>
                     </figure>
                    <!----search area--------> 
                    <section class="search-area">
+                       
                         <form class="search-box">
+                            <i class="fas fa-long-arrow-alt-left" id="src-close"></i>
                             <input type="search" name="search_box" placeholder="Search Your Products......" id="search_box">
-                            <label for="search_box" class="src_btn"><i class="fas fa-search src_icon"></i></label>
+                            <label for="search_box" class="src_icon"><i class="fas fa-search"></i></label>
                         </form>
                    </section>
 
@@ -60,6 +69,11 @@
                     <a href="#" class="link-item"><i class="far fa-heart"></i></a>
                     <a href="cart.html" class="link-item cart-item"><i class="fab fa-opencart"><span class="count">0</span></i></a>
                    </section>
+
+                   <!---if this page less then 700px so the menu bar-->
+                   <div class="src_btn">
+                    <i class="fas fa-search "></i>
+                   </div>
                 </section>
 
                 <!-----lower-section----->
@@ -93,56 +107,73 @@
             </div>
         </header> 
 
-        <!----=======buttom menu-->
-        <section class="buttom-Menu">
-            <nav class="nav">
-                <ul class="nav__list">
-                    
-                    <a href="#home" class="nav__link active-link">
-                        <i class="ri-home-5-line"></i>
-                        <span class="nav__name">
-                            Home
-                        </span>
-                    </a>
-    
-                    <a href="#profile" class="nav__link ">
-                        <i class="ri-user-line"></i>
-                        <span class="nav__name">
-                            Profile
-                        </span>
-                    </a>
-    
-                    <a href="#message" class="nav__link">
-                        <i class="ri-chat-3-line"></i>
-                        <span class="nav__name">
-                            Message
-                        </span>
-                    </a>
-    
-                    <a href="#mail" class="nav__link">
-                        <i class="ri-mail-open-line"></i>
-                        <span class="nav__name">
-                            Mail
-                        </span>
-                    </a>
-    
-                    <a href="#settings" class="nav__link">
-                        <i class="ri-settings-line"></i>
-                        <span class="nav__name">
-                            Settings
-                        </span>
-                    </a>
-    
-                    <svg class="indicator" width="94" height="56" xmlns="http://www.w3.org/2000/svg">
-                        <ellipse cx="47" cy="28" rx="24" ry="28"/>
-                        <path d="M24 20C24 20 28 55.9999 48 56L0 55.9997C18 55.9998 24 20 24 20Z"/>
-                        <path d="M70 20C70 20 66 55.9999 46 56L94 55.9997C76 55.9998 70 20 70 20Z"/>
-                    </svg>
-                </ul>
-            </nav>
-    
-            <!--=============== MAIN ===============-->
-            
+        <!----====if the screen size is 780 then menu===-->
+        <section class="mobile-menu">
+            <i class="fas fa-times" id="menu-close"></i>
+            <div class="menu-list">
+                <li class="menu-item has-sublist">
+                    <a href="#" class="link-item">baby care</a>
+                    <i class="fas fa-angle-down"></i>
+                    <!--=====Sublist====-->
+                    <ul class="sub-list">
+                        <li class="menu-item"><a href="#" class="link-item">Baby & Kids</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Boy's Clothing</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Girl's Clothing</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Baby Clothing</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Kids Footwear</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Kid's Backpack</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Baby Food</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Party Supplies</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item has-sublist">
+                    <a href="#" class="link-item">daily care</a>
+                    <i class="fas fa-angle-down"></i>
+                    <!--=====Sublist====-->
+                    <ul class="sub-list">
+                        <li class="menu-item"><a href="#" class="link-item">Diaper</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Face Wash</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Hair Oil</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Personal Care</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Skin Care</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Soap</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Toothpaste</a></li>
+                        <li class="menu-item"><a href="#" class="link-item"></a></li>
+
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#" class="link-item">helth care</a></li>
+                <li class="menu-item"><a href="#" class="link-item">women care</a></li>
+                <li class="menu-item has-sublist">
+                    <a href="#" class="link-item">covid-19 protection</a>
+                    <i class="fas fa-angle-down"></i>
+                    <!--=====Sublist====-->
+                    <ul class="sub-list">
+                        <li class="menu-item"><a href="#" class="link-item">mask</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">face shilde</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">hend gloves</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">hend senitaizar</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">sevlon</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">apron</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Soap</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">sergical cap</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#" class="link-item">personal care</a></li>
+                <li class="menu-item"><a href="#" class="link-item">medical soppert</a></li>
+            </div>
+        </section>
+
+
+        <!----====if the screen size is 780 then menu===-->
+        <section class="buttom-menu">
+            <ul class="menu">
+                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a></li><span class="menu-txt">Home</span></div>
+                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a><span class="menu-txt">Home</span></li></div>
+                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a><span class="menu-txt">Home</span></li></div>
+                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a><span class="menu-txt">Home</span></li></div>
+                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a><span class="menu-txt">Home</span></li></div>
+            </ul>
         </section>
 
         <!-----main-content area----->

@@ -16,7 +16,27 @@ $(window).on('scroll', function(){
   }
 })
 
+// for src btn
+$(document).ready(function(){
+  $('.src_btn').click(function(){
+    $('.search-area').show();
+  });
 
+  $('#src-close').click(function(){
+    $('.search-area').hide();
+  });
+});
+
+// for src btn
+$(document).ready(function(){
+  $('#menu-open').click(function(){
+    $('.mobile-menu').show();
+  });
+
+  $('#menu-close').click(function(){
+    $('.mobile-menu').hide();
+  });
+});
 //slide onn bannner
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
@@ -119,7 +139,7 @@ $('.slider').slick({
       }
     },
     {
-      breakpoint: 480,
+      breakpoint: 580,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
