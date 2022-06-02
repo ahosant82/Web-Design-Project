@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <!--=======page title========-->
         <title>Contuct Us / MediCares</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--======extranal link========-->
         <link rel="stylesheet" type="text/css" href="plagins/css/contuctUs.css">
@@ -11,15 +14,24 @@
 
         <!-----all script links----->
         <script src="https://kit.fontawesome.com/8bd0fc4f43.js" crossorigin="anonymous"></script>
+        <script src="plagins/js/jquery3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
 
     <body>
         <!------full website------->
+        <div class="preloeder">
+            <div class="loader" ><span>Loading...</span></div>
+        </div>
         <!-----heading area----->
         <header class="nevigetion-area">
             <div class="container">
                 <!-----uper-section----->
-                <section class="uper-section">
+                <section class="uper-section" id="uper-section">
+                    <!---if this page less then 700px so the menu bar-->
+                    <div class="menu-bar">
+                        <i class="fas fa-list-ul" id="menu-open"></i> 
+                    </div>
                     <!----main-logo----->
                     <figure class="main-logo">
                         <a href="index.html"><img src="img/main-lugo/Logo.png"></a>
@@ -27,21 +39,27 @@
                    <!----search area--------> 
                    <section class="search-area">
                         <form class="search-box">
+                            <i class="fas fa-long-arrow-alt-left" id="src-close"></i>
                             <input type="search" name="search_box" placeholder="Search Your Products......" id="search_box">
-                            <label for="search_box" class="src_btn"><i class="fas fa-search src_icon"></i></label>
+                            <label for="search_box" class="src_icon"><i class="fas fa-search"></i></label>
                         </form>
                    </section>
 
                    <!----notificetion area------>
                    <section class="notification-area">
-                    <a href="login.html" class="link-item"><i class="fas fa-user"></i></a>
-                    <a href="#" class="link-item"><i class="far fa-heart"></i></a>
-                    <a href="#" class="link-item cart-item"><i class="fab fa-opencart"><span class="count">0</span></i></a>
+                        <a href="login.html" class="link-item"><i class="fas fa-user"></i></a>
+                        <a href="#" class="link-item"><i class="far fa-heart"></i></a>
+                        <a href="#" class="link-item cart-item"><i class="fab fa-opencart"><span class="count">0</span></i></a>
                    </section>
+
+                   <!---if this page less then 700px so the menu bar-->
+                   <div class="src_btn">
+                       <i class="fas fa-search"></i>
+                   </div>
                 </section>
 
                 <!-----lower-section----->
-                <section class="lower-section">
+                <section class="lower-section" id="lower-section">
                     <!----cetagory------->
                     <div class="cetagory">
                         <li class="list-item"><a href="#" class="link-item">All Catagorys</a></li>
@@ -64,12 +82,100 @@
                             <li class="menu-item"><a href="aboutus.html" class="link-item">about us</a></li>
                             <li class="menu-item"><a href="product.html" class="link-item">product</a></li>
                             <li class="menu-item"><a href="#"class="link-item">Offer</a></li>
-                            <li class="menu-item active" active><a href="contuctUs.html" class="link-item">contuct us</a></li>
+                            <li class="menu-item active"><a href="contuctUs.html" class="link-item">contuct us</a></li>
                         </ul>
                     </div>
                 </section>
             </div>
         </header>
+
+        <!----====if the screen size is 780 then menu===-->
+        <section class="mobile-menu">
+            <i class="fas fa-times" id="menu-close"></i>
+            <div class="menu-list">
+                <li class="menu-item has-sublist">
+                    <a href="#" class="link-item">baby care</a>
+                    <i class="fas fa-angle-down"></i>
+                    <!--=====Sublist====-->
+                    <ul class="sub-list">
+                        <li class="menu-item"><a href="#" class="link-item">Baby & Kids</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Boy's Clothing</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Girl's Clothing</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Baby Clothing</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Kids Footwear</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Kid's Backpack</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Baby Food</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Party Supplies</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item has-sublist">
+                    <a href="#" class="link-item">daily care</a>
+                    <i class="fas fa-angle-down"></i>
+                    <!--=====Sublist====-->
+                    <ul class="sub-list">
+                        <li class="menu-item"><a href="#" class="link-item">Diaper</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Face Wash</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Hair Oil</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Personal Care</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Skin Care</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Soap</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Toothpaste</a></li>
+                        <li class="menu-item"><a href="#" class="link-item"></a></li>
+
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#" class="link-item">helth care</a></li>
+                <li class="menu-item"><a href="#" class="link-item">women care</a></li>
+                <li class="menu-item has-sublist">
+                    <a href="#" class="link-item">covid-19 protection</a>
+                    <i class="fas fa-angle-down"></i>
+                    <!--=====Sublist====-->
+                    <ul class="sub-list">
+                        <li class="menu-item"><a href="#" class="link-item">mask</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">face shilde</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">hend gloves</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">hend senitaizar</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">sevlon</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">apron</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">Soap</a></li>
+                        <li class="menu-item"><a href="#" class="link-item">sergical cap</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="#" class="link-item">personal care</a></li>
+                <li class="menu-item"><a href="#" class="link-item">medical soppert</a></li>
+            </div>
+        </section>
+
+
+        <!----====if the screen size is 780 then menu===-->
+        <section class="buttom-menu">
+            <nav class="nav">
+                <a href="index.html" class="nav__link">
+                  <i class="fas fa-home nav__icon"></i>
+                  <span class="nav__text">Home</span>
+                </a>
+                
+                <a href="product.html" class="nav__link">
+                  <i class="fas fa-shopping-bag nav__icon"></i>
+                  <span class="nav__text">Products</span>
+                </a>
+                <a href="#" class="nav__link">
+                    <span class="cart-item"><i class="fab fa-opencart"><span class="count ">0</span></i></span>
+                    <span class="nav__text">Cart</span>
+                </a>
+
+                <a href="#" class="nav__link">
+                    <i class="fas fa-bell nav__icon"></i>
+                    <span class="nav__text">Offers</span>
+                  </a>
+
+                <a href="login.html" class="nav__link">
+                  <i class="fas fa-user nav__icon"></i>
+                  <span class="nav__text">Account</span>
+                </a>
+              </nav>
+              
+        </section>
 
         <!--======main content======-->
         <section class="main-content">
@@ -91,11 +197,6 @@
                             </div>
                         </div>
 
-                        <div class="google-map">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.6117535089898!2d90.48857942915802!3d23.659967027415647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b129c0026173%3A0x96ebb6afe6f23fff!2sJalkury%2C%20Godenail!5e0!3m2!1sen!2sbd!4v1651417769844!5m2!1sen!2sbd"
-                             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
-                             referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
                     </div>
                     <div class="messages">
                         <div class="sec-title">
@@ -123,6 +224,11 @@
                         </form>
                         
                     </div>
+                </div>
+                <div class="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.6117535089898!2d90.48857942915802!3d23.659967027415647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b129c0026173%3A0x96ebb6afe6f23fff!2sJalkury%2C%20Godenail!5e0!3m2!1sen!2sbd!4v1651417769844!5m2!1sen!2sbd"
+                     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
@@ -197,6 +303,9 @@
                 </div>
             </div>
         </footer>
+
+        <script src="plagins/js/script.js"></script>
+        <script src="plagins/js/cart.js"></script>
     </body>
 </html>
 

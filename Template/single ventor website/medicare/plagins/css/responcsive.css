@@ -57,7 +57,7 @@
       /***********main-content**********/
 
     .bannar-section .bannar-post{
-        margin-top: 12rem;
+        margin-top: 18rem;
     }
     .bannar-post .txt-content{
         margin: 0 6rem;
@@ -182,34 +182,48 @@
         margin: 0 7rem;
     }
 
+  
+  /*footerarea*/
 
-    .footer-area{
-        display: block;
-        text-align: center;
-    }
-    .footer-area .container{
-        display: block;
-    }
-    .footer-area .company-info,.footer-area .payment-partner{
-        width: 100%;
-        margin: 2rem;
-    }
+  .footer-area .container{
+    display: block;
+  }
 
-    .footer-area .copyright-section{
+  .footer-area .company-info {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
 
-        line-height: 2rem;
-      
-      }
-    .copyright-section .right-section{
-        position: relative;
-        right: 0;
-        margin-right: 0rem;
-      }
-      .copyright-section .copyright-link{
-        text-decoration: none;
-        color: #fff;
-        font-family: bold;
-      }
+  .footer-area .payment-partner{
+    width: 100%;
+    margin-left: 0;
+    margin: 1.5rem 0;
+  }
+
+  .contuct-info .contuct-from {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .contuct-from p{
+    padding-bottom: 1rem;
+  }
+
+  .footer-area .copyright-section{
+    line-height: 2rem;
+    text-align: center;
+  }
+  .copyright-section .right-section{
+    position: relative;
+    margin-right: 0rem;
+  }
+  .copyright-section .copyright-link{
+    text-decoration: none;
+    color: #fff;
+    font-family: bold;
+  }
+
+
 }
 
 @media screen and (max-width:700px){
@@ -271,6 +285,9 @@
     display: none;
   }
 
+  .buttom-menu{
+    display: block;
+  }
   .bannar-post .txt-content{
     width: 45%;
     margin: 0 3.5rem;
@@ -593,7 +610,7 @@
 
 }
 
-@media screen and (max-width:340px){
+@media screen and (max-width:380px){
 
   .bannar-post .txt-content{
     width: 48%;
@@ -645,6 +662,7 @@
     background-color: black;
     transition: 1s;
   }
+  
 
 
   /***************/

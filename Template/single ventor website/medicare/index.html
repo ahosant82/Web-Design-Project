@@ -5,11 +5,12 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <!----website title----->
         <title>medicare</title>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-------all extranal link------->
         <!---css link---->
         <link rel="stylesheet" type="text/css" href="plagins/css/style.css">
         <link rel="stylesheet" type="text/css" href="plagins/css/responcsive.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
         <!------------bostrap link--
@@ -47,7 +48,7 @@
                 <section class="uper-section">
                     <!---if this page less then 700px so the menu bar-->
                     <div class="menu-bar">
-                        <i class="fas fa-bars" id="menu-open"></i> 
+                        <i class="fas fa-list-ul" id="menu-open"></i> 
                     </div>
                     <!----main-logo----->
                     <figure class="main-logo">
@@ -72,7 +73,7 @@
 
                    <!---if this page less then 700px so the menu bar-->
                    <div class="src_btn">
-                    <i class="fas fa-search "></i>
+                    <i class="fas fa-search"></i>
                    </div>
                 </section>
 
@@ -167,13 +168,32 @@
 
         <!----====if the screen size is 780 then menu===-->
         <section class="buttom-menu">
-            <ul class="menu">
-                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a></li><span class="menu-txt">Home</span></div>
-                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a><span class="menu-txt">Home</span></li></div>
-                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a><span class="menu-txt">Home</span></li></div>
-                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a><span class="menu-txt">Home</span></li></div>
-                <div class="buttom-menu-item"><li class=""><a href="#" class="fas fa-home"></a><span class="menu-txt">Home</span></li></div>
-            </ul>
+            <nav class="nav">
+                <a href="index.html" class="nav__link nav__link--active">
+                    <i class="fas fa-home nav__icon"></i>
+                    <span class="nav__text">Home</span>
+                </a>
+                  
+                <a href="product.html" class="nav__link">
+                    <i class="fas fa-shopping-bag nav__icon"></i>
+                    <span class="nav__text">Products</span>
+                </a>
+                <a href="cart.html" class="nav__link cart-item">
+                    <span class="nav__icon"><i class="fab fa-opencart"><span class="count ">0</span></i></span>
+                    <span class="nav__text">Cart</span>
+                </a>
+  
+                <a href="#" class="nav__link">
+                    <i class="fas fa-bell nav__icon"></i>
+                    <span class="nav__text">Offers</span>
+                </a>
+  
+                <a href="login.html" class="nav__link">
+                    <i class="fas fa-user nav__icon"></i>
+                    <span class="nav__text">Account</span>
+                </a>
+              </nav>
+              
         </section>
 
         <!-----main-content area----->
@@ -2691,26 +2711,5 @@
 
         <script src="plagins/js/script.js"></script>
         <script src="plagins/js/cart.js"></script>
-        <script>
-            /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-            const sections = document.querySelectorAll('section[id]')
-
-            function scrollActive(){
-                const scrollY = window.pageYOffset
-
-                sections.forEach(current =>{
-                    const sectionHeight = current.offsetHeight,
-                        sectionTop = current.offsetTop - 58,
-                        sectionId = current.getAttribute('id')
-
-                    if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-                        document.querySelector('.nav__list a[href*=' + sectionId + ']').classList.add('active-link')
-                    }else{
-                        document.querySelector('.nav__list a[href*=' + sectionId + ']').classList.remove('active-link')
-                    }
-                })
-            }
-            window.addEventListener('scroll', scrollActive)
-        </script>
     </body>
 </html>
