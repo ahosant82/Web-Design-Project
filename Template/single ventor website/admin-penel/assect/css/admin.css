@@ -1,0 +1,289 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    outline: 0 ;
+}
+
+
+.loader {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: helvetica, arial, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    z-index: 9999999;
+}
+  .loader span {
+    position: absolute;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-transform: uppercase;
+  }
+  .loader span::before,
+  .loader span::after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ff0000;
+    position: absolute;
+    animation: load 0.7s infinite alternate ease-in-out;
+  }
+  .loader span::before {
+    top: 0;
+  }
+  .loader span::after {
+    bottom: 0;
+  }
+  @keyframes load {
+    0% {
+      left: 0;
+      height: 30px;
+      width: 15px;
+    }
+    50% {
+      height: 8px;
+      width: 40px;
+    }
+    100% {
+      left: 235px;
+      height: 30px;
+      width: 15px;
+    }
+  }
+  /*=============*/
+  .wrepper-area{
+      display: flex;
+  }
+
+/**/
+.sidebar{
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color: #ff0000;
+    display: block;
+    z-index: 99;
+}
+
+.side-nav{
+  margin-top: 1rem;
+}
+
+.navbar-brand{
+    color: floralwhite;
+}
+
+.navbar-brand .text-primary{
+    color: #ffffff !important;
+}
+
+.position-relative{
+    position: relative !important;
+}
+.user-img{
+    width: 40px;
+    height: 40px;
+}
+
+.admin-position{
+  display: flex;
+}
+
+.position-relative .user-active{
+    text-align: right;
+    padding: .29rem;
+    right: 0;
+    margin-right: -.1rem;
+    bottom: 1rem;
+    position: absolute;
+}
+
+.admin-position .info{
+  margin: 0;
+  padding: .65rem 1rem;
+  color: #ffffff;
+
+}
+
+.info .name{
+  line-height: 0;
+}
+.info .designetion{
+  font-size: .9rem;
+}
+
+/**/
+.menu .menu-item{
+  padding: .4rem 2rem;
+  margin: .4rem 0;
+  width: 95%;
+}
+
+.menu .menu-item:hover, .menu-item.active{
+  background-color: #ffffff;
+  border-radius: 0 30px 30px 0;
+  border-left: 3px solid #ff0000;
+}
+
+.menu-item .menu-icon{
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 48px;
+  margin-right: .3rem;
+
+}
+.menu .link-item{
+  color: #ff0000;
+  text-decoration: none;
+  font-size: 1.12rem;
+  font-weight: 600;
+
+}
+/***/
+.main-content{
+  margin-left: 20%;
+  width: 100%;
+  height: 100rem;
+}
+
+.content-heading{
+  height: 4.3rem;
+  position: fixed;
+  top: 0;
+  left: 20%;
+  width: 80%;
+  z-index: 9;
+  display: flex;
+  line-height: 4rem;
+}
+
+.content-heading .menu-icon{
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 48px;
+  margin-right: .3rem;
+  cursor: pointer;
+}
+
+.content-heading .inner-section{
+
+}
+.inner-section .name{
+  color: #ffffff;
+}
+.inner-section .drpdwn-btn{
+  color: #ffffff;
+  margin: 0 .3rem;
+}
+
+.content-heading .navbar-brand{
+  line-height: 3.3rem;
+}
+
+.content-heading .search-area{
+  line-height: 4rem;
+  position: relative;
+  margin: 0 2rem;
+}
+.search-area input{
+  line-height: 2.5rem;
+  background-color: #000;
+  color: darkgrey;
+  border: none;
+  padding: 0 1rem;
+
+}
+.search-area .src-btn{
+  position: absolute;
+  right: 0;
+  width: 25%;
+  line-height: 2.5rem;
+  text-align: center;
+  top: .8rem;
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+.content-heading .messeges-area{
+  margin-left: 16%;
+}
+.content-heading div{
+  margin: 0 .3rem;
+  cursor: pointer;
+}
+
+
+
+@media screen and ( max-width: 1200px ){
+  .menu .menu-item{
+    padding: .4rem 1.5rem;
+  }
+  .menu-item .menu-icon{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+@media screen and ( max-width: 1000px ){
+  .sidebar{
+    width: 28%;
+  }
+  .menu .menu-item{
+    padding: .4rem 2rem;
+  }
+  .menu-item .menu-icon{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and ( max-width: 800px ){
+  .sidebar{
+    width: 33%;
+  }
+}
+
+@media screen and ( max-width: 600px ){
+  .sidebar{
+    width: 45%;
+  }
+}
+
+@media screen and ( max-width: 500px ){
+  .sidebar{
+    width: 65%;
+  }
+}
+@media screen and ( max-width: 400px ){
+  .sidebar{
+    width: 75%;
+  }
+}
+
+@media screen and ( max-width: 300px ){
+  .sidebar{
+    width: 95%;
+  }
+}

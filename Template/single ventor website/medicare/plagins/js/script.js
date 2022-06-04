@@ -15,7 +15,16 @@ $(window).on('scroll', function(){
     $('header').removeClass('sticky');
   }
 })
+// for src btn
+$(document).ready(function(){
+  $('.cart-item').click(function(){
+    $('.product-details').show();
+  });
 
+  $('.cart-close').click(function(){
+    $('.product-details').hide();
+  });
+});
 // for src btn
 $(document).ready(function(){
   $('.src_btn').click(function(){
@@ -160,34 +169,7 @@ $('.slider').slick({
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 
-/*=============== For login page ===============*/
+/*=============== For product details show ===============*/
 
 
-$(document).ready(function(){
-  $("#user_registar").click(function(){
-    $(".user_login").hide();
-    $(".user-registar").show();
-  });
 
-  $("#user_login").click(function(){
-    $(".user_login").show();
-    $(".user-registar").hide();
-  });
-});
-            
-            function psd_hide_show(){
-                var psd= document.getElementById("psd")
-                var show= document.getElementById("show")
-                var hide= document.getElementById("hide")
-
-                if(psd.type === 'password'){
-                    psd.type = "text";
-                    show.style.display = "block";
-                    hide.style.display = "none";
-                }
-                else{
-                    psd.type = "password";
-                    show.style.display = "none";
-                    hide.style.display = "block";
-                }
-            }
