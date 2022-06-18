@@ -1002,7 +1002,7 @@ background-color: black;
 
 /*=======if screen lessthen 554px=====*/
 
-@media screen  and (max-width: 554px) {
+@media screen  and (max-width: 654px) {
 
   .container{
     margin: 0 1.5rem;
@@ -1013,7 +1013,7 @@ background-color: black;
   }
   /***/
   .cart-section .cart-item{
-    width: 45%;
+    width: 44.8%;
     margin: 0 0.7rem;
     position: relative;
     border-radius: 1rem;
@@ -1037,7 +1037,7 @@ background-color: black;
 
 /*=======if screen lessthen 454px=====*/
 
-@media screen  and (max-width: 454px) {
+@media screen  and (max-width: 504px) {
   /***/
   .cart-section .cart-item{
     width: 43%;

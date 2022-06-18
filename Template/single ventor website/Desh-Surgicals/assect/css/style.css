@@ -1,0 +1,75 @@
+/*======Full Web Page=======*/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    outline: 0 auto;
+}
+
+/*======Preloeder=======*/
+/*======Header area=======*/
+.header-area{
+
+}
+
+.header-area .top-info{
+    margin: 0 auto;
+    color: #fff;
+    line-height: 2rem;
+}
+.top-info .left-section{
+    text-align: center;
+}
+.left-section .contuct{
+    margin-right: 2rem;
+}
+.left-section .socale-midea{
+    margin: 0 2rem;
+}
+.socale-midea .fab{
+    margin: 0 .2rem;
+    color: aliceblue;
+}
+.top-info .right-section{
+    text-align: right;
+}
+
+.right-section a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 .5rem;
+}
+
+/*=======navigetion-area=======*/
+.header-area .navigetion-area .inner-sec{
+    display: flex;
+}
+.navigetion-area .main-logo{
+    width: 20%;
+    margin: 0;
+}
+.navigetion-area .main-logo img{
+    height: 4rem;
+    width: 95%;
+}
+
+/*======main-menu=======*/
+.navigetion-area .main-menu{
+    width: 60%;
+}
+.main-menu .menu{
+    display: flex;
+    line-height: 4rem;
+}
+
+
+
+/*========user-penel=====*/
+.navigetion-area .user-penel{
+    width: 20%;
+    background-color: blue;
+}
+/*======Full Web Page=======*/
+/*======Full Web Page=======*/
+/*======Full Web Page=======*/
+/*======Full Web Page=======*/
