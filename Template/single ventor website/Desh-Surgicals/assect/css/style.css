@@ -15,6 +15,9 @@
     margin: 0 auto;
     color: #fff;
     line-height: 2rem;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    font-size: .7rem;
 }
 .top-info .left-section{
     text-align: center;
@@ -33,12 +36,13 @@
     text-align: right;
 }
 
-.right-section a{
+.right-section a,.right-section a:hover{
     color: #fff;
     text-decoration: none;
     cursor: pointer;
     padding: 0 .5rem;
 }
+
 
 /*=======navigetion-area=======*/
 .header-area .navigetion-area .inner-sec{
@@ -59,7 +63,29 @@
 }
 .main-menu .menu{
     display: flex;
-    line-height: 4rem;
+}
+
+.menu .menu-item{
+    list-style: none;
+    padding: 1.4rem 0;
+    margin: 0;
+    margin-right: 2rem;
+    
+}
+.menu .link-item{
+    padding-top: .4rem;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+
+}
+.menu .menu-item .link-item:hover,.menu-item.active .link-item{
+    border: none;
+    border-top: 2px solid red;
+    transition: .4s;
+    
 }
 
 
@@ -67,9 +93,207 @@
 /*========user-penel=====*/
 .navigetion-area .user-penel{
     width: 20%;
-    background-color: blue;
+    display: flex;
+    line-height: 4rem;
+}
+
+.user-penel i{
+    background-color: rgb(254, 252, 254);
+    padding: 1rem;
+    border-radius: 100%;
+    margin: 0 .6rem;
+    cursor: pointer;
+}
+.navigetion-area .menu-btn{
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
+
+/*search-section*/
+.search-section{}
+
+.search-section .inner-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 5rem;
+    transition: .3s;
+    display: none;
+    z-index: 99;
+}
+.search-section:hover .inner-section{
+    display: block;
+}
+.search-section .search-area{
+    position: relative;
+    width: 50%;
+    margin: 1rem auto;
+   
+}
+.search-area input{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    padding:  1rem;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 4rem;
+}
+.search-area label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    background-color: black;
+    height: 100%;
+    line-height: 3rem;
+    padding: 0 2rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.search-area label:hover{
+    color: red;
+}
+
+
+
+/*======Full Web Page=======*/
+.header-area .side-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0,.3);
+    display: none;
+}
+.side-menu .inner-section{
+    width: 40%;
+    margin: 0 0;
+    height: 100vh;
+}
+.side-menu .menu-close{
+    color: #fff;
+    text-align: right;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
 }
 /*======Full Web Page=======*/
 /*======Full Web Page=======*/
 /*======Full Web Page=======*/
-/*======Full Web Page=======*/
+
+/*==========for responsive webpage===========*/
+
+@media screen and (max-width: 1200px) {
+    .navigetion-area .main-menu{
+    }
+    
+
+    .navigetion-area .user-penel {
+        width: 30%;
+        display: flex;
+        line-height: 4rem;
+    }
+
+}
+
+/**/
+@media screen and (max-width: 1000px) {
+    .container{
+        max-width: 900px;
+    }
+    .navigetion-area .main-logo{
+        width: 20%;
+    }
+    .navigetion-area .main-menu{
+        width: 30%;
+    }
+    .navigetion-area .menu{
+        display: none;
+    }
+
+    .navigetion-area .menu-btn{display: block;}
+
+    .navigetion-area .user-penel {
+        width: 40%;
+        display: flex;
+        line-height: 4rem;
+    }
+}
+
+/**/
+@media screen and (max-width: 800px) {
+    .container{
+        max-width: 900px;
+    }
+    .navigetion-area .main-logo{
+        width: 60%;
+    }
+    
+    .navigetion-area .menu{
+        display: none;
+    }
+
+    .navigetion-area .user-penel {
+
+    }
+}
+/**/
+@media screen and (max-width: 750px) {
+    .top-info .mail{
+        display: none;
+    }
+}
+
+
+/**/
+@media screen and (max-width: 650px) {
+
+    .navigetion-area .main-logo{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+    .navigetion-area .main-menu{
+        display: none;
+    }
+    .navigetion-area .user-penel{
+        width: 0%;
+    }
+    .navigetion-area .login,.wish-list,.cart{
+        display: none;
+    }
+    .user-penel .search-section{
+        position: absolute;
+        right: 0;
+    }
+    
+}
+
+/**/
+@media screen and (max-width: 480px) {
+    .left-section .contuct {
+        margin-right: .2rem;
+    }
+    .left-section .socale-midea {
+        margin: 0 .5rem;
+    }
+
+    .search-section .search-area{
+        position: relative;
+        width: 90%;
+        margin: 1rem auto;
+       
+    }
+  
+    
+}
+
+
