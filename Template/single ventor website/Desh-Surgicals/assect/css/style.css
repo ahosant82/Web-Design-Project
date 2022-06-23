@@ -5,13 +5,20 @@
     outline: 0 auto;
 }
 
+body a:hover{
+    text-decoration: none;
+}
 /*======Preloeder=======*/
 /*======Header area=======*/
 .header-area{
-
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
-
-.header-area .top-info{
+.sticky{
+    background-color: #fff;
+}
+.top-info{
     margin: 0 auto;
     color: #fff;
     line-height: 2rem;
@@ -70,6 +77,7 @@
     padding: 1.4rem 0;
     margin: 0;
     margin-right: 2rem;
+    cursor: pointer;
     
 }
 .menu .link-item{
@@ -86,6 +94,9 @@
     border-top: 2px solid red;
     transition: .4s;
     
+}
+.menu-item.has-dropdown .dropdown-icon{
+    margin: .2rem ;
 }
 
 
@@ -174,20 +185,337 @@
     display: none;
 }
 .side-menu .inner-section{
-    width: 40%;
+    width: 250px;
     margin: 0 0;
     height: 100vh;
+    padding: 0 1.5rem;
+    background-color: rgb(29, 30,32);
+    position: relative;
 }
 .side-menu .menu-close{
     color: #fff;
     text-align: right;
     padding: 1rem 2rem;
+    padding-right: 0;
     font-size: 1.4rem;
     cursor: pointer;
+    font-weight: -100;
+}
+
+.side-menu .menu{
+    text-align: left;
+    padding-left: 0;
+}
+.side-menu .menu-item{
+    padding: .5rem 0;
+   
+   
+}
+.side-menu .link-item{
+     color: #fff; 
+     font-weight: 200;
+     text-transform: uppercase;
+}
+
+.side-menu .menu-item.has-dropdown .dropdown-icon{
+    color: #fff;
+    position: absolute;
+    right: 0;
+    margin: .2rem 2rem;
+}
+
+.side-menu .search-area{
+    position: relative;
+    width: 100%;
+    margin: 1rem auto;
+    
+   
+}
+ .side-menu .search-area input{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2.4rem;
+    padding:  1rem;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 0;
+}
+.side-menu .search-area label{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    color: #fff;
+    height: 100%;
+    line-height: 2.4rem;
+    padding: 0 2rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.search-area label:hover{
+    color: red;
+}
+
+.side-menu .socale-midea{
+    margin-top: 5rem;
+    text-align: center;
+}
+.side-menu .socale-midea i{
+    padding: 0 .3rem;
+    font-size: 1.3rem;
+}
+.socale-midea .facebook{
+    color: rgb(54, 80, 135);
+}
+.socale-midea .instagram{
+    color: #9A30BB;
+}
+.socale-midea .twitter{
+    color: #1A93C3;
+}
+/*======main-content=======*/
+
+.bennar-content{
+    background-image: url('../img/bannar/content-bannar.png');
+    width: 100%;
+    height: 530px;
+    background-size: 100% 530px;
+}
+
+
+.bennar-content .bannar-post{
+    margin-top: 8rem;
+    display: flex;
+    padding-bottom: 8rem;
+    padding: 0 8rem;
+}
+.bannar-post .txt-content{
+    margin: 0 ;
+    width: 50%;
+}
+.txt-content .heading{
+    margin-bottom: 3rem;
+}
+  .txt-content .decription{
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  
+  .bannar-post .img-content{
+    margin-left: 8rem;
+    height: 100%;
+    width: 50%;
+  }
+  
+  .img-content .img-block img{
+    width: 100%;
+    height: 17rem;  
+    border-radius: 1rem;
+  
+  }
+  .bannar-post .button button{
+    width: 14rem;
+    line-height: 3rem;
+    border: none;
+    background-color: red;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 4rem;
+    box-shadow: 3px 2px 15px 5px rgb(0 0 0 / 10%);
+    font-variant-caps: all-small-caps;
+    cursor: pointer;
+  }
+  
+  .bannar-post .button button:hover{
+    background-color: black;
+    transition: 2s;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    background: transparent !important;
+  
+    /* Center slide text vertically */
+  
+  }
+  
+  .swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.swiper .swiper-button-next,.swiper .swiper-button-prev{
+    color: #fff;
+    display: none;
+    font-size: .3rem;
+}
+
+.swiper:hover .swiper-button-next,.swiper:hover .swiper-button-prev{
+    display: block;
 }
 /*======Full Web Page=======*/
+.main-cetagory{
+    height: 4rem;
+    width: 100%;
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cetagory-item{
+    width: 24%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    border-right: 1px solid rgb(230, 228, 228);
+    padding: .3rem 0;
+}
+.cetagory-item:last-child{
+    border-right: 0;
+}
+.cetagory-item .icon-blck{
+    line-height: 4rem;
+    font-size: 2rem;
+}
+.cetagory-item .txt-blck{
+    text-align: left;
+    padding: .5rem 0;
+    margin-left: 0;
+}
+.cetagory-item a{
+    color: #000;
+    text-decoration: none;
+    
+}
+.cetagory-item a:hover{
+    text-decoration: none;
+}
+.cetagory-item .cetagory-name{
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.cetagory-item .cetagory-designetion{
+    font-size: .7rem;
+    text-transform: capitalize;
+    color: darkgrey;
+}
 /*======Full Web Page=======*/
-/*======Full Web Page=======*/
+
+.main-product{
+    margin: 10rem 0;
+   
+}
+
+.main-product .product-section{
+    margin: 5rem 0;
+}
+.product-section .sec-title .title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -2.1rem;
+    background-color: #fff;
+    padding: 0 2rem;
+    width: 20rem;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;
+}
+
+.product-section .inner-section{
+    display: flex;
+    padding: 2rem 0;
+}
+.product-section .product-item{
+    width: 20%;
+    height: 24rem;
+    position: relative;
+    margin: 1.2rem;
+}
+.product-section .product-item:hover{
+    box-shadow: 6px 2px 15px 5px rgb(0 0 0 / 10%);
+
+}
+.product-item .img-block{
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+.product-item .img-block img{
+    width: 100%;
+    height: 100%;
+}
+
+.product-item .details-block{
+    background-color: #fff;
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+
+.details-block .cetagory{
+    font-size: .6rem;
+    text-transform: uppercase;
+}
+.details-block .title{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: '','Courier New', Courier, monospace;
+    margin: 0 .4rem;
+}
+
+.details-block .old-price{
+    text-decoration: line-through;
+    font-size: .8rem;
+}
+.details-block .product-btn{
+    margin: 1rem .3rem;
+
+}
+
+.details-block .product-btn button{
+    border: none;
+    padding: .5rem;    
+}
+
+.details-block .product-btn button a{
+    color: rgb(165, 165, 165);
+}
+
+.details-block .cart-btn{
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.details-block:hover .cart-btn{
+    background-color: #000;
+    transition: 1s;
+}
+.details-block:hover .cart-btn a{color: #fff;}
+
+.product-section .wish-btn,.product-section .view-btn{
+    display: none;
+}
+
+.product-section .product-item:hover .wish-btn,.product-section .product-item:hover .view-btn{
+    display: inline-block;
+
+}
+
+
 
 /*==========for responsive webpage===========*/
 
@@ -200,6 +528,17 @@
         width: 30%;
         display: flex;
         line-height: 4rem;
+    }
+
+    /*=========main-content=========*/
+
+    .bennar-content .bannar-post{
+        margin-top: 4rem;
+        padding: 0 9rem;
+    }
+
+    .bannar-post .img-content{
+        margin-top: 3rem;
     }
 
 }
@@ -226,6 +565,22 @@
         display: flex;
         line-height: 4rem;
     }
+
+    /*=========main-content=========*/
+
+    .bennar-content .bannar-post{
+        margin-top: 4rem;
+        padding: 0 2rem;
+    }
+
+    .bannar-post .img-content{
+        margin-left: 1rem;
+    }
+
+    /**/
+    .cetagory-item{
+        width: 30%;
+    }
 }
 
 /**/
@@ -243,6 +598,12 @@
 
     .navigetion-area .user-penel {
 
+    }
+
+    /**/
+    .cetagory-item{
+        width: 50%;
+        margin-top: 2rem;
     }
 }
 /**/
@@ -291,6 +652,25 @@
         width: 90%;
         margin: 1rem auto;
        
+    }
+
+
+    /**/
+
+    .main-cetagory{
+         margin-left: 0;
+         margin-right: 0;
+         height: 100%;
+    }
+    .cetagory-item{
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .cetagory-item .icon-blck{
+        line-height: 4rem;
+        font-size: 1.5rem;
+        width: 3rem;
     }
   
     

@@ -25,14 +25,27 @@
         <!--=======icon kit=========-->
         <script src="https://kit.fontawesome.com/8bd0fc4f43.js" crossorigin="anonymous"></script>
 
+        <!--------swipper slide--------->
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+
+        <!--=======slick master=========-->
+        <link rel="stylesheet" type="text/css" href="assect/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="assect/slick/slick-theme.css"/>
+        
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="assect/slick/slick.min.js"></script>
+
+
     </head>
 
     <body>
     <!--========Full Web Page========-->
         <!--=======Preloeader=========-->
         <!--========Header Area========-->
-        <header class="header-area ">
-            <!--======header-top========-->
+        <!--======header-top========-->
             <div class="top-info bg-danger">
                 <div class="container">
                     <div class="row">
@@ -60,6 +73,8 @@
                 </div>
             </div>
 
+        <header class="header-area ">
+            
             <!--======header-top========-->
             <section class="navigetion-area">
                 <div class="container">
@@ -73,7 +88,10 @@
                         <section class="main-menu">
                             <ul class="menu">
                                 <li class="menu-item active"><a href="#" class="link-item ">HOME</a></li>
-                                <li class="menu-item "><a href="#" class="link-item ">CATAGORYS</a></li>
+                                <li class="menu-item has-dropdown">
+                                    <a href="#" class="link-item ">CATAGORYS</a>
+                                    <i class="fas fa-angle-down dropdown-icon"></i>
+                                </li>
                                 <li class="menu-item "><a href="#" class="link-item ">PRODUCTS</a></li>
                                 <li class="menu-item "><a href="#" class="link-item ">CONTUCT US</a></li>
                             </ul>
@@ -106,7 +124,7 @@
                             </div>
 
                             <div class="menu-btn">
-                                <i class="fas fa-bars"></i>
+                                <i class="fas fa-list"></i>
                             </div>
                         </section>
                     </div>
@@ -115,20 +133,1101 @@
 
             <!--if screen lessthen 1000px then menu-->
             <section class="side-menu">
-                <div class="inner-section bg-dark">
+                <div class="inner-section">
                     <div class="menu-close">
                         <i class="fas fa-times"></i>
                     </div>
+
+                    <ul class="menu">
+                        <li class="menu-item"><a href="#" class="link-item ">HOME</a></li>
+                        <li class="menu-item has-dropdown">
+                            <a href="#" class="link-item ">CATAGORYS</a>
+                            <i class="fas fa-angle-down dropdown-icon"></i>
+                        </li>
+                        <li class="menu-item "><a href="#" class="link-item ">PRODUCTS</a></li>
+                        <li class="menu-item "><a href="#" class="link-item ">CONTUCT US</a></li>
+                        <li class="menu-item "><a href="#" class="link-item ">Login</a></li>
+                        <li class="menu-item "><a href="#" class="link-item ">wish-list</a></li>
+                        <li class="menu-item "><a href="#" class="link-item ">cart</a></li>
+                    </ul>
+
+                    <form action="" class="search-area">
+                        <input type="search" name="search" class="bg-dark" placeholder="search">
+                        <label class="fas fa-search"></label>
+                    </form>
+
+                    <div class="socale-midea">
+                        <a href="#"><i class="fab fa-facebook facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                        
+                    </div>
+
+                    
                 </div>
             </section>
         </header>
-        <!--================-->
-        <!--================-->
+        <!--=======main-content=========-->
+        <section class="main-contnet">
+            <!--=======Bennar-section=======-->
+            <section class="bennar-content">
+                <div class="swiper mySwiper" >
+                    <div class="swiper-wrapper">
+                        <!--========1========-->
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="container">
+                                <div class="bannar-post">
+                                    <div class="txt-content">
+                                        <div class="heading">
+                                            <h3>Life Care Nebulizer Machine</h3>
+                                        </div>
+                                        <div class="decription">
+                                            <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                                The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                            </p>
+                                        </div>
+                                        <div class="button">
+                                            <button type="submit">buy now</button>
+                                        </div>
+                                    </div>
+                                    <div class="img-content">
+                                        <figure class="img-block">
+                                            <img src="assect/img/product/Life_Care_Nebulizer_Machine.jpg">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--========1========-->
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="container">
+                                <div class="bannar-post">
+                                    <div class="txt-content">
+                                        <div class="heading">
+                                            <h3>Life Care Nebulizer Machine</h3>
+                                        </div>
+                                        <div class="decription">
+                                            <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                                The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                            </p>
+                                        </div>
+                                        <div class="button">
+                                            <button type="submit">buy now</button>
+                                        </div>
+                                    </div>
+                                    <div class="img-content">
+                                        <figure class="img-block">
+                                            <img src="assect/img/product/coller-belt.jpg">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--========1========-->
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="container">
+                                <div class="bannar-post">
+                                    <div class="txt-content">
+                                        <div class="heading">
+                                            <h3>Life Care Nebulizer Machine</h3>
+                                        </div>
+                                        <div class="decription">
+                                            <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                                The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                            </p>
+                                        </div>
+                                        <div class="button">
+                                            <button type="submit">buy now</button>
+                                        </div>
+                                    </div>
+                                    <div class="img-content">
+                                        <figure class="img-block">
+                                            <img src="assect/img/product/Life_Care_Nebulizer_Machine.jpg">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--========1========-->
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="container">
+                                <div class="bannar-post">
+                                    <div class="txt-content">
+                                        <div class="heading">
+                                            <h3>Life Care Nebulizer Machine</h3>
+                                        </div>
+                                        <div class="decription">
+                                            <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                                The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                            </p>
+                                        </div>
+                                        <div class="button">
+                                            <button type="submit">buy now</button>
+                                        </div>
+                                    </div>
+                                    <div class="img-content">
+                                        <figure class="img-block">
+                                            <img src="assect/img/product/CC-2021-1872_with_logo.jpg">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--========1========-->
+                        <div class="swiper-slide"style="background-color: none;">
+                            <div class="container">
+                                <div class="bannar-post">
+                                    <div class="txt-content">
+                                        <div class="heading">
+                                            <h3>Life Care Nebulizer Machine</h3>
+                                        </div>
+                                        <div class="decription">
+                                            <p>Life Care Family Nebulizer Compressor is a compact compressor nebulizer system for aerosol drug supply.
+                                                The compact structure with built-in carrying deal with makes the system perfect for house use. It’s full family pack also Nebulizer for kids. 
+                                            </p>
+                                        </div>
+                                        <div class="button">
+                                            <button type="submit">buy now</button>
+                                        </div>
+                                    </div>
+                                    <div class="img-content">
+                                        <figure class="img-block">
+                                            <img src="assect/img/product/Elastic_Shoulder_Immobilizer__950_Tk_(1).jpg">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--=======main-cetagory's=========-->
+            <div class="container">
+                <section class="main-cetagory">
+
+                    <div class="cetagory-item">
+                        <div class="icon-blck">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="txt-blck">
+                            <a href="#">
+                                <span class="cetagory-name">daily care</span>
+                                <p class="cetagory-designetion">clean your home</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cetagory-item">
+                        <div class="icon-blck">
+                            <i class="fas fa-briefcase-medical"></i>
+                        </div>
+                        <div class="txt-blck">
+                            <a href="#">
+                                <span class="cetagory-name">first aid box</span>
+                                <p class="cetagory-designetion">emargency support</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cetagory-item">
+                        <div class="icon-blck">
+                            <i class="fas fa-baby-carriage"></i>
+                        </div>
+                        <div class="txt-blck">
+                            <a href="#">
+                                <span class="cetagory-name">baby care</span>
+                                <p class="cetagory-designetion">baby"s healt care</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="cetagory-item">
+                        <div class="icon-blck">
+                            <i class="fas fa-female"></i>
+                        </div>
+                        <div class="txt-blck">
+                            <a href="#">
+                                <span class="cetagory-name">Women"s care</span>
+                                <p class="cetagory-designetion">women's health care</p>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>   
+            
+            <!--=====main-products=====-->
+            <section class="main-product">
+                <div class="container">
+                     <!--product-section-->
+                    <div class="product-section">
+                        <!--====section title-->
+                        <div class="sec-title">
+                            <hr>
+                            <h2 class="title">first aid item</h2>
+                        </div>
+                        <!--=====product item====-->
+                        <div class="inner-section slider">
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/one-time-plasters.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">first aid</span>
+                                    <h3 class="title">one time plasters</h3>
+                                    <div class="price">
+                                        <span class="present-price">90</span>
+                                        <span class="old-price">140</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--===for 2====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/surgical-Cotton.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">first aid</span>
+                                    <h3 class="title">surgical cotton (25g)</h3>
+                                    <div class="price">
+                                        <span class="present-price">16</span>
+                                        <span class="old-price">20</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 3====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/hexicol.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">first aid</span>
+                                    <h3 class="title">hexicol (250 ml.)</h3>
+                                    <div class="price">
+                                        <span class="present-price">160</span>
+                                        <span class="old-price">135</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 4====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/sterile-gauze-dressings.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">first aid</span>
+                                    <h3 class="title">sterile gauze (12 pec.)</h3>
+                                    <div class="price">
+                                        <span class="present-price">80</span>
+                                        <span class="old-price">75</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 5====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/thermometer.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">first aid</span>
+                                    <h3 class="title">digital thermometer</h3>
+                                    <div class="price">
+                                        <span class="present-price">90</span>
+                                        <span class="old-price">80</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--===for 6====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/triangular-bandages.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">first aid</span>
+                                    <h3 class="title">triangular bandages</h3>
+                                    <div class="price">
+                                        <span class="present-price">160</span>
+                                        <span class="old-price">200</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 7====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/tweezers.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">first aid</span>
+                                    <h3 class="title">tweezers</h3>
+                                    <div class="price">
+                                        <span class="present-price">110</span>
+                                        <span class="old-price">100</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#" title="wishLish"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"  class="btn-icon-wish" title="wishlist"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--product-section-->
+                    <div class="product-section">
+                        <!--====section title-->
+                        <div class="sec-title">
+                            <hr>
+                            <h2 class="title">daily care</h2>
+                        </div>
+                        <!--=====product item====-->
+                        <div class="inner-section slider">
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/WRP_Hand_Gloves.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#" title="wishLish"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"  class="btn-icon-wish" title="wishlist"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--product-section-->
+                    <div class="product-section">
+                        <!--====section title-->
+                        <div class="sec-title">
+                            <hr>
+                            <h2 class="title">first aid item</h2>
+                        </div>
+                        <!--=====product item====-->
+                        <div class="inner-section slider">
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--===for 1====-->
+                            <div class="product-item">
+                                <!--====img block===-->
+                                <div class="img-block">
+                                    <img src="assect/img/product/bely-belt.jpg">
+                                </div>
+                                <!--====details block===-->
+                                <div class="details-block">
+                                    <span class="cetagory">wsomen's care</span>
+                                    <h3 class="title">bely belt</h3>
+                                    <div class="price">
+                                        <span class="present-price">760</span>
+                                        <span class="old-price">900</span>
+                                    </div>
+
+                                    <div class="product-btn">
+                                        <button type="submit" class="wish-btn">
+                                            <a href="#" title="wishLish"><i class="fas fa-heart"></i></a>
+                                        </button>
+
+                                        <button type="submit" class="cart-btn">
+                                           <a href="#">
+                                            <i class="fas fa-shopping-basket"></i>
+                                            <span>add to cart</span>
+                                           </a>
+                                        </button>
+
+                                        <button type="submit" class="view-btn">
+                                            <a href="#"  class="btn-icon-wish" title="wishlist"><i class="fas fa-eye"></i></a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        
         <!--================-->
         <!--================-->
         <!--================-->
 
 
         <script src="assect/js/script.js"></script>
+        <script src="assect/js/costom-slider.js"></script>
     </body>
 </html>
