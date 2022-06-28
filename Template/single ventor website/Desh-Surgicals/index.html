@@ -44,8 +44,13 @@
     <body>
     <!--========Full Web Page========-->
         <!--=======Preloeader=========-->
+        <div class="preloeder">
+            <div class="loader" ><span>Loading...</span></div>
+        </div>
         <!--========Header Area========-->
-        <!--======header-top========-->
+
+        <header class="header-area">
+            <!--======header-top========-->
             <div class="top-info bg-danger">
                 <div class="container">
                     <div class="row">
@@ -61,39 +66,49 @@
                             </span>
                         </div>
                         <div class="right-section">
-                            <a href="#">
+                            <a href="login.html">
                                 <i class="fas fa-user"> Login</i>
                             </a>
 
-                            <a href="#">
+                            <a href="register.html">
                                 <i class="fas fa-key"> Register</i>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-
-        <header class="header-area ">
-            
             <!--======header-top========-->
             <section class="navigetion-area">
                 <div class="container">
                     <div class="inner-sec">
                         <!--=====main-logo======-->
                         <figure class="main-logo">
-                            <a href="#"><img src="assect/img/main-lugo/main-logo.png"></a>
+                            <a href="index.html"><img src="assect/img/main-lugo/main-logo.png"></a>
                         </figure>
 
                         <!--=====main-menu======-->
                         <section class="main-menu">
                             <ul class="menu">
-                                <li class="menu-item active"><a href="#" class="link-item ">HOME</a></li>
+                                <li class="menu-item active"><a href="index.html" class="link-item ">HOME</a></li>
                                 <li class="menu-item has-dropdown">
-                                    <a href="#" class="link-item ">CATAGORYS</a>
+                                    <a href="cetagory's.html" class="link-item">CATAGORYS</a>
                                     <i class="fas fa-angle-down dropdown-icon"></i>
+
+                                    <!--sub-menu-->
+                                    <ul class="dropdown">
+                                        <li class="menu-item"><a href="#" class="link-item ">most populer item's</a></li>
+                                        <li class="menu-item"><a href="#" class="link-item ">first aid</a></li>
+                                        <li class="menu-item"><a href="#" class="link-item ">daily care</a></li>
+                                        <li class="menu-item"><a href="#" class="link-item ">mom's baby care</a></li>
+                                        <li class="menu-item"><a href="#" class="link-item ">women care</a></li>
+                                        <li class="menu-item"><a href="#" class="link-item ">men care</a></li>
+                                        <li class="menu-item "><a href="#" class="link-item ">health care</a></li>
+
+                                    </ul>
+
                                 </li>
-                                <li class="menu-item "><a href="#" class="link-item ">PRODUCTS</a></li>
-                                <li class="menu-item "><a href="#" class="link-item ">CONTUCT US</a></li>
+                                <li class="menu-item "><a href="product.html" class="link-item ">PRODUCTS</a></li>
+                                <li class="menu-item "><a href="contuct-us.html" class="link-item ">CONTUCT US</a></li>
                             </ul>
                         </section>
 
@@ -112,7 +127,7 @@
                             </div>
 
                             <div class="login">
-                                <i class="fas fa-user"></i>
+                                <a href="login.html"><i class="fas fa-user"></i></a>
                             </div>
 
                             <div class="wish-list">
@@ -120,7 +135,7 @@
                             </div>
 
                             <div class="cart">
-                                <i class="fas fa-shopping-bag"></i>
+                                <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
                             </div>
 
                             <div class="menu-btn">
@@ -139,16 +154,28 @@
                     </div>
 
                     <ul class="menu">
-                        <li class="menu-item"><a href="#" class="link-item ">HOME</a></li>
+                        <li class="menu-item  active"><a href="#" class="link-item ">HOME</a></li>
                         <li class="menu-item has-dropdown">
-                            <a href="#" class="link-item ">CATAGORYS</a>
+                            <a href="cetagory's.html" class="link-item">CATAGORYS</a>
                             <i class="fas fa-angle-down dropdown-icon"></i>
+
+                            <!--sub-menu-->
+                            <ul class="dropdown">
+                                <li class="menu-item"><a href="#" class="link-item ">most populer item's</a></li>
+                                <li class="menu-item"><a href="#" class="link-item ">first aid</a></li>
+                                <li class="menu-item"><a href="#" class="link-item ">daily care</a></li>
+                                <li class="menu-item"><a href="#" class="link-item ">mom's baby care</a></li>
+                                <li class="menu-item"><a href="#" class="link-item ">women care</a></li>
+                                <li class="menu-item"><a href="#" class="link-item ">men care</a></li>
+                                <li class="menu-item "><a href="#" class="link-item ">health care</a></li>
+
+                            </ul>
                         </li>
-                        <li class="menu-item "><a href="#" class="link-item ">PRODUCTS</a></li>
-                        <li class="menu-item "><a href="#" class="link-item ">CONTUCT US</a></li>
-                        <li class="menu-item "><a href="#" class="link-item ">Login</a></li>
-                        <li class="menu-item "><a href="#" class="link-item ">wish-list</a></li>
-                        <li class="menu-item "><a href="#" class="link-item ">cart</a></li>
+                        <li class="menu-item "><a href="product.html" class="link-item">PRODUCTS</a></li>
+                        <li class="menu-item "><a href="contuct-us.html" class="link-item ">CONTUCT US</a></li>
+                        <li class="menu-item "><a href="login.html" class="link-item">Login</a></li>
+                        <li class="menu-item "><a href="#" class="link-item">wish-list</a></li>
+                        <li class="menu-item "><a href="cart.html" class="link-item">cart</a></li>
                     </ul>
 
                     <form action="" class="search-area">
@@ -396,7 +423,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -430,7 +457,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -464,7 +491,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -498,7 +525,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -567,7 +594,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -601,7 +628,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -635,7 +662,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -680,7 +707,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -714,7 +741,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -748,7 +775,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -782,7 +809,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -816,7 +843,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -851,7 +878,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -885,7 +912,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -919,7 +946,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -964,7 +991,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -998,7 +1025,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -1032,7 +1059,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -1066,7 +1093,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -1100,7 +1127,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -1135,7 +1162,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -1169,7 +1196,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -1203,7 +1230,7 @@
                                         </button>
 
                                         <button type="submit" class="cart-btn">
-                                           <a href="#">
+                                           <a href="product-details.html">
                                             <i class="fas fa-shopping-basket"></i>
                                             <span>add to cart</span>
                                            </a>
@@ -1219,11 +1246,186 @@
                     </div>
                 </div>
             </section>
+
+            <!--================-->
+
+            <section class="feature-boxes">
+                <div class="container">
+                    <hr>
+
+                    <div class="inner-section">
+                        <div class="col-sm-6 col-lg-3 feature-item ">
+                            <div class="icon-block">
+                                <i class="fas fa-headphones"></i>
+                            </div>
+
+                            <div class="txt-block">
+                                <h3 class="title">CUSTOMER SUPPORT</h3>
+                                <h5 class="sub-title">Need Assistence?</h5>
+                                <p class="txt-cnt">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Duis nec vestibulum magna,
+                                    et dapibus lacus. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-3 feature-item ">
+                            <div class="icon-block">
+                                <i class="fas fa-credit-card"></i>
+                            </div>
+
+                            <div class="txt-block">
+                                <h3 class="title">SECURED PAYMENT</h3>
+                                <h5 class="sub-title">Safe & Fast</h5>
+                                <p class="txt-cnt">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Duis nec vestibulum magna,
+                                    et dapibus lacus. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-3 feature-item ">
+                            <div class="icon-block">
+                                <i class="fas fa-reply"></i>
+                            </div>
+
+                            <div class="txt-block">
+                                <h3 class="title">FREE RETURNS</h3>
+                                <h5 class="sub-title"> Easy & Free</h5>
+                                <p class="txt-cnt">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Duis nec vestibulum magna,
+                                    et dapibus lacus. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-3 feature-item ">
+                            <div class="icon-block">
+                                <i class="fas fa-shipping-fast"></i>
+                            </div>
+
+                            <div class="txt-block">
+                                <h3 class="title">FREE SHIPPING</h3>
+                                <h5 class="sub-title">Orders Over 1200 TAkA</h5>
+                                <p class="txt-cnt">Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit. Duis nec vestibulum magna,
+                                    et dapibus lacus. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div><hr>
+                </div>
+            </section>
+
+        </section>        
+        <!--================-->
+        <footer class="footer-area bg-light">
+            <div class="container">
+               <div class="row">
+                    <!---company informetion---->
+                    <div class="col-sm-6 col-lg-3 company-info">
+                        <div class="sec-title"><h2>desh surgicels</h2></div>
+
+                        <div class="drescription text-secondary">
+                            <p><small>To Desh Surgicals. We are one of the most renowned online shops in Bangladesh which supplies emergency health care equipment especially related to the COVID pandemic situation.
+                                Cardinal care was created with a vision to serve people with a smile,
+                                to provide quality service over a virgin sector, and become the industry leader in E-commerce healthcare.
+                                We have been dedicatedly working for more than one year through our Facebook page: https://www.facebook.com/cardinalcarebd/ </small>
+                            </p>
+                        </div>
+
+                        <div class="socale-midea">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                    </div>
+                    <!------our service------->
+                    <div class="col-sm-6 col-lg-3 our-services">
+                        <div class="sec-title"><h2>SERVICES</h2></div>
+                        <div class="service-list">
+                            <ul class="text-secondary">
+                                <li class="menu-item"><a class="menu-link" href="index.html">Home</a></li>
+                                <li class="menu-item"><a class="menu-link" href="product.html">Products</a></li>
+                                <li class="menu-item"><a class="menu-link" href="#">About Us</a></li>
+                                <li class="menu-item"><a class="menu-link" href="contuct-us.html">Contuct US</a></li>
+                                <li class="menu-item"><a class="menu-link" href="#">Offers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--========payment partner=======-->
+                    <div class="col-sm-6 col-lg-3 payment-partner">
+                        <div class="sec-title"><h2>Payment Partner</h2></div>
+                            
+                        <div class="partner-info">
+                            <img class="image-section" src="assect/img/payment-partner/bkash.png" alt="bkash-logo">
+                            <img class="image-section" src="assect/img/payment-partner/nogod.png" alt="nogod-logo">
+                            <img class="image-section" src="assect/img/payment-partner/rocket.png" alt="rocket-logo">
+                            <img class="image-section" src="assect/img/payment-partner/visa.jpg" alt="visa-logo">
+                            <img class="image-section" src="assect/img/payment-partner/paypal.png" alt="paypal-logo">
+                        </div>
+                    <!--========payment partner=======-->
+                    </div>
+                    <!--========contuct informetion=======-->
+                    <div class="col-sm-6 col-lg-3 contuct-info">
+                        <div class="sec-title"><h2>Contuct Us</h2></div>
+                            
+                        <div class="contuct-from text-secondary">
+                            <p><i class="fas fa-home"></i>desh surgical</p>
+                            <p><i class="fas fa-map-pin"></i>Koritola, Jalkuri, Naraongong , Bangladesh</p>
+                            <p><i class="fas fa-phone-alt"></i>+880 19943610XX, +880 1865556XX</p>
+                            <p><i class="fas fa-envelope"></i>medicare001@gamil.com</p>
+                        </div>
+                    </div>    
+               </div><hr>            
+            </div>
+
+            
+            <!--========copyright-section=======-->
+            <div class="copyright-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 left-section">
+                            <a class="copyright-link text-secondary" href="#">A.R.TONMOY</a> © 2022 All Right Reserved
+                        </div>
+                        <div class="col-sm-6 text-lg-right right-section">Terms of Service | Privacy Policy</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--if screen lessthen 650px then buttom menu-->
+        <section class="buttom-menu">
+            <nav class="nav">
+                <a href="index.html" class="nav__link nav__link--active">
+                    <i class="fas fa-home nav__icon"></i>
+                    <span class="nav__text">Home</span>
+                </a>
+                  
+                <a href="product.html" class="nav__link">
+                    <i class="fas fa-shopping-bag nav__icon"></i>
+                    <span class="nav__text">Products</span>
+                </a>
+                <a href="cart.html" class="nav__link cart-item">
+                    <span class="nav__icon"><i class="fab fa-opencart"><span class="count ">0</span></i></span>
+                    <span class="nav__text">Cart</span>
+                </a>
+  
+                <a href="#" class="nav__link">
+                    <i class="fas fa-bell nav__icon"></i>
+                    <span class="nav__text">Offers</span>
+                </a>
+  
+                <a href="login.html" class="nav__link">
+                    <i class="fas fa-user nav__icon"></i>
+                    <span class="nav__text">Account</span>
+                </a>
+              </nav>
+              
         </section>
 
-        
-        <!--================-->
-        <!--================-->
         <!--================-->
 
 

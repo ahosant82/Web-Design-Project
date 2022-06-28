@@ -1,0 +1,37 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    outline:  0 auto;
+}
+
+.login-section{
+    text-align: center;
+}
+
+.sec-title{
+    font-size: 1.7rem;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    line-height: 4rem;
+    background-color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.login-content{
+    width: 50%;
+    margin-top: 3rem;
+}
+
+.login-content .login-form{
+    position: relative !important;
+}
+.login-form input{
+    position: absolute;
+    left: 0;
+    z-index: 99;
+}
+.login-form label{
+    position: absolute;
+    left: 0;
+    z-index: 999;
+}

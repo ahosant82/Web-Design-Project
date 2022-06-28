@@ -1,0 +1,174 @@
+/*======Full Web Page=======*/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    outline: 0 auto;
+}
+
+/*all the header section style are style.css*/
+
+.main-content.cetagory-page{
+    
+    display: none;
+}
+.page-indecetors{margin-top: 3rem;}
+.page-indecetors ul{
+    display: flex;
+}
+.page-indecetors .page-item{
+    margin: 0 0;
+    list-style: none;
+    padding: 0 .5rem;
+}
+.page-indecetors a{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.page-indecetors .fas{
+    padding: 0 1rem;
+    font-size: 1.4rem;
+}
+
+.product-content{
+    display: flex;
+}
+
+.product-content .cetagory-section{
+    width: 200px;
+}
+
+.cetagory-section .sec-title{
+    text-transform: uppercase;
+    color: rgb(71, 71, 71);
+    border-bottom: 1px solid rgb(37, 34, 34);
+    padding: .3rem 0;
+    margin: 1rem 0;
+    position: relative;
+}
+
+/**/
+label #cetagory-open,
+label #cetagory-close{
+	font-size: 1rem;
+	cursor: pointer;
+	display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: .5rem 0;
+}
+#check{
+	display: none;
+}
+
+label #cetagory-close{
+    display: block;
+}s
+#cetagory-open{
+    color: #000;
+}
+
+/**/
+ .cetagory-list .sec-title #check:checked ~ {
+    right: 0;
+}
+#check:checked ~ label #cetagory-open{
+    display: block;
+    right: 0;
+}
+#check:checked ~ label #cetagory-close{
+    display: none;
+}
+/**/
+
+.cetagory-list .menu-item{
+    list-style: none;
+    position: relative;
+    padding: .4rem 0;
+}
+
+.cetagory-list .menu-item .fas{
+    position: absolute;
+    right: 0;
+    margin: .3rem 1rem;
+}
+.cetagory-list .link-item{
+    color: black;
+    text-transform: capitalize;
+}
+
+.cetagory-list .menu-item:hover .sub-list{
+    display: block;
+}
+
+.cetagory-list .sub-list{
+    padding-left: .7rem;
+    display: none;
+}
+
+.cetagory-list .sub-list .menu-item{
+    padding: .3rem 0;
+}
+.product-section{
+    margin-bottom: 4rem;
+}
+.cetagory-page .product-section .inner-section{
+    margin: 0 2rem;
+
+}
+
+
+@media screen and (max-width: 1000px){
+    .container {
+        max-width: 950px;
+    }
+
+    .product-content .cetagory-section {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .page-indecetors a {
+        font-size: 1rem;
+    }
+
+    .page-indecetors .fas {
+        font-size: 1rem;
+    }
+
+    .product-section .sec-title .title {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-top: -2.1rem;
+        background-color: #fff;
+        padding: 0 2rem;
+        width: 15rem;
+        font-weight: 700;
+        font-family: "Poppins",sans-serif;
+        text-transform: uppercase;
+    }
+
+    .product-section .inner-section {
+        padding: 2rem 0rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cetagory-page .product-section .inner-section {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .product-section .wish-btn,.product-section .view-btn{
+        display: none;
+    }
+    
+    .product-section .product-item:hover .wish-btn,.product-section .product-item:hover .view-btn{
+        display: none;
+    
+    }
+}
