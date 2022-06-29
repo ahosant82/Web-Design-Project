@@ -23,15 +23,137 @@
 }
 
 .login-content .login-form{
-    position: relative !important;
-}
-.login-form input{
+    position: relative;
+    margin: 4rem 7rem;
+    text-align: center;
+    height: 100%;
+  }
+  .login-form input{
+    width: 100%;
+    height: 2rem;
+    border: 1px solid red;
+    padding: .3rem 12%;
+  }
+  .login-form label{
     position: absolute;
     left: 0;
-    z-index: 99;
+    background-color: red;
+    width: 10%;
+    height: 2rem;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s; 
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  
+  .login-form .fas{
+    padding: 0 0;
+    color: #fff;
+  }
+    
+  .pwd-box{
+    display: block;
+    margin-top: 2.5rem;
+  }
+  
+  .login-form .login-btn{
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .login-btn .button{
+    line-height: 2rem;
+    width: 100%;
+    background-color: rgb(230, 10, 10);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 0.25rem;
+
+  }
+.login-btn button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 1s;
 }
-.login-form label{
-    position: absolute;
-    left: 0;
-    z-index: 999;
+.login-form .login-link{
+    margin: 1rem 0;
+
 }
+.login-form .login-link .link{
+    padding: 0 1rem;
+}
+    
+.login-form .registar-link{
+    margin: 1rem 0;
+}
+.registar-link a{
+    font-weight: 900;
+}
+
+.other-midea .sec-title{
+    
+    line-height: 0;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+.other-midea .sec-title h3{
+    margin-top: -1.9rem;
+    font-size: 1rem;
+    width: 4rem;
+    padding: .3rem 1rem;
+    background-color: #fff;
+}
+
+.other-midea a{
+    margin: 1rem 0;
+    font-weight: 900;
+    padding: .4rem 0;
+    font-size: .8rem;
+}
+
+/**/
+@media screen and (max-width: 1100px){
+    .login-content {
+        width: 70%;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .login-content {
+        width: 90%;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .login-content {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .login-content .login-form {
+        position: relative;
+        margin: 4rem 3rem;
+        text-align: center;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .login-content .login-form {
+        margin: 4rem 1rem;
+
+    }
+}
+ 
+ 
+  
