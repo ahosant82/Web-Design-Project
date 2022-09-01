@@ -42,6 +42,11 @@ $(document).ready(function(){
 })
 
 
+//cart index ative
+$(document).on('click', '.content-header .menu-item', function(){
+  $(this).addClass('active').siblings().removeClass('active')
+})
+
 //=======product-details page==========
 //quantity up down
 document.querySelector(".minus").setAttribute("disabled", "disabled");
@@ -92,9 +97,11 @@ $(document).on('click', '.product-single-tab .tab-item', function(){
   $(this).addClass('active').siblings().removeClass('active')
 })
 
+
 $(document).ready(function(){
   $('.drescription-btn').click(function(){
     $('.description-section').show();
+    $('.size-section').hide();
     $('.review-section').hide();
   });
 
@@ -112,8 +119,50 @@ $(document).ready(function(){
   });
 });
 
+//
+$(document).ready(function(){
+  $('#Checkout-btn').click(function(){
+    $('.cart-section').hide();
+    $('.checkout-section').show();
+  });
 
+  $('.size-btn').click(function(){
+    $('.description-section').hide();
+    $('.size-section').show();
+    $('.review-section').hide();
 
+  });
+
+  $('.review-btn').click(function(){
+    $('.description-section').hide();
+    $('.size-section').hide();
+    $('.review-section').s();
+  });
+});
+//
+/********payment-card************/
+$(document).ready(function(){
+  $('.payment-btn').click(function(){
+      $('.payment-card').fadeIn(100);
+  })
+  $('#payment-close').click(function(){
+      $('.payment-card').fadeOut(100);
+  })
+  //bash pay
+  $('#bkash').click(function(){
+    $('.pay-bkash').fadeIn(100);
+  })
+    //bash pay
+    $('#rocket').click(function(){
+      $('.pay-rocket').fadeIn(100);
+    })
+        //bash pay
+        $('#card').click(function(){
+          $('.pay-card').fadeIn(100);
+        })
+    
+})
+//
 let addcart= document.querySelector('.add-cart');
 let viewcart= document.querySelector('.view-cart');
 
@@ -130,3 +179,8 @@ addcart.addEventListener('click', () =>{
 function cart_btn(){
   document.location.href="cart.html";
 }
+
+//
+
+
+

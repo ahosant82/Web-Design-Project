@@ -1,0 +1,83 @@
+.contuct-section{
+    display: flex;
+  }
+  .contuct-section .address-section{
+    width: 70%;
+  }
+  .contuct-section .sec-title{
+    margin: 2rem 0;
+    font-size: 2rem;
+  }
+  .contuct-section .txt{
+    margin: 1rem;
+  }
+  .txt i{
+    margin: 0 .7rem;
+  }
+  .contuct-section .socale-midea{
+    margin: 1rem 0;
+  }
+  .contuct-section .socale-midea .fab{
+    color: black;
+    font-size: 1.3rem;
+  }
+  
+  .google-map{
+    margin: 2rem;
+  }
+  
+  .contuct-section .messages{
+    position: relative;
+    margin: 0 2rem;
+  
+  }
+  
+  .messages input{
+    width: 80%;
+    height: 2rem;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0 13%;
+    padding-bottom: .2rem;
+    margin-bottom: 1rem;
+  
+  }
+  .messages label{
+    position: absolute;
+    left: 0;
+    width: 10%;
+    height: 2.1rem;
+    padding-top: .6rem;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+    transition: 1s; 
+    font-size: .8rem;
+  }
+  
+  .messages .fas{
+  }
+  .messages .msg-box{
+    margin: 1rem .2rem;
+    width: 100%;
+    height: 5rem;
+  }
+  
+  .messages .msg-btn{
+    padding: .5rem 2rem;
+    border: none;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 760px){
+    .contuct-section{
+        display: block;
+    }
+
+    .contuct-section .address-section {
+        width: 100%;
+    }
+  }
+  

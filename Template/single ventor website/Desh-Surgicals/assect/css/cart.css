@@ -1,0 +1,421 @@
+.product-content{}
+
+.product-content .content-header{
+   
+}
+
+.content-header .menu-item{
+    list-style: none;
+}
+.cart-page .product-item{
+    margin-top: 4rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1.2rem;
+    
+}
+.cart-page .product-item .inner-section{
+    line-height: 2rem;
+    
+}
+
+.cart-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart-page .product-item .img-content img{
+    width: 3rem;
+    height: 3rem;
+}
+.cart-page .product-item .txt-content h4{
+    margin-left: 2rem;
+    text-transform: uppercase;
+    color: inherit;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: '','Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.cart-page .product-item .txt-content:hover{
+    text-overflow: none;
+    overflow: visible;
+
+}
+.cart-page .product-item .product-qeantity input{
+    width: 40%;
+    border-radius: 60%;
+    border: 0 solid #ddd;
+    padding: .7rem;
+    text-align: center;
+}
+
+.cart-page .product-item .product-qeantity button{
+    border: none;
+    background-color: #fff;
+    margin: 0 .3rem;
+}
+.cart-page .product-item .product-price,
+.cart-page .product-item .product-total-price{
+    text-align: center;
+}
+.cart-page .product-item .product-cencel{
+    font-size: 2rem;
+    color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    color: red;
+}
+.cart-details button{
+    float: right;
+    margin: 3rem 2rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+
+/**/
+.cart-samary .inner-section{
+    margin: 1.3rem;
+}
+.cart-samary .sec-title,
+.billing-info .sec-title{
+    text-transform: capitalize;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: .5rem 0;
+}
+.bill-samary .inner-section,
+.dlvry-chrg .inner-section,
+.coupon-code .inner-section,
+.total-amount .inner-section{
+    background-color: #fff;
+    margin: .4rem;
+    border-radius: .7rem;
+    padding: .6rem 1rem;
+    text-align: center;
+}
+.product-counter{
+    border-right: 1px solid rgb(158, 155, 155);
+}
+
+.product-counter .sec-title,
+.price-counter .sec-title,
+.count-total-amount .sec-title{
+    font-size: .7rem;
+    color: rgb(90, 90, 90);
+}
+
+.product-counter .count-item,
+.price-counter .count-price{
+    margin: .4rem 1rem;
+    font-size: 1.3rem;
+}
+.coupon-from input{
+    padding: 1rem .6rem;
+    text-transform: capitalize;
+    border: none;
+    font-size: .7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    border-radius: .5rem;
+}
+
+.delevary-condition .list{
+    padding-left: 0;
+}
+.delevary-condition li{
+    text-transform: capitalize;
+    margin: .6rem .2rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.place-order .msg{
+    font-size: .6rem;
+    color: rgb(126, 126, 126);
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.place-order button{
+    text-transform: uppercase;
+    width: 100%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 570px) {
+    .product-qeantity{
+        justify-content: center;
+        align-items: center;
+        margin: 0 25%;
+    }
+    .cart-page .product-item .product-qeantity input {
+        width: 100%;
+    }
+
+    /**/
+
+    .product-counter {
+        border-right: none;
+    }
+}
+
+/**************/
+.checkout-section{
+    display: none;
+
+}
+.checkout-section .inner-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: .6rem;
+}
+.billing-info .sec-title{
+    font-size: 1.6rem;
+}
+.form-group label, 
+.form-group select{
+    text-transform: capitalize;
+}
+.cart-bill .inner-section{
+    margin: .4rem;
+    border-radius: .7rem;
+    padding: .6rem 1rem;
+    text-align: center;
+}
+.cart-bill .sec-title{
+    text-transform: capitalize;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: .5rem 0;
+}
+.place-order-btn button:hover{
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    transition: .4s;
+}
+
+.place-order-section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, .3);
+    z-index: 999;
+    padding: 8rem 0;
+    display: none;
+}
+
+.place-order-section .inner-section{
+    margin: 0 auto;
+    background-color: #fff;
+    height: 70%;
+    width: 70%;
+}
+.place-order-section .logo{
+    text-align: center;
+    
+}
+.place-order-section .logo img{
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem 0;
+}
+
+.order-details{
+    margin: 0 1rem;
+}
+
+.order-details h4{
+    font-size: 1.2rem;
+    font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.order-details h4 span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/******************/
+.payment-card{
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,255,255,.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 37%;
+    padding-top: 17%;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+    display: none;
+    
+  }
+  .payment-card .card{
+    width: 24rem;
+    border: .2px solid #02020263;
+    background: #4CC417;
+    text-align: center;
+  }
+  #payment-close{
+    text-align: right;
+    color: #fff;
+    padding: .4rem;
+  }
+  .payment-card .card h2{
+    font-variant: small-caps;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: .8rem 2rem;
+  }
+  .payment-option img{
+    width: 5rem;
+    height: 3rem;
+    padding: .5rem;
+    border-radius: .6rem;
+    cursor: pointer;
+  }
+  /*****************/
+  .pay-bkash{
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,255,255,.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 37%;
+    padding-top: 7%;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+  .pay-bkash .content{
+    height: 23rem;
+    width: 16rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: .4rem; 
+    padding: .4rem;
+  
+  }
+  .bg{
+    background: linear-gradient(45deg, #4CC417 40%, #fff 30.1%);
+    height: 22.2rem;
+    width: 15.3rem;
+    box-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.1);
+  }
+  .pay-bkash .content img{
+    width: 15.3rem;
+    height: 15rem;
+  }
+  .pay-bkash .content form{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .pay-bkash .content form input{
+    border: none;
+    font-variant: small-caps;
+    box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+  }
+  .pay-bkash .content form a input{
+    width: 8rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+    box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 0.1);
+  
+  }
+  /*******rocket**********/
+  .pay-rocket{
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,255,255,.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 37%;
+    padding-top: 7%;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+  .pay-rocket .content{
+    height: 23rem;
+    width: 16rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: .4rem; 
+    padding: .4rem;
+  
+  }
+  .bg{
+    background: linear-gradient(45deg, #4CC417 40%, #fff 30.1%);
+    height: 22.2rem;
+    width: 15.3rem;
+    box-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.1);
+  }
+  .pay-rocket .content img{
+    width: 15.3rem;
+    height: 15rem;
+  }
+  .pay-rocket .content form{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .pay-rocket .content form input{
+    border: none;
+    font-variant: small-caps;
+    box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+  }
+  .pay-rocket .content form a input{
+    width: 8rem;
+    font-size: 1.3rem;
+    margin: 1rem;
+    box-shadow: 0 .3rem .6rem rgba(0, 0, 0, 0.1);
+  
+  }
+  /*******rocket**********/
+  .pay-card{
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,255,255,.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 28%;
+    padding-top: 7%;
+    z-index: 10000;
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+  .pay-card {
+    height: 23rem;
+    width: 30rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: .4rem; 
+    padding: .4rem;
+  
+  }
+  .bg{
+    background: linear-gradient(45deg, #4CC417 40%, #fff 30.1%);
+    height: 22.2rem;
+    width: 29.3rem;
+    box-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.1);
+  }
+  .pay-card .payment-from{
+  
+  }
+  
+  
